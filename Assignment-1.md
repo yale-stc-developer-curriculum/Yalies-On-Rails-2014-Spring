@@ -18,5 +18,5 @@ When you are done, edit this page and add your name to the list below. Be sure t
 
 ### Completed
 
-* Adam Bray ( *lulz* )
-* Casey Watts ( 2.5 hours )
+* Adam Bray ( 1 hour )
+* Casey Watts ( 10 hours )
