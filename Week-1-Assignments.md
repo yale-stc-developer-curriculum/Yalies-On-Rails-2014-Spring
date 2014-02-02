@@ -44,7 +44,7 @@ We chose this as your first assignment for a few reasons:
 Also, we just want to note and re-assure you that almost every future assignment will require more creativity and building your own work (as opposed to just following instructions like in this assignment).
 
 ## Submission
-`5-10 minutes`
+`5 minutes`
 
 When you are done, do the following
 
