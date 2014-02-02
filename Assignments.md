@@ -6,5 +6,8 @@ You can submit your time information through this [google form](https://docs.goo
 
 ## Assignment List
 
-* [[Assignment 1]] - Create an Personal HTML/CSS Site
-* [[Assignment 2]] - Work through *The Command Line Crash Course*
+* [[Assignment 1]] - Due Sat Feb 8
+- Sign up for Github account
+- Read Beginner's Guide at http://learn.shayhowe.com
+- Create a Personal HTML/CSS Site on JSFiddle
+- Work through *The Command Line Crash Course*
