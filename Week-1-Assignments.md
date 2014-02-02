@@ -6,12 +6,12 @@ Overview
   - Work through *The Command Line Crash Course*
   - Submission Instructions
 
-####Sign Up for a GitHub Account
+###Sign Up for a GitHub Account
 `5 minutes`
 
 Create an account on <http://www.github.com>
 
-####Reading - HTML/CSS
+###Reading - HTML/CSS
 `1 hour`
 
 As part of this assignment, you should read through and refer to both the [Basic and Advanced Guides to HTML & CSS](http://learn.shayhowe.com).
