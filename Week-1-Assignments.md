@@ -26,11 +26,14 @@ Also, we just want to note and re-assure you that almost every future assignment
 ###Assignment 2 - Create a Personal HTML/CSS Site
 `< 5 hours`
 
-For this assignment, you should design and build a simple website introducing yourself to the class. At a minimum you should use at least 5 types of html tags and 5 types of css styles. If you already know any JS, you can optionally put in a javascript function or two. It's possible to spend an indefinitely amount of time creating a website that truly expresses yourself, but please limit yourself to just a few hours - 5 maximum.
+For this assignment, you should design and build a simple website introducing yourself to the class. This website should:
+- use at least 5 types of html tags
+- use at least 5 types of css styles
+- if you already know any javascript, you can optionally put in a javascript function or two.
 
-You should create your website in [JSFiddle](http://jsfiddle.net). It won't be possible to view the site in its own window from here very easily, and that's okay for now. We'll go over more shortly.
+It's possible to spend an indefinitely amount of time creating a website that truly expresses yourself, but please limit yourself to just a few hours - 5 maximum. You should create your website in [JSFiddle](http://jsfiddle.net). It won't be possible to view the site in its own window from here very easily, and that's okay for now. 
 
-As part of this assignment, you should read through and refer to Shay Howe's [Basic and Advanced Guides to HTML & CSS](http://learn.shayhowe.com). There are additional resources under [[Resources]], but you do not have to read them at this time.
+As part of this assignment, you should read through and refer to Shay Howe's [Basic and Advanced Guides to HTML & CSS](http://learn.shayhowe.com). There are even more HTML/CSS resources under [[Resources]], but you do not have to read them at this time.
 
 
 ## Submission
