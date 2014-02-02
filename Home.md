@@ -28,6 +28,8 @@
   - Data types, Statements & expressions, Variables, Methods, Comparison Operators, Controlling Flow
   - Related Assignment: [[Assignment 4]]
 
+
+#Everything below this point is from a previous course, it hasn't been updated for Spring 2014 yet.
 ##Week 3
 
 ###[[Javascript I]]
