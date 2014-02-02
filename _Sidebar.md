@@ -1,3 +1,3 @@
-- content
+- [Week 1](#wiki-week-1)
 - lol
 - lolcat
