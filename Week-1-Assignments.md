@@ -1,4 +1,4 @@
-Total Time Estimated `7 hours`.
+Total Time Estimated `6-10 hours`.
 
 ###Sign Up for a GitHub Account
 `5 minutes`
