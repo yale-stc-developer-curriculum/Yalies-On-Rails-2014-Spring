@@ -7,7 +7,7 @@ As part of this assignment, you should read through and refer to both the [Basic
 ###Create a Personal HTML/CSS Site
 For this assignment, you should design and build a simple website introducing yourself to the class. At a minimum you should use at least 5 types of html tags and 5 types of css styles. If you already know any JS, this is a good time to put in a javascript function or two.
 
-###The Command Line
+###Assignment 2 - The Command Line
 There's a fantastic guide to using the command line called [The Command Line Crash Course](http://cli.learncodethehardway.org/book/). 
 
 Your assignment assignment is to work through this guide. Make sure to actually type in all the **Do This** parts, *and* do the **Do More** sections. I can't stress enough that proficiency in the command line is important, and this guide will really help you become proficient if you actively follow it (as opposed to just reading it).
@@ -24,9 +24,11 @@ Also, I just want to note and re-assure you that almost every future assignment 
 
 ## Submission
 
-When you are done, edit this page and add your name to the list below. Be sure to submit your time worked both here and on the class google form! (You can find info on how to do this on the [[Assignments]] page).
+When you are done, do the following
+1. As a wiki exercise, edit this page and add your name to the list below and include a link to your webpage.
+2. Submit your **time worked** for each of the two assignments on the class google form (Found on the [[Assignments]] page).
 
 ### Completed
 
-* Adam Bray ( 1 hour )
-* Casey Watts ( 99 hours )
+* Adam Bray ( url )
+* Casey Watts ( url )
