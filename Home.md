@@ -10,41 +10,30 @@
 * [Open Questions](https://github.com/yale-stc-developer-curriculum/YEI-STC-Bootcamp-2013/wiki/Open-Questions)
 
 ##Week 1
-
-###[[Computer Setup]]
-This page covers installing the tools we'll need for our initial development work.
-
-###[[Command Line I]]
-This page covers the basics of the command line (specifically the Bash shell)
-
-Related Assignment: [[Assignment 1]]
-
-###[[Web I]]
-- HTTP
-- HTML
-- CSS
-
-Related Assignment: [[Assignment 2]]
-
-###[[Git]]
-- cloning
-- committing
-- pushing
-- pulling
-
-Related Assignment: [[Assignment 3]]
-
-###[[Ruby]]
-- Data types
-- Statements & expressions
-- Variables
-- Methods
-- Comparison Operators
-- Controlling Flow
-
-Related Assignment: [[Assignment 4]]
+- [[Web I]] HTML & CSS
+  - Related Assignment: [[Assignment 1]]
+- [[Computer Setup]]
+  - This page covers installing the tools we'll need for our initial development work.
+- [[Command Line I]]
+  - This page covers the basics of the command line (specifically the Bash shell)
+  - Related Assignment: [[Assignment 2]]
 
 ##Week 2
+- Command Line Review
+- [[Git]]
+  - cloning, committing, pushing, pulling
+  - elated Assignment: [[Assignment 3]]
+
+- [[Ruby I]]
+  - Data types
+  - Statements & expressions
+  - Variables
+  - Methods
+  - Comparison Operators
+  - Controlling Flow
+  - Related Assignment: [[Assignment 4]]
+
+##Week 3
 
 ###[[Javascript I]]
 - Data types
