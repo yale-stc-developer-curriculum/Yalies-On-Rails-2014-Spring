@@ -9,7 +9,7 @@ If you get an error about `/opt/rix/` you will need to restart your computer to 
 ####Mavericks
 If you are running OS X 10.9 Mavericks, you will not be able to run RailsInstaller. Talk to a TA or instructor in person to get instructions.
 
-### What Tools to Install?
+### What Other Tools to Install?
 
 We'll need a few programs (or tools, I'll use the terms interchangeably) to build web applications. 
 
