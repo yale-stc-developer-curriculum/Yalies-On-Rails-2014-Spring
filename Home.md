@@ -13,6 +13,7 @@
 - HTML & CSS see [HTML Resources](Resources#html--css)
   - Related Assignment: [[Assignment 1]]
 - [[Computer Setup]]
+  - We did most of this in class, but there are more instructions on this page.
   - This page covers installing the tools we'll need for our initial development work.
 - [[Command Line I]]
   - The command line will will be learned at home
