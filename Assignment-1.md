@@ -24,7 +24,7 @@ Also, I just want to note and re-assure you that almost every future assignment 
 
 ## Submission
 
-When you are done, edit this page and add your name to the list below. Be sure to submit your time worked! (You can find info on how to do this on the [[Assignments]] page).
+When you are done, edit this page and add your name to the list below. Be sure to submit your time worked both here and on the class google form! (You can find info on how to do this on the [[Assignments]] page).
 
 ### Completed
 
