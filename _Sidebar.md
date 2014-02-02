@@ -1,10 +1,3 @@
-- [Week 1](#wiki-week-1)
-- [Week 2](#wiki-week-2)
-- [Week 3](#wiki-week-3)
-- [Week 4](#wiki-week-4)
-- [Week 5](#wiki-week-5)
-- [Week 6](#wiki-week-6)
-- [Week 7](#wiki-week-7)
-- [Week 8](#wiki-week-8)
-- [Week 9](#wiki-week-9)
-- [Week 10](#wiki-week-10)
+- [[Home]]
+- [[Assignments]]
+- 
