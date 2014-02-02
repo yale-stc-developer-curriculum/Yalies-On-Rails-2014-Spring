@@ -1,4 +1,3 @@
-##Assignment Parts
 ###Sign Up for a GitHub Account
 Create an account on github.com
 
