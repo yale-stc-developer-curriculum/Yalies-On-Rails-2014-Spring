@@ -1,3 +1,4 @@
+###The Command Line
 There's a fantastic guide to using the command line called [The Command Line Crash Course](http://cli.learncodethehardway.org/book/). 
 
 Your assignment assignment is to work through this guide. Make sure to actually type in all the **Do This** parts, *and* do the **Do More** sections. I can't stress enough that proficiency in the command line is important, and this guide will really help you become proficient if you actively follow it (as opposed to just reading it).
