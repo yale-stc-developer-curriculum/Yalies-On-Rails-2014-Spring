@@ -12,7 +12,7 @@ For this assignment, you should design and build a simple website introducing yo
 
 You should create your website in [JSFiddle](http://jsfiddle.net). It won't be possible to view the site in its own window from here very easily, and that's okay for now. We'll go over more shortly.
 
-As part of this assignment, you should read through and refer to both the [Basic and Advanced Guides to HTML & CSS](http://learn.shayhowe.com).
+As part of this assignment, you should read through and refer to Shay Howe's [Basic and Advanced Guides to HTML & CSS](http://learn.shayhowe.com). There are additional resources under [[Resources]], but you do not have to read them at this time.
 
 
 ###Assignment 2 - The Command Line
