@@ -1,11 +1,14 @@
 ###Sign Up for a GitHub Account
 Create an account on <http://www.github.com>
 
-###HTML/CSS Reading
+###Reading - HTML/CSS
 As part of this assignment, you should read through and refer to both the [Basic and Advanced Guides to HTML & CSS](http://learn.shayhowe.com).
 
 ###Create a Personal HTML/CSS Site
 For this assignment, you should design and build a simple website introducing yourself to the class. At a minimum you should use at least 5 types of html tags and 5 types of css styles. If you already know any JS, this is a good time to put in a javascript function or two.
+
+###Reading - Command Line I Wiki Article
+Read over the wiki page [[Command Line I]].
 
 ###Assignment 2 - The Command Line
 There's a fantastic guide to using the command line called [The Command Line Crash Course](http://cli.learncodethehardway.org/book/). 
