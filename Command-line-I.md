@@ -30,9 +30,6 @@ When you're using the command line, your always working in the context of a dire
 * **ls** - list files and folders in the current directory
 * **rm *some_file*** - deletes *some_file* (add *-r* to delete folder, i.e. **rm -r *some_folder***)
 
-##A note on IDEs
-There are programs available called Integrated Development Environments (IDEs) which make it easy to manage and run your code. A popular one is [*RubyMine*](http://www.jetbrains.com/ruby/). It's ok to use these, but I've chosen not to highlight them in the course, becuase most people in the ruby community write how-to's assuming you're using a command line, and it's an important skill to master.
-
 ## Assignment 1
 
 See [[Assignment 1]]
