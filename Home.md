@@ -11,14 +11,14 @@
 
 ##Week 1
 - HTML & CSS see [HTML Resources](Resources#html--css)
-  - Related Assignment: [[Assignment 1]]
+  - Related: [[Week 1 Assignments]]
 - [[Computer Setup]]
   - We did most of this in class, but there are more instructions on this page.
   - This page covers installing the tools we'll need for our initial development work.
 - [[Command Line I]]
   - The command line will will be learned at home
   - Read this page, which covers the basics of the command line (specifically the Bash shell)
-  - Related Assignment: [[Assignment 1]]
+  - Related: [[Week 1 Assignments]]
 
 ##Week 2
 - Command Line Review
