@@ -10,12 +10,12 @@
 * [Open Questions](https://github.com/yale-stc-developer-curriculum/YEI-STC-Bootcamp-2013/wiki/Open-Questions)
 
 ##Week 1
-- [[Web I]] HTML & CSS
+- HTML & CSS see [HTML Resources](Resources#html--css)
   - Related Assignment: [[Assignment 1]]
 - [[Computer Setup]]
   - This page covers installing the tools we'll need for our initial development work.
 - [[Command Line I]]
-  - This will be learned at home
+  - The command line will will be learned at home
   - Read this page, which covers the basics of the command line (specifically the Bash shell)
   - Related Assignment: [[Assignment 2]]
 
