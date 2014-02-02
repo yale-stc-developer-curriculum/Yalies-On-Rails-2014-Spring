@@ -1,12 +1,12 @@
 Getting a computer set up for web development can sometimes be a frustrating task, especially for a new developer who has no context for what all of the tools do, and how to read error messages when things go wrong. This is all made more complicated by the fact that some of us use Macs, some Windows PCs and others linux.
 
-##Installing Ruby & Rails
-###Most People
+###Installing Ruby & Rails
+####Most People
 Most people will be able to use [RailsInstaller](http://railsinstaller.org) to get everything up and running. 
 
 If you get an error about `/opt/rix/` you will need to restart your computer to continue.
 
-###Mavericks
+####Mavericks
 If you are running OS X 10.9 Mavericks, you will not be able to run RailsInstaller. Talk to a TA or instructor in person to get instructions.
 
 ### What Tools to Install?
