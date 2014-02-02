@@ -18,7 +18,7 @@
 - [[Command Line I]]
   - The command line will will be learned at home
   - Read this page, which covers the basics of the command line (specifically the Bash shell)
-  - Related Assignment: [[Assignment 2]]
+  - Related Assignment: [[Assignment 1]]
 
 ##Week 2
 - Command Line Review
