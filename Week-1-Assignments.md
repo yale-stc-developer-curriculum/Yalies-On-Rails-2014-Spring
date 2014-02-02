@@ -7,18 +7,28 @@ Overview
   - Submission Instructions
 
 ###Sign Up for a GitHub Account
+`5 minutes`
+
 Create an account on <http://www.github.com>
 
 ###Reading - HTML/CSS
+`1 hour`
+
 As part of this assignment, you should read through and refer to both the [Basic and Advanced Guides to HTML & CSS](http://learn.shayhowe.com).
 
-###Create a Personal HTML/CSS Site
+###Assignment 1 - Create a Personal HTML/CSS Site
+`5 hours`
+
 For this assignment, you should design and build a simple website introducing yourself to the class. At a minimum you should use at least 5 types of html tags and 5 types of css styles. If you already know any JS, this is a good time to put in a javascript function or two.
 
 ###Reading - Command Line I Wiki Article
+`15 minutes`
+
 Read over the wiki page [[Command Line I]].
 
 ###Assignment 2 - The Command Line
+`2-3 hours`
+
 There's a fantastic guide to using the command line called [The Command Line Crash Course](http://cli.learncodethehardway.org/book/). 
 
 Your assignment assignment is to work through this guide. Make sure to actually type in all the **Do This** parts, *and* do the **Do More** sections. We can't stress enough that proficiency in the command line is important, and this guide will really help you become proficient if you actively follow it (as opposed to just reading it).
@@ -34,6 +44,7 @@ We chose this as your first assignment for a few reasons:
 Also, we just want to note and re-assure you that almost every future assignment will require more creativity and building your own work (as opposed to just following instructions like in this assignment).
 
 ## Submission
+`5-10 minutes`
 
 When you are done, do the following
 
