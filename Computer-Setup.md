@@ -21,6 +21,10 @@ SublimeText is our suggested text editor. We'll use this to read/write our code.
 
 The TAs have recommended SublimeText 3, but 2 should work as well.
 
+####A note on IDEs
+There are programs available called Integrated Development Environments (IDEs) which make it easy to manage and run your code. A popular one is [*RubyMine*](http://www.jetbrains.com/ruby/). It's ok to use these, but we've chosen not to highlight them in the course, because most people in the ruby community write how-to's assuming you're using a command line, and it's an important skill to master. We recommend that you just use SublimeText.
+
+
 #### Git / Github
 
 Follow [these instructions](https://help.github.com/articles/set-up-git). Be sure to follow the main instructions on that page. If you want to install the special GitHub app they mention at the top, that's fine too, but must install the stuff below it as well.
