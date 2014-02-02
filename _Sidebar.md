@@ -2,3 +2,4 @@
 - [[Assignments]]
 - [[Resources]]
 - [Piazza](https://piazza.com/class/hr57fo0lpn36w1)
+- [Last Summer's Curriculum Wiki](https://github.com/yale-stc-developer-curriculum/YEI-STC-Bootcamp-2013/wiki)
