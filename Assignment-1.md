@@ -2,7 +2,7 @@ There's a fantastic guide to using the command line called [The Command Line Cra
 
 Your assignment assignment is to work through this guide. Make sure to actually type in all the **Do This** parts, *and* do the **Do More** sections. I can't stress enough that proficiency in the command line is important, and this guide will really help you become proficient if you actively follow it (as opposed to just reading it).
 
-I chose this as your first assignment for a few reasons:
+We chose this as your first assignment for a few reasons:
 
 * It's on a fundamental skill that everything else in this course depends on.
 * To show you that in this course, and in development in general, *the internet is your textbook*.
@@ -18,18 +18,5 @@ When you are done, edit this page and add your name to the list below. Be sure t
 
 ### Completed
 
-* Adam Bray ( *lulz* )
-* Casey Watts ( *trolololol* )
-* Jacob Williams (2 hours)
-* Derek Gritz (2.5 hours)
-* Dimitri Cavoulacos (2.5 hours)
-* William Zhao (3 hours)
-* Emma Tipton (3 hours)
-* David Cruz (3 hours)
-* Raph Leung (3 hours)
-* April Koh (3.25 hours)
-* Eric Nylund (3.4 hours)
-* Cheong Chan (2 hours)
-* Gabe Rissman (3.5 hours)
-* Aaron Gertler (3? hours)
-* Andrew Goldstein (2.5 hours)
+* Adam Bray ( 1 hour )
+* Casey Watts ( 99 hours )
