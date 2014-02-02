@@ -1,4 +1,2 @@
 - [[Home]]
 - [[Assignments]]
-- [[Resources]]
-- [Piazza](https://piazza.com/class/hr57fo0lpn36w1)
