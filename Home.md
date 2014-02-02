@@ -25,12 +25,7 @@
   - elated Assignment: [[Assignment 3]]
 
 - [[Ruby I]]
-  - Data types
-  - Statements & expressions
-  - Variables
-  - Methods
-  - Comparison Operators
-  - Controlling Flow
+  - Data types, Statements & expressions, Variables, Methods, Comparison Operators, Controlling Flow
   - Related Assignment: [[Assignment 4]]
 
 ##Week 3
