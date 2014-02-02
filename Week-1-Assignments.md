@@ -1,10 +1,4 @@
-Overview
-  - Sign up for Github account
-  - Read Beginner's Guide at http://learn.shayhowe.com
-  - Create a Personal HTML/CSS Site on JSFiddle
-  - Read [[Command Line]]
-  - Work through *The Command Line Crash Course*
-  - Submission Instructions
+Total Time Estimated `7 hours`.
 
 ###Sign Up for a GitHub Account
 `5 minutes`
