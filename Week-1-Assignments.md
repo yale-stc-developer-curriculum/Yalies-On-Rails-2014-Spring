@@ -21,10 +21,10 @@ As part of this assignment, you should read through and refer to both the [Basic
 
 For this assignment, you should design and build a simple website introducing yourself to the class. At a minimum you should use at least 5 types of html tags and 5 types of css styles. If you already know any JS, this is a good time to put in a javascript function or two.
 
-###Reading - Command Line I Wiki Article
+###Reading - Command Line Wiki Article
 `30 minutes`
 
-Read over the wiki page [[Command Line I]].
+Read over the wiki page [[Command Line]].
 
 ###Assignment 2 - The Command Line
 `3-4 hours`
