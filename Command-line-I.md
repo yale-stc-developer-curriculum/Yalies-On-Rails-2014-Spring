@@ -29,7 +29,3 @@ When you're using the command line, your always working in the context of a dire
 * **pwd** - list the current directory
 * **ls** - list files and folders in the current directory
 * **rm *some_file*** - deletes *some_file* (add *-r* to delete folder, i.e. **rm -r *some_folder***)
-
-## Assignment 1
-
-See [[Assignment 1]]
