@@ -10,7 +10,7 @@
 * [Open Questions](https://github.com/yale-stc-developer-curriculum/YEI-STC-Bootcamp-2013/wiki/Open-Questions)
 
 ##Week 1
-- HTML & CSS see [HTML Resources](Resources#html--css)
+- HTML & CSS, See [HTML Resources](Resources#html--css) for more information.
   - Related: [[Week 1 Assignments]]
 - [[Computer Setup]]
   - We did most of this in class, but there are more instructions on this page.
