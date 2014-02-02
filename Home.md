@@ -22,7 +22,7 @@
 - Command Line Review
 - [[Git]]
   - cloning, committing, pushing, pulling
-  - elated Assignment: [[Assignment 3]]
+  - Related Assignment: [[Assignment 3]]
 
 - [[Ruby I]]
   - Data types, Statements & expressions, Variables, Methods, Comparison Operators, Controlling Flow
