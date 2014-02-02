@@ -19,8 +19,6 @@ The output should indicate that you have ruby 1.9 or higher, and rails 4.0 or hi
 If you need to update your rails, you can run `gem update rails` and then try `rails -v` again. If you need to update ruby, ask a TA or instructor.
 ### Installing A Text Editor
 
-We'll need a few programs (or tools, I'll use the terms interchangeably) to build web applications. 
-
 #### SublimeText
 
 [Download](http://www.sublimetext.com)
