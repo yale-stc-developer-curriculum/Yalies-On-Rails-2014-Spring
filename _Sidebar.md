@@ -1,4 +1,4 @@
 - [[Home]]
 - [[Assignments]]
 - [[Resources]]
-- [Piazza](piazza.com)
+- [Piazza](http://piazza.com)
