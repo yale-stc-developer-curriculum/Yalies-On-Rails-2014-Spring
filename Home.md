@@ -15,7 +15,8 @@
 - [[Computer Setup]]
   - This page covers installing the tools we'll need for our initial development work.
 - [[Command Line I]]
-  - This page covers the basics of the command line (specifically the Bash shell)
+  - This will be learned at home
+  - Read this page, which covers the basics of the command line (specifically the Bash shell)
   - Related Assignment: [[Assignment 2]]
 
 ##Week 2
