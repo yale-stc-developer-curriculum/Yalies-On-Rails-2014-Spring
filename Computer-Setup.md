@@ -9,7 +9,15 @@ If you get an error about `/opt/rix/` you will need to restart your computer to 
 ####Mavericks
 If you are running OS X 10.9 Mavericks, you will not be able to run RailsInstaller. Talk to a TA or instructor in person to get instructions.
 
-### What Other Tools to Install?
+#### Test it out
+To make sure everything is running properly, run these commands in your Terminal (OS X) or GitBash (Windows).
+`ruby -v`
+`rails -v`
+
+The output should indicate that you have ruby 1.9 or higher, and rails 4.0 or higher.
+
+If you need to update your rails, you can run `gem update rails` and then try `rails -v` again. If you need to update ruby, ask a TA or instructor.
+### Installing A Text Editor
 
 We'll need a few programs (or tools, I'll use the terms interchangeably) to build web applications. 
 
@@ -45,19 +53,10 @@ Here are some suggested packages:
 There are programs available called Integrated Development Environments (IDEs) which make it easy to manage and run your code. A popular one is [*RubyMine*](http://www.jetbrains.com/ruby/). It's ok to use these, but we've chosen not to highlight them in the course, because most people in the ruby community write how-to's assuming you're using a command line, and it's an important skill to master. We recommend that you just use SublimeText.
 
 
-#### Git / Github
+### Installing Git (to use Github)
 
 Follow [these instructions](https://help.github.com/articles/set-up-git). Be sure to follow the main instructions on that page. If you want to install the special GitHub app they mention at the top, that's fine too, but must install the stuff below it as well.
 
 Git is a tool that helps us track changes, view history, and collaborate when coding. We call these types of tools Version Control Systems (VCS) and git is the most popular among developers with refined taste. :)
 
 Github is a website / service based on git that makes it even easier to collaborate.
-
-#### Test it out
-To make sure everything is running properly, run these commands in your Terminal (OS X) or GitBash (Windows).
-`ruby -v`
-`rails -v`
-
-The output should indicate that you have ruby 1.9 or higher, and rails 4.0 or higher.
-
-If you need to update your rails, you can run `gem update rails` and then try `rails -v` again. If you need to update ruby, ask a TA or instructor.
