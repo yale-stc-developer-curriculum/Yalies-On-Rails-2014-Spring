@@ -10,4 +10,5 @@ Please submit your time information through this [google form](https://docs.goog
   - Sign up for Github account
   - Read Beginner's Guide at http://learn.shayhowe.com
   - Create a Personal HTML/CSS Site on JSFiddle
+  - Read [[Command Line I]]
   - Work through *The Command Line Crash Course*
