@@ -21,6 +21,26 @@ SublimeText is our suggested text editor. We'll use this to read/write our code.
 
 The TAs have recommended SublimeText 3, but 2 should work as well.
 
+#### Installing Packages for Sublime Text
+
+First, make sure you've installed [Sublime Package Control](http://wbond.net/sublime_packages/package_control). 
+
+Then to install packages, press **Shift + CTRL + P** (Windows) or **SHIFT + CMD + P** (Mac), then type 'install' and select 'Package Control: Install Packages'.
+
+Here are some suggested packages:
+
+* CoffeeScript
+* ERB Snippets
+* Git
+* Git Gutter
+* GitHubinator
+* Lorem Ipsum Generator
+* Ruby on Rails Snippets
+* SCSS
+* Sidebar Enhancements
+* SublimeLinter
+* Trailing Spaces
+
 ####A note on IDEs
 There are programs available called Integrated Development Environments (IDEs) which make it easy to manage and run your code. A popular one is [*RubyMine*](http://www.jetbrains.com/ruby/). It's ok to use these, but we've chosen not to highlight them in the course, because most people in the ruby community write how-to's assuming you're using a command line, and it's an important skill to master. We recommend that you just use SublimeText.
 
