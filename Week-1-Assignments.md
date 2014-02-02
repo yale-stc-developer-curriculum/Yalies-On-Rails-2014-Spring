@@ -25,6 +25,7 @@ Also, I just want to note and re-assure you that almost every future assignment 
 ## Submission
 
 When you are done, do the following
+
 1. As a wiki exercise, edit this page and add your name to the list below and include a link to your webpage.
 2. Submit your **time worked** for each of the two assignments on the class google form (Found on the [[Assignments]] page).
 
