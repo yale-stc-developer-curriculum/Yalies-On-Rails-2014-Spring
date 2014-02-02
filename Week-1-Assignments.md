@@ -10,7 +10,7 @@ For this assignment, you should design and build a simple website introducing yo
 ###Assignment 2 - The Command Line
 There's a fantastic guide to using the command line called [The Command Line Crash Course](http://cli.learncodethehardway.org/book/). 
 
-Your assignment assignment is to work through this guide. Make sure to actually type in all the **Do This** parts, *and* do the **Do More** sections. I can't stress enough that proficiency in the command line is important, and this guide will really help you become proficient if you actively follow it (as opposed to just reading it).
+Your assignment assignment is to work through this guide. Make sure to actually type in all the **Do This** parts, *and* do the **Do More** sections. We can't stress enough that proficiency in the command line is important, and this guide will really help you become proficient if you actively follow it (as opposed to just reading it).
 
 We chose this as your first assignment for a few reasons:
 
@@ -20,7 +20,7 @@ We chose this as your first assignment for a few reasons:
 * Learning to program requires a lot of **doing** and **self-teaching**. I'll serve as your guide and help you when you get stuck, but a lot of this material requires work and practice on your part.
 
 
-Also, I just want to note and re-assure you that almost every future assignment will require more creativity and building your own work (as opposed to just following instructions like in this assignment).
+Also, we just want to note and re-assure you that almost every future assignment will require more creativity and building your own work (as opposed to just following instructions like in this assignment).
 
 ## Submission
 
