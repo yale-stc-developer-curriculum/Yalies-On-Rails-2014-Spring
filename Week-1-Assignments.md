@@ -1,4 +1,4 @@
-Total Time Estimated `6-10 hours`.
+Total Time Estimated `5-8 hours`.
 
 ###Sign Up for a GitHub Account
 `5 minutes`
@@ -6,7 +6,7 @@ Total Time Estimated `6-10 hours`.
 Create an account on <http://www.github.com>
 
 ###Assignment 1 - The Command Line
-`3-5 hours`
+`3-4 hours`
 
 1. Read over the wiki page [[Command Line]].
 2. Complete this walkthrough guide called [The Command Line Crash Course](http://cli.learncodethehardway.org/book/). 
@@ -24,7 +24,7 @@ We chose this as your first assignment for a few reasons:
 Also, we just want to note and re-assure you that almost every future assignment will require more creativity and building your own work (as opposed to just following instructions like in this assignment).
 
 ###Assignment 2 - Create a Personal HTML/CSS Site
-`2 - 5 hours`
+`2 - 4 hours`
 
 For this assignment, you should design and build a simple website introducing yourself to the class. This website should:
 - use at least 5 types of html tags
