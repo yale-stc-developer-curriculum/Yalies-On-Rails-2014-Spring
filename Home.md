@@ -14,11 +14,9 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
 
 ##Week 2
 - Command Line Review
-
 - [[Ruby]]
   - Data types, Statements & expressions, Variables, Methods, Comparison Operators, Controlling Flow
-  - Related Assignment: [[Assignment 4]]
-
+  - Related: [[Week 2 Assignments]]
 - [[Git]]
   - cloning, committing, pushing, pulling
-  - Related Assignment: [[Assignment 3]]
+  - Related: [[Week 2 Assignments]]
