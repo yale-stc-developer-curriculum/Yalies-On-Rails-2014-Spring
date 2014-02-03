@@ -24,7 +24,7 @@ We chose this as your first assignment for a few reasons:
 Also, we just want to note and re-assure you that almost every future assignment will require more creativity and building your own work (as opposed to just following instructions like in this assignment).
 
 ###Assignment 2 - Create a Personal HTML/CSS Site
-`< 5 hours`
+`2 - 5 hours`
 
 For this assignment, you should design and build a simple website introducing yourself to the class. This website should:
 - use at least 5 types of html tags
