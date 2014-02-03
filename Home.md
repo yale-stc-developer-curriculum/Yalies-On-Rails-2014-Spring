@@ -17,6 +17,6 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
 - [[Ruby]]
   - Data types, Statements & expressions, Variables, Methods, Comparison Operators, Controlling Flow
   - Related: [[Week 2 Assignments]]
-- [[Git]]
+- Git - See [Git Resources](Resources#wiki-git) for more information
   - cloning, committing, pushing, pulling
   - Related: [[Week 2 Assignments]]
