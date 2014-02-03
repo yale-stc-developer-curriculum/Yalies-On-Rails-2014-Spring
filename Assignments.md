@@ -7,3 +7,4 @@ Please submit your time information through this [google form](https://docs.goog
 ### Assignment List
 
 - [[Week 1 Assignments]] - Due Sat Feb 8
+- [[Week 2 Assignments]] - Due Sat Feb 15
