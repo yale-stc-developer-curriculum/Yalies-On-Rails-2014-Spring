@@ -27,7 +27,7 @@
 
 ###Supplementary
 * [Handy Git tips to stop you getting fired](http://blog.apiaxle.com/post/handy-git-tips-to-stop-you-getting-fired/) -
-
+* [Git from the bottom up](http://ftp.newartisans.com/pub/git.from.bottom.up.pdf) - This is geared for those of you with strong CS backgrounds who want to learn how git really works. It's interesting, but definitely **optional**.
 
 ##Databases
 * [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/) -
