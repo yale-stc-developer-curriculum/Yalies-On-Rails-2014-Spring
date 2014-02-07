@@ -53,3 +53,4 @@ When you are done, do the following
 * Zach Elofir (http://jsfiddle.net/PnX8z/3/)
 * Angelo Delvecchio ( http://jsfiddle.net/angelodel95/3Y5Xu/ )
 * Peter Nguyen (Aww yeaa) (http://jsfiddle.net/fWK87/)
+* Joshua Rosenfeld (http://jsfiddle.net/er8xz/52/)
