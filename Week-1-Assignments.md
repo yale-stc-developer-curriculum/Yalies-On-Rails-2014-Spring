@@ -57,3 +57,4 @@ When you are done, do the following
 * Qingyang Chen - Notes about Q! (http://jsfiddle.net/FLd5P/113/embedded/result/)
 * Aaron Effron (http://jsfiddle.net/yCwx8/2/)
 * Sylvan Zheng (http://jsfiddle.net/rfD4F/22/)
+* Stan Swidwinski (http://jsfiddle.net/9WDGv/4/)
