@@ -54,3 +54,4 @@ When you are done, do the following
 * Angelo Delvecchio ( http://jsfiddle.net/angelodel95/3Y5Xu/ )
 * Peter Nguyen (Aww yeaa) (http://jsfiddle.net/fWK87/)
 * Joshua Rosenfeld (http://jsfiddle.net/er8xz/52/)
+* Qingyang Chen - Notes about Q! (http://jsfiddle.net/FLd5P/113/embedded/result/)
