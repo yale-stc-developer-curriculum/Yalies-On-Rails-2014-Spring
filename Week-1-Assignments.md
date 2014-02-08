@@ -61,3 +61,4 @@ When you are done, do the following
 * Stan Swidwinski (http://jsfiddle.net/9WDGv/4/)
 * Omar De Los Santos (http://jsfiddle.net/SfwVH/1/)
 * John Pham (http://jsfiddle.net/johnpham92/CyxB4/)
+* Edgar Cervantes (http://jsfiddle.net/LTc9s/1/)
