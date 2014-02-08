@@ -76,3 +76,4 @@ When you are done, do the following
 * John Orland (http://jsfiddle.net/johnorland/L8JR7/13/embedded/result/)
 * Dylan Visher (http://dyv.github.io/)
 * Olga Kandratsenia (http://jsfiddle.net/ZP5a4/embedded/result/)
+* Charly Walther (http://jsfiddle.net/u36uN/31/embedded/result/)
