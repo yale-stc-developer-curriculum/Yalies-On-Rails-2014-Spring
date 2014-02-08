@@ -69,3 +69,4 @@ When you are done, do the following
 * Deanna Zhang (http://jsfiddle.net/ddwhee/8rgsQ/1/)
 * David Kurkovskiy (http://jsfiddle.net/2Y8u9/4/embedded/result/)
 * Hannia Zia (http://jsfiddle.net/Sgg5b/4/embedded/result/)
+* Catherine Stark (http://jsfiddle.net/uLfh7/8/)
