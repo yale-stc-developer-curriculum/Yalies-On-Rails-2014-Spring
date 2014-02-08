@@ -56,6 +56,7 @@ When you are done, do the following
 * Joshua Rosenfeld (http://jsfiddle.net/er8xz/52/)
 * Qingyang Chen - Notes about Q! (http://jsfiddle.net/FLd5P/113/embedded/result/)
 * Aaron Effron (http://jsfiddle.net/yCwx8/2/)
+* Toshihiko Shimasaki (http://jsfiddle.net/ts1984/yLA9C/1/)
 * Sylvan Zheng (http://jsfiddle.net/rfD4F/22/)
 * Stan Swidwinski (http://jsfiddle.net/9WDGv/4/)
 * Omar De Los Santos (http://jsfiddle.net/SfwVH/1/)
