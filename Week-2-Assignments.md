@@ -22,6 +22,8 @@ Your assignment is to complete a portion of the [Ruby Koans](http://rubykoans.co
 If you would like to have them run automatically, you could try to use the trick described here:
 https://github.com/neo/ruby_koans/#running-the-koans-automatically
 
+Sometimes a "point" comes from completing multiple lines - pay close attention to which line the koan is pointing to to prevent frustration.
+
 ##Assignment 4 - Git
 ### Reading 
 
