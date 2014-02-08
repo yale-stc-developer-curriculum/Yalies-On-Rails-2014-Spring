@@ -48,6 +48,8 @@
 * [CodeAcademy - Ruby](http://www.codecademy.com/tracks/ruby)
 * [Try Ruby](tryruby.com)
 
+###Cheat Sheets
+* [ZenSpider's Cheat Sheet](http://www.zenspider.com/Languages/Ruby/QuickRef.html)
 
 
 ##Rails
