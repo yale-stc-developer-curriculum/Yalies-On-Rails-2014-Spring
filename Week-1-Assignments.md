@@ -58,3 +58,4 @@ When you are done, do the following
 * Aaron Effron (http://jsfiddle.net/yCwx8/2/)
 * Sylvan Zheng (http://jsfiddle.net/rfD4F/22/)
 * Stan Swidwinski (http://jsfiddle.net/9WDGv/4/)
+* Omar De Los Santos (http://jsfiddle.net/SfwVH/1/)
