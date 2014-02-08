@@ -1,3 +1,5 @@
+#THIS ASSIGNMENT IS IN PROGRESS, MOST OF THE CONTENT IS COPIED FROM LAST YEAR SO FAR
+
 Total time estimated: `TBD`
 
 ## Assignment 3 - Ruby Koans
