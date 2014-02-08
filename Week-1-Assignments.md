@@ -70,3 +70,4 @@ When you are done, do the following
 * David Kurkovskiy (http://jsfiddle.net/2Y8u9/4/embedded/result/)
 * Hannia Zia (http://jsfiddle.net/Sgg5b/4/embedded/result/)
 * Catherine Stark (http://jsfiddle.net/uLfh7/8/)
+* Margaret Ott (http://jsfiddle.net/YHAb7/5/)
