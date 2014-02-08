@@ -24,6 +24,12 @@ https://github.com/neo/ruby_koans/#running-the-koans-automatically
 
 Sometimes a "point" comes from completing multiple lines - pay close attention to which line the koan is pointing to to prevent frustration.
 
+If you don't understand something in the koans, you should try these in order:
+
+1. Try to figure it out by trying things in the koans environment
+2. Look it up
+3. Make a note to figure it out later
+
 ##Assignment 4 - Git
 ### Reading 
 
