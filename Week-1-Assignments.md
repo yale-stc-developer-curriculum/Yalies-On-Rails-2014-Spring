@@ -75,3 +75,4 @@ When you are done, do the following
 * Evan Hellmuth (http://jsfiddle.net/82ANy/)
 * John Orland (http://jsfiddle.net/johnorland/L8JR7/3/)
 * Dylan Visher (http://dyv.github.io/)
+* Olga Kandratsenia (http://jsfiddle.net/ZP5a4/embedded/result/)
