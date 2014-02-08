@@ -65,3 +65,4 @@ When you are done, do the following
 * Aaron Lewis (http://jsfiddle.net/PhB79/37/embedded/result/)
 * Reuben Ukah (http://jsfiddle.net/reuben96/J4E5p/embedded/result/)
 * Shane Fenske (http://jsfiddle.net/vzmnJ/2074/)
+* Carsten Peterson (http://jsfiddle.net/clhpeterson/7zvK5/4/)
