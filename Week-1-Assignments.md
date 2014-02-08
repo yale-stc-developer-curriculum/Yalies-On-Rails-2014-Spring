@@ -70,7 +70,7 @@ When you are done, do the following
 * David Kurkovskiy (http://jsfiddle.net/2Y8u9/4/embedded/result/)
 * Hannia Zia (http://jsfiddle.net/Sgg5b/4/embedded/result/)
 * Catherine Stark (http://jsfiddle.net/uLfh7/9/)
-* Margaret Ott (http://jsfiddle.net/YHAb7/6/)
+* Margaret Ott (http://jsfiddle.net/YHAb7/7/)
 * Clay Gibson (http://jsfiddle.net/YbWez/3/)
 * Evan Hellmuth (http://jsfiddle.net/82ANy/)
 * John Orland (http://jsfiddle.net/johnorland/L8JR7/13/embedded/result/)
