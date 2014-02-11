@@ -7,22 +7,18 @@ Total time estimated: `TBD`
 ###Reading
 Read Chapter 4 of *Agile Web Development with Rails 4th Ed.* (it's in the shared Google Docs folder). (We'll read Chapters 2 - 3 for Assignment 6, so you can skip them for now if you want.)
 
-You may optionally want to look at [Ruby section of the resources page](https://github.com/yale-stc-developer-curriculum/YEI-STC-Bootcamp-2013/wiki/Resources#ruby) for more reading. Below are selected suggestions from that page:
+You may optionally want to look at [Ruby section of the resources page](Resources#ruby) for more reading. Below are selected suggestions from that page:
 
-* If you want a clearly written intro to programming concepts (using Ruby), I suggest [Learn to Program](http://pine.fm/LearnToProgram/) by Chris Pine
-  * There's an e-book version in the shared Google Docs folder
+* If you want a clearly written intro to programming concepts (using Ruby), I suggest [Learn to Program](http://pine.fm/LearnToProgram/) by Chris Pine. We've gone through Chapter 6 already.
 * If you want something quirky and fun, I suggest [Why's Poignant Guide Chapter](http://mislav.uniqpath.com/poignant-guide/book/)
-* For a more advanced / complete treatment of the Ruby language (if you're feeling adventurous), I suggest [Programming Ruby (The Pickaxe Book)](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0). This is also a great reference book if you have questions about a specific part of the language.
-  * There's an e-book version in the shared Google Docs folder
-
 
 ###Koans
-Your assignment is to complete a portion of the [Ruby Koans](http://rubykoans.com) (see note below before downloading). Specifically, you should complete all the koans through the section (i.e. file) called `about_iteration.rb`.
+Your assignment is to complete a portion of the [Ruby Koans](http://rubykoans.com). Specifically, you should complete all the koans through the section (i.e. file) called `triangele_project.rb` (~1/2 of them).
 
 If you would like to have them run automatically, you could try to use the trick described here:
 https://github.com/neo/ruby_koans/#running-the-koans-automatically
 
-Sometimes a "point" comes from completing multiple lines - pay close attention to which line the koan is pointing to to prevent frustration.
+Sometimes a "point" comes from completing multiple lines - pay close attention to which line the koan is pointing at to prevent frustration.
 
 If you don't understand something in the koans, you should try these in order:
 
@@ -30,22 +26,16 @@ If you don't understand something in the koans, you should try these in order:
 2. Look it up
 3. Make a note to figure it out later
 
-##Assignment 4 - Git
-### Reading 
+##Assignment 4 - Grandma
+### Assignment
+Write a Deaf Grandma program.
+- Whatever you say to grandma (whatever you type in), she should respond with HUH?! SPEAK UP, SONNY! , unless you shout it (type in all capitals).
+- If you shout, she can hear you (or at least she thinks so) and yells back, NO, NOT SINCE 1938! or other silly grandma phrases she has in her small repertoire.
+  - To make your program really believable, have grandma shout a different year each time; maybe any year at random between 1930 and 1950.
+- You can't stop talking to grandma until you shout BYE. Except she doesn't want you to leave, so you have to shout BYE three times in a row.
+  - Make sure to test your program: if you shout BYE three times, but not in a row, you should still be talking to grandma.
+- Hints
+  - Don't forget about chomp! 'BYE'with an Enter is not the same as 'BYE' without one!
+  - Try to think about what parts of your program should happen over and over again. All of those should be in your while loop.
 
-You should start by reading the following in [The Git Book](http://git-scm.com/book):
-
-* Chapters 2-3
-* Sections 6.1, 6.3, 6.4, 7.1
-
-You should then read or at least closely skim [this post on a git branching workflow](http://nvie.com/posts/a-successful-git-branching-model/). We won't be using this workflow quite yet, but I think it's nice to see what you can do with git and branches, and why we care about this sort of thing.
-
-### Challenge
-
-Your 'challenge' (the part you have to submit) is to split up into four teams (of 3-4 people), and build a team site containing all the members' sites. You should fork the [Assignment #3](https://github.com/yale-stc-developer-curriculum/assignment3) repository to use as your working repo.
-
-The team site should have a way to navigate between the members of the team, into their specific pages. Bonus points for somehow integrating the design of the various sites into one coherent design.
-
-You should make heavy use of git and probably create branches for each person as you begin the work, and then merge everything into the master branch.
-
-On Wednesday at 4, each team will present their site and discuss their strategies for working together (what worked and what didn't, etc).
+(adapted from Chris Pine's "LearnToProgram" http://pine.fm/LearnToProgram/?Chapter=06)
