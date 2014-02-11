@@ -2,6 +2,7 @@ Total time estimated: `4-10 hours`
 
 ##Ruby Reading
 `1-2 hours`
+
 You may optionally want to look at [Ruby section of the resources page](Resources#ruby) for more reading. Below are selected suggestions from that page:
 
 * Read [Learn to Program](http://pine.fm/LearnToProgram/) by Chris Pine. We've gone through Chapter 6, and we'll be moving further! If the website goes down, you should have a Google Drive folder shared with you which has the book printed to PDF.
@@ -11,6 +12,7 @@ You may optionally want to look at [Ruby section of the resources page](Resource
 
 ## Assignment 3 - Ruby Koans
 `2-5 hours`
+
 Your assignment is to complete a portion of the [Ruby Koans](http://rubykoans.com). Specifically, you should complete all the koans through the section (i.e. file) called `triangele_project.rb` (~1/2 of them).
 
 If you would like to have them run automatically, you could try to use the trick described here:
@@ -26,6 +28,7 @@ If you don't understand something in the koans, you should try these in order:
 
 ##Assignment 4 - Grandma
 `1-3 hours`
+
 Write a Deaf Grandma program.
 - Whatever you say to grandma (whatever you type in), she should respond with HUH?! SPEAK UP, SONNY! , unless you shout it (type in all capitals).
 - If you shout, she can hear you (or at least she thinks so) and yells back, NO, NOT SINCE 1938! or other silly grandma phrases she has in her small repertoire.
