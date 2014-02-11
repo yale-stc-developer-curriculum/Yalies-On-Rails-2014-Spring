@@ -39,3 +39,11 @@ Write a Deaf Grandma program.
   - Try to think about what parts of your program should happen over and over again. All of those should be in your while loop.
 
 (adapted from Chris Pine's "LearnToProgram" http://pine.fm/LearnToProgram/?Chapter=06)
+
+## Submission
+`5 minutes`
+
+When you are done, do the following
+
+1. Submit your **time worked** for each of the two assignments on the class google form (Found on the [[Assignments]] page).
+2. Submit your grandma program to us (instructions pending)
