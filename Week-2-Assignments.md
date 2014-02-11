@@ -5,9 +5,8 @@ Total time estimated: `4-10 hours`
 
 You may optionally want to look at [Ruby section of the resources page](Resources#ruby) for more reading. Below are selected suggestions from that page:
 
-* Read [Learn to Program](http://pine.fm/LearnToProgram/) by Chris Pine. We've gone through Chapter 6 so far in class. If the website is ever down, we shared a Google Drive folder with you which has the book printed to PDF.
-* If you want something quirky and fun, try [Why's Poignant Guide](http://mislav.uniqpath.com/poignant-guide/book/).
-  * Especially [Why's Poignant Guide Chapter 3](http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html) - Ruby Basics
+* Chapters 1-6 of [Learn to Program](http://pine.fm/LearnToProgram/) by Chris Pine. This one is very clear and straightforward. If the website is ever down, we shared a Google Drive folder with you which has the book printed to PDF.
+* [Why's Poignant Guide Chapter 3](http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html) - Ruby Basics. So beloved, so absurd. Much mnemonic.
 
 
 ## Assignment 3 - Ruby Koans
