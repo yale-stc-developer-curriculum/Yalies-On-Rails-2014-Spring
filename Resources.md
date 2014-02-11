@@ -41,7 +41,12 @@
 ##Ruby
 * [Learn to Program](http://pine.fm/LearnToProgram/) - Great into to programming in general, that uses the Ruby Language. Suitable for beginners, intermediates may get something out of it as well.
     * Also in STC Developer Library
-* [Why's Poignant Guide Chapter 3](http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html) - Ruby Basics
+* [Why's Poignant Guide](http://mislav.uniqpath.com/poignant-guide/book/) - Quirky Intro to Ruby (Comic?)
+    * Some ruby has changed, like hash notation
+    * [Why's Poignant Guide Chapter 3](http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html) - Ruby Basics
+    * Modules & Classes [Chapter 5](http://mislav.uniqpath.com/poignant-guide/book/chapter-5.html) starting at "The Mechanisms of Name-Calling", "The Birth Of An Object", "The Theft Of The Lottery Captain", "Them What Live The Dream"
+    * More Classes [Chapter 6](http://mislav.uniqpath.com/poignant-guide/book/chapter-6.html) section after "Cloneberries" cartoon
+
 * [Ruby Koans](http://rubykoans.com)
 * [Programming Ruby (The Pickaxe Book)](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
     * Also in STC Developer Library
