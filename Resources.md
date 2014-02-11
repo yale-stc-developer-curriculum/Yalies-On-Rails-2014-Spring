@@ -39,7 +39,7 @@
 
 
 ##Ruby
-* [Learn to Program](http://pine.fm/LearnToProgram/) - Great into to programming in general, that uses the Ruby Language. Suitable for beginners, intermediates may get something out of it as well.
+* [Learn to Program (Chris Pine)](http://pine.fm/LearnToProgram/) - Great into to programming in general, that uses the Ruby Language. Suitable for beginners, intermediates may get something out of it as well.
   * Also in STC Developer Library
 * [Why's Poignant Guide](http://mislav.uniqpath.com/poignant-guide/book/) - Quirky Intro to Ruby (Comic?)
   * Some ruby has changed, like hash notation
