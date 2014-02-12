@@ -48,12 +48,18 @@
   * [Why's Poignant Guide Chapter 5](http://mislav.uniqpath.com/poignant-guide/book/chapter-5.html) - Objects, object methods, classes & modules
   * [Why's Poignant Guide Chapter 6](http://mislav.uniqpath.com/poignant-guide/book/chapter-6.html) - More Classes in the section after "Cloneberries" cartoon
   * [Why's Poignant Guide Expansion Pak](http://mislav.uniqpath.com/poignant-guide/book/expansion-pak-1.html) - about irb
-* [Matz' Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/)
+* [Matz' Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/) - lots of examples to illustrate points, good table of contents
+
+Hands-On
 * [Ruby Koans](http://rubykoans.com)
+* [Try Ruby](tryruby.com)
+
+For Purchase
 * [Programming Ruby (The Pickaxe Book)](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
     * Also in STC Developer Library
 * [CodeAcademy - Ruby](http://www.codecademy.com/tracks/ruby)
-* [Try Ruby](tryruby.com)
+
+Further Reading
 * [Understanding Ruby Symbols](http://glu.ttono.us/articles/2005/08/19/understanding-ruby-symbols)
 
 ###Cheat Sheets
