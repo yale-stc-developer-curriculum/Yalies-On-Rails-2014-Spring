@@ -39,6 +39,7 @@
 
 
 ##Ruby
+###Core Content
 * [Learn to Program (Chris Pine)](http://pine.fm/LearnToProgram/) - Great into to programming in general, that uses the Ruby Language. Suitable for beginners, intermediates may get something out of it as well. It's very thorough and clear, building from the bottom up.
   * Also in STC Developer Library
 * [Why's Poignant Guide](http://mislav.uniqpath.com/poignant-guide/book/) - Quirky Intro to Ruby (Comic?)
@@ -50,16 +51,16 @@
   * [Why's Poignant Guide Expansion Pak](http://mislav.uniqpath.com/poignant-guide/book/expansion-pak-1.html) - about irb
 * [Matz' Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/) - lots of examples to illustrate points, good table of contents
 
-Hands-On
+###Hands-On
 * [Ruby Koans](http://rubykoans.com)
 * [Try Ruby](tryruby.com)
 
-For Purchase
+###For Purchase
 * [Programming Ruby (The Pickaxe Book)](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
     * Also in STC Developer Library
 * [CodeAcademy - Ruby](http://www.codecademy.com/tracks/ruby)
 
-Further Reading
+###Further Reading
 * [Understanding Ruby Symbols](http://glu.ttono.us/articles/2005/08/19/understanding-ruby-symbols)
 
 ###Cheat Sheets
