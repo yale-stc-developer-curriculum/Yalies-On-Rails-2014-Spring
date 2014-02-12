@@ -47,6 +47,7 @@
   * [Why's Poignant Guide Chapter 4](http://mislav.uniqpath.com/poignant-guide/book/chapter-4.html) - Nil, boolean, concatenation, file in/out, blocks
   * [Why's Poignant Guide Chapter 5](http://mislav.uniqpath.com/poignant-guide/book/chapter-5.html) - Objects, object methods, classes & modules
   * [Why's Poignant Guide Chapter 6](http://mislav.uniqpath.com/poignant-guide/book/chapter-6.html) - More Classes in the section after "Cloneberries" cartoon
+  * [Why's Poignant Guide Expansion Pak](http://mislav.uniqpath.com/poignant-guide/book/expansion-pak-1.html) - about irb
 * [Matz' Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/)
 * [Ruby Koans](http://rubykoans.com)
 * [Programming Ruby (The Pickaxe Book)](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
