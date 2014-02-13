@@ -134,7 +134,7 @@ First, make sure you've installed [Sublime Package Control](http://wbond.net/sub
 
 Then to install packages, press **Shift + CTRL + P** (Windows) or **SHIFT + CMD + P** (Mac), then type 'install' and select 'Package Control: Install Packages'.
 
-We recommend **SublimeLinter** to catch syntax errors.
+We recommend **SublimeLinter** and **SublimeLinter - Ruby** to catch syntax errors.
 
 As the course goes on, these may become useful:
 
