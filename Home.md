@@ -3,7 +3,6 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
 
 ##Week 1
 - HTML & CSS, See [HTML Resources](Resources#html--css) for more information.
-  - Related: [[Week 1 Assignments]]
 - [[Computer Setup]]
   - We did most of this in class, but there are more instructions on this page.
   - This page covers installing the tools we'll need for our initial development work.
