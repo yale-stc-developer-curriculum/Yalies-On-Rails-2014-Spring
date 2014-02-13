@@ -127,3 +127,24 @@
 * [How to be a program manager - Joel on Software](http://www.joelonsoftware.com/items/2009/03/09.html)
 
 * [Cheat Sheets](http://devcheatsheet.com/)
+
+## Installing Packages for Sublime Text
+
+First, make sure you've installed [Sublime Package Control](http://wbond.net/sublime_packages/package_control). 
+
+Then to install packages, press **Shift + CTRL + P** (Windows) or **SHIFT + CMD + P** (Mac), then type 'install' and select 'Package Control: Install Packages'.
+
+We recommend **SublimeLinter** to catch syntax errors.
+
+As the course goes on, these may become useful:
+
+* CoffeeScript
+* ERB Snippets
+* Git
+* Git Gutter
+* GitHubinator
+* Lorem Ipsum Generator
+* Ruby on Rails Snippets
+* SCSS
+* Sidebar Enhancements
+* Trailing Spaces
