@@ -67,6 +67,7 @@
 * [ZenSpider's Cheat Sheet](http://www.zenspider.com/Languages/Ruby/QuickRef.html)
 
 ##Ruby Web Applications
+* [What are HTTP Requests](http://www.jmarshall.com/easy/http/#whatis)
 * [Quick Introduction To Rack](http://rubylearning.com/blog/a-quick-introduction-to-rack/)
   * Introduction: What’s Rack?
   * A simple Rack app, without the rack gem
