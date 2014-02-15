@@ -18,26 +18,6 @@
 * [Learn the Command Line the Hard Way](http://cli.learncodethehardway.org/book/) - a somewhat long, but complete (exercise-heavy) guide to using the command line. If you're not already comfortable with the command line, you should do this. If you are comfortable with the command line, you should still probably do this.
 
 
-##Git
-* [Try Git](http://www.codeschool.com/courses/try-git) - A great interactive intro to git. Start here.
-* [Git Immersion](http://gitimmersion.com/) - A great next step to take what you learned in 'Try Git' and apply it to your own computer.
-* [The Git Book](http://git-scm.com/book) - A solid, complete reference to Git.
-* [The Git Flow model](http://nvie.com/archives/323) - We follow this methodology of creating branches for features, bug fixes, development, etc.
-* [Git Visual Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
-
-###Supplementary
-* [Handy Git tips to stop you getting fired](http://blog.apiaxle.com/post/handy-git-tips-to-stop-you-getting-fired/) -
-* [Git from the bottom up](http://ftp.newartisans.com/pub/git.from.bottom.up.pdf) - This is geared for those of you with strong CS backgrounds who want to learn how git really works. It's interesting, but definitely **optional**.
-
-##Databases
-* [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/) -
-* [Postgres, the Best Tool You're Already Using](http://adamsanderson.github.io/railsconf_2013/?full#1)
-* [Visual Explanation of SQL Joins](http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html)
-
-###Supplementary
-* [Use the Index, Luke! (SQL Tuning and Indexing)](http://use-the-index-luke.com) - An in-depth guide to how indexes work in SQL DBs, more of an advanced topic, but it's really interesting.
-
-
 ##Ruby
 ###Core Content
 * [Learn to Program (Chris Pine)](http://pine.fm/LearnToProgram/) - Great into to programming in general, that uses the Ruby Language. Suitable for beginners, intermediates may get something out of it as well. It's very thorough and clear, building from the bottom up.
@@ -74,6 +54,17 @@
 * [Very basic rack application example](https://gist.github.com/mattetti/1447058)
 * [Rails Sinatra Comparison PDF](http://www.christopher-wood.com/papers/RailsSinatraComparison.pdf)
 
+##Git
+* [Try Git](http://www.codeschool.com/courses/try-git) - A great interactive intro to git. Start here.
+* [Git Immersion](http://gitimmersion.com/) - A great next step to take what you learned in 'Try Git' and apply it to your own computer.
+* [The Git Book](http://git-scm.com/book) - A solid, complete reference to Git.
+* [The Git Flow model](http://nvie.com/archives/323) - We follow this methodology of creating branches for features, bug fixes, development, etc.
+* [Git Visual Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
+
+###Supplementary
+* [Handy Git tips to stop you getting fired](http://blog.apiaxle.com/post/handy-git-tips-to-stop-you-getting-fired/) -
+* [Git from the bottom up](http://ftp.newartisans.com/pub/git.from.bottom.up.pdf) - This is geared for those of you with strong CS backgrounds who want to learn how git really works. It's interesting, but definitely **optional**.
+
 ##Rails
 * [Agile Web Development with Rails, 4th Ed](http://www.amazon.com/Agile-Web-Development-Rails-Programmers/dp/097669400X)
     * Available in the STC Developers Library
@@ -89,6 +80,13 @@
 * [Sync - Realtime Rails Partials - chrismccord](http://chrismccord.com/blog/2013/04/21/sync-realtime-rails-partials/)
 * [DevMynd - Effective Rails - Part 2 - Hiding ActiveRecord](http://www.devmynd.com/blog/2013-3-effective-rails-part-2-hiding-activerecord?utm_source=rubyweekly&utm_medium=email)
 
+##Databases
+* [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/) -
+* [Postgres, the Best Tool You're Already Using](http://adamsanderson.github.io/railsconf_2013/?full#1)
+* [Visual Explanation of SQL Joins](http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html)
+
+###Supplementary
+* [Use the Index, Luke! (SQL Tuning and Indexing)](http://use-the-index-luke.com) - An in-depth guide to how indexes work in SQL DBs, more of an advanced topic, but it's really interesting.
 
 ##Javascript
 
