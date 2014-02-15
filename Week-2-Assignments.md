@@ -46,4 +46,6 @@ Write a Deaf Grandma program.
 When you are done, do the following
 
 1. Submit your **time worked** for each of the two assignments on the class google form (Found on the [[Assignments]] page).
-2. Submit your grandma program to us (instructions pending)
+2. Submit your grandma program to us
+  1. Name your file "FirstnameLastname.rb".
+  2. Email the file to this Box folder's email address: upload.Yalies_.d8xt27g2yz@u.box.com
