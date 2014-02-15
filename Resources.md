@@ -72,6 +72,7 @@
   * Introduction: What’s Rack?
   * A simple Rack app, without the rack gem
 * [Very basic rack application example](https://gist.github.com/mattetti/1447058)
+* [Rails Sinatra Comparison PDF](http://www.christopher-wood.com/papers/RailsSinatraComparison.pdf)
 
 ##Rails
 * [Agile Web Development with Rails, 4th Ed](http://www.amazon.com/Agile-Web-Development-Rails-Programmers/dp/097669400X)
