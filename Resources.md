@@ -68,9 +68,9 @@
 
 ##Ruby Web Applications
 * [What are HTTP Requests](http://www.jmarshall.com/easy/http/#whatis)
+* [How HTTP Requests relates to Rails](http://dablog.rubypal.com/2008/11/24/restful-rails-for-the-restless)
 * [Quick Introduction To Rack](http://rubylearning.com/blog/a-quick-introduction-to-rack/)
-  * Introduction: What’s Rack?
-  * A simple Rack app, without the rack gem
+  * The top two sections about what it is are useful; knowing how to use it directly isn't at this point
 * [Very basic rack application example](https://gist.github.com/mattetti/1447058)
 * [Rails Sinatra Comparison PDF](http://www.christopher-wood.com/papers/RailsSinatraComparison.pdf)
 
