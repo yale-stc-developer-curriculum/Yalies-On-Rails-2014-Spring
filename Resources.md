@@ -66,6 +66,8 @@
 ###Cheat Sheets
 * [ZenSpider's Cheat Sheet](http://www.zenspider.com/Languages/Ruby/QuickRef.html)
 
+##Ruby Web Applications
+* [Quick Introduction To Rack](http://rubylearning.com/blog/a-quick-introduction-to-rack/)
 
 ##Rails
 * [Agile Web Development with Rails, 4th Ed](http://www.amazon.com/Agile-Web-Development-Rails-Programmers/dp/097669400X)
