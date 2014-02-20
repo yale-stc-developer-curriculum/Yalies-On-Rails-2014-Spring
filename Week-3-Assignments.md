@@ -1,5 +1,10 @@
 Total time estimated: `4-8 hours`
 
+This week we have three parts:
+- Assignment 5 focuses on git (which doesn't necessarily ever push to the web)
+- Assignment 6 focuses on git + github (in which we do push to the web).
+- Assignment 7 is just a small ruby exercise to keep practicing.
+
 ##Assignment 5 - Learn Git
 `3-6 hours`
 
