@@ -53,16 +53,17 @@ To apply the git knowledge you're working on this week, we'll push two repositor
 `1-2 hours`
 Everyone should go through some more exercises to continue getting comfortable with Ruby.
 
-Complete at least 4 exercises on this site (more if you'd like, they're fun!). The first two you must do to sign in don't count toward this, so your user page will have 6 listed when you're done.
-
 To create an account you should:
 - go to <http://codewars.com>
 - complete the two ruby tasks
 - create an account. I had some trouble logging in with github, you may have to create a non-github account
 
-I recommend the popular ruby fundamentals problems:
+Complete at least 5 exercises on this site (more if you'd like, they're fun!). The first two you must do to sign in don't count toward this, so your user page will have 7 listed when you're done.
+
+I recommend doing some "popular, ruby, fundamentals" problems:
 http://www.codewars.com/dojo/katas/search/ruby?q=&tags=Fundamentals&beta=false&order_by=popularity+desc
 
+We'll be able to see how many you've completed when you post your user page to this github page below.
 
 ###Ruby Challenge
 `optional, 1-4 hours`
