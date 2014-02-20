@@ -72,8 +72,9 @@ When you are done, do the following
 2. Submit your github page and gittraining repositories to us by putting your name in the list below.
 
 ###Github Pages
-- Casey Watts (caseywatts.github.io)
+- Casey Watts <http://caseywatts.github.io>
   - If you're curious, I use Jekyll to host a blog on my github pages, but I still have a "user page" here: <http://www.caseywatts.com>
 
 ###Git training repositories
-- Casey Watts (github.com/caseywatts/gittraining) (I don't have one but yours will look like this)
+- Casey Watts <http://github.com/caseywatts/gittraining>
+  - (I don't have one but yours will look like this)
