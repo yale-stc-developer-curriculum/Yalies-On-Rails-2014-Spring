@@ -71,10 +71,10 @@ When you are done, do the following
 1. Submit your **time worked** for each of the two assignments on the class google form (Found on the [[Assignments]] page).
 2. Submit your github page and gittraining repositories to us by putting your name in the list below.
 
+###Git Training Repositories
+- Casey Watts <http://github.com/caseywatts/gittraining>
+  - (Casey doesn't have one but yours will look like this)
+
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
-  - If you're curious, I use [Jekyll](http://jekyllrb.com/) to host a blog on my github pages, but I still have a "user page" here: <http://www.caseywatts.com>
-
-###Git training repositories
-- Casey Watts <http://github.com/caseywatts/gittraining>
-  - (I don't have one but yours will look like this)
+  - If you're curious, Casey uses [Jekyll](http://jekyllrb.com/) to host a blog on github pages, but he still has a "user page" here: <http://www.caseywatts.com>
