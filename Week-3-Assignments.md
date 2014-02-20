@@ -18,7 +18,6 @@ By the end you should be comfortable:
 Please become familiar using git this week. I'd recommend:
 - `10 min` Videos 1 and 3 here: <http://git-scm.com/videos> - to give you a better idea of what git is for and why we use it
 - `15 min` interactive tutorial: <http://try.github.io/> (just blaze through this to get a feel for it - gitimmersion is much more thorough)
-  - There are a few other guides like this here: <http://guides.github.com/>
 - `2-4 hours` This thorough interactive tutorial: <http://gitimmersion.com/>
   - Do through and including lab 35. This is more than the previously assigned 23.
   - Of all of the resources, you will definitely learn the most through gitimmersion.
@@ -42,6 +41,7 @@ To apply the git knowledge you're working on this week, we'll push two repositor
   - You can spend some time making your site more presentable if you'd like, but that's optional.
 - `5 min` Go through this cute interactive diagram. I'd recommend using this last, to tie together concepts from the earlier resources and solidify why they're useful.
   - <http://guides.github.com/overviews/flow/>
+  - There are a few other guides like this here: <http://guides.github.com/>
 - We still have the goal of pushing our YouTube Sinatra app to Heroku, but we'll do that together in class.
   - If you want to peek ahead, we'll be using this article: <https://devcenter.heroku.com/articles/rack#sinatra>
 
