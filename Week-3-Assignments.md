@@ -49,9 +49,12 @@ To apply the git knowledge you're working on this week, we'll push two repositor
 `1-2 hours`
 
 ###Ruby Exercises
+`1-2 hours`
 Everyone should go through some more exercises to continue getting comfortable with Ruby.
 
 ###Ruby Challenge
+`optional, 1-4 hours`
+
 Most people in the course shouldn't spend time on this right now, and it's not required. If you think you can handle doing some additional work, this would be a great way to become more comfortable in Ruby.
 
 Since this course has a diverse set of people with different levels of programming experience, I'll try to continue including some "challenge" assignments like this.
