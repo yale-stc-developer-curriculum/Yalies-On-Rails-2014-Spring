@@ -58,6 +58,9 @@ Complete at least 4 exercises on this site (more if you'd like, they're fun!)
 I recommend the popular ruby fundamentals problems:
 http://www.codewars.com/dojo/katas/search/ruby?q=&tags=Fundamentals&beta=false&order_by=popularity+desc
 
+If you'd like more guidance, these are good:
+- [Sort Arrays - 1](http://www.codewars.com/dojo/katas/51f41b98e8f176e70d0002a8/train/ruby)
+- [#Hashtags](http://www.codewars.com/dojo/katas/52ae2db783f47875d0000064/train/ruby)
 
 ###Ruby Challenge
 `optional, 1-4 hours`
