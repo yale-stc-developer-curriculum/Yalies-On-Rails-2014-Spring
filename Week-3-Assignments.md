@@ -53,6 +53,12 @@ To apply the git knowledge you're working on this week, we'll push two repositor
 `1-2 hours`
 Everyone should go through some more exercises to continue getting comfortable with Ruby.
 
+Complete at least 4 exercises on this site (more if you'd like, they're fun!)
+
+I recommend the popular ruby fundamentals problems:
+http://www.codewars.com/dojo/katas/search/ruby?q=&tags=Fundamentals&beta=false&order_by=popularity+desc
+
+
 ###Ruby Challenge
 `optional, 1-4 hours`
 
@@ -70,6 +76,7 @@ When you are done, do the following
 
 1. Submit your **time worked** for each of the two assignments on the class google form (Found on the [[Assignments]] page).
 2. Submit your github page and gittraining repositories to us by putting your name in the list below.
+3. Submit your codewars user page below (this will show us which exercises you completed).
 
 ###Git Training Repositories
 - Casey Watts <http://github.com/caseywatts/gittraining>
@@ -78,3 +85,6 @@ When you are done, do the following
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
   - If you're curious, Casey uses [Jekyll](http://jekyllrb.com/) to host a blog on github pages, but he still has a "user page" here: <http://www.caseywatts.com>
+
+###Ruby Practice
+- Casey Watts <http://www.codewars.com/users/caseywatts>
