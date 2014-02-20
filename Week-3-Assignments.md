@@ -27,9 +27,9 @@ Please become familiar using git this week. I'd recommend:
 To apply the git knowledge you're working on this week,
 
 - `20 min` 
+  - Follow this guide: <https://help.github.com/articles/pushing-to-a-remote>
   - Create a public repository named "gittraining" on your github account
-  - Push the repository you were using in gitimmersion to this branch
-  - `15 min` When you're done with gitimmersion, please push your code to github by following this guide: <https://help.github.com/articles/pushing-to-a-remote>
+  - Push the repository you were using in gitimmersion to this branch. All commits should end up being "pushed" to the server
   - If that guide isn't totally helpful, please ask a question(/answer) on Piazza! :)
 - `20 min` Put your personal website from week 1 on a personal github page. You can follow this guide.
   - <www.thinkful.com/learn/a-guide-to-using-github-pages/> (choose "already have code" and "user pages")
