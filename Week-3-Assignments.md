@@ -38,6 +38,12 @@ To apply the git knowledge you're working on this week,
 - `5 min` Go through this cute interactive diagram. I'd recommend using this last, to tie together concepts from the earlier resources and solidify why they're useful.
   - <http://guides.github.com/overviews/flow/>
 
+##Assignment 7 - More Ruby
+`1-2 hours`
+
+###Ruby Exercises
+Everyone should go through some more exercises to continue getting comfortable with Ruby.
+
 ###Ruby Challenge
 Most people in the course shouldn't spend time on this right now, and it's not required.
 
@@ -52,7 +58,10 @@ https://projecteuler.net/problems
 When you are done, do the following
 
 1. Submit your **time worked** for each of the two assignments on the class google form (Found on the [[Assignments]] page).
-2. Submit your github page to us by putting your name in the list below.
+2. Submit your github page and gittraining repositories to us by putting your name in the list below.
 
 ###Github Pages
 - Casey Watts (caseywatts.github.io)
+
+###Git training repositories
+- Casey Watts (github.com/caseywatts/gittraining) (I don't have one but yours will look like this)
