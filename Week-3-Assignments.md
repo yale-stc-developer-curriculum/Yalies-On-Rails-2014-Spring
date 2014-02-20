@@ -22,16 +22,16 @@ Please become familiar using git this week. I'd recommend:
 
 
 ##Assignment 6 - Learn GitHub & GitHub Pages
-`1 hour`
+`<1 hour`
 
 To apply the git knowledge you're working on this week,
 
-- `1 hour` 
+- `20 min` 
   - Create a public repository named "gittraining" on your github account
   - Push the repository you were using in gitimmersion to this branch
   - `15 min` When you're done with gitimmersion, please push your code to github by following this guide: <https://help.github.com/articles/pushing-to-a-remote>
   - If that guide isn't totally helpful, please ask a question(/answer) on Piazza! :)
-- `30 min` Put your personal website from week 1 on a personal github page. You can follow this guide.
+- `20 min` Put your personal website from week 1 on a personal github page. You can follow this guide.
   - <www.thinkful.com/learn/a-guide-to-using-github-pages/> (choose "already have code" and "user pages")
   - Also checkout the github help articles about "GitHub pages" if you need additional information. <https://help.github.com/categories/20/articles>
   - You can spend some time making your site more presentable if you'd like, but that's optional.
