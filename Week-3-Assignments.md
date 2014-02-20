@@ -13,13 +13,13 @@ By the end you should be comfortable:
 Please become familiar using git this week. I'd recommend:
 - `10 min` Videos 1 and 3 here: git-scm.com/videos - to give you a better idea of what git is for and why we use it
 - `15 min` interactive tutorial: http://try.github.io/ (just blaze through this! the next one is much more thorough)
-- `5 min` This cute interactive diagram (5 min) will give you an overview of git workflow <http://guides.github.com/overviews/flow/>
   - There are a few other guides like this here: <http://guides.github.com/>
 - `2-4 hours` This thorough interactive tutorial: http://gitimmersion.com/
   - Do through and including lab 35. This is more than the previously assigned 23.
   - Of all of the resources, you will definitely learn the most through gitimmersion.
   - This one focuses on using git locally, you should work beyond this to actually push changes to github.
 - `1 hour` Chapters 1 and 2 here: http://git-scm.com/book - to explain things in detail, especially if you have questions beyond gitimmersion. At a minimum you should skim the headers of this to see what's there, it's a great reference.
+- `5 min` This cute interactive diagram (5 min) will give you an overview of git workflow. I'd recommend using this last, to tie together concepts from the earlier resources. <http://guides.github.com/overviews/flow/>
 
 
 To show that you understand git well enough, please create a public repository (repo) called "gittraining" on your github account, and use this to go through gitimmersion. Gitimmersion focuses on local git (not pushing to github) but you can push what you do to github by following this guide:
