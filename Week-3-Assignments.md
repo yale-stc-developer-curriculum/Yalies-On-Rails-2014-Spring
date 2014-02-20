@@ -5,7 +5,7 @@ This week we have three parts:
 - Assignment 6 focuses on git + github (in which we do push to the web).
 - Assignment 7 is just a small ruby exercise to keep practicing.
 
-##Assignment 5 - Learn Git
+##Assignment 5 - Git
 `3-5 hours`
 
 By the end you should be comfortable:
@@ -25,7 +25,7 @@ Please become familiar using git this week. I'd recommend:
 - `1 hour` Chapters 1, 2 and 3 here: <http://git-scm.com/book> - to explain things in detail, especially if you have questions beyond gitimmersion. At a minimum you should skim the headers of this to see what's there, it's a great reference.
 
 
-##Assignment 6 - Learn GitHub & GitHub Pages
+##Assignment 6 - GitHub & GitHub Pages
 `<1 hour`
 
 To apply the git knowledge you're working on this week, we'll push two repositories to github, online.
