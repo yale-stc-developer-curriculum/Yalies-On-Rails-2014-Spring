@@ -42,8 +42,9 @@ To apply the git knowledge you're working on this week, we'll push two repositor
 - `5 min` Go through this cute interactive diagram. I'd recommend using this last, to tie together concepts from the earlier resources and solidify why they're useful.
   - <http://guides.github.com/overviews/flow/>
   - There are a few other guides like this here: <http://guides.github.com/>
-- We still have the goal of pushing our YouTube Sinatra app to Heroku, but we'll do that together in class.
-  - If you want to peek ahead, we'll be using this article: <https://devcenter.heroku.com/articles/rack#sinatra>
+- We still have the goal of pushing our YouTube Sinatra app to Heroku, but we'll do that together in class. If you want to peek ahead:
+  - Getting Started with Heroku: <https://devcenter.heroku.com/articles/quickstart>
+  - Deploying a Sinatra App: <https://devcenter.heroku.com/articles/rack#sinatra>
 
 ##Assignment 7 - More Ruby
 `1-2 hours`
