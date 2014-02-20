@@ -4,7 +4,7 @@ We'd appreciate it if you track the time you spend on each assignment (including
 
 Please submit your time information through this [google form](https://docs.google.com/a/yale.edu/forms/d/15xgPgfMmxOPJypJwNKVVUMEdPlxyR8saQEQeLSUoEmE/viewform). Some weeks may have multiple "assignments" numbered, see the week's assignments page for specifics.
 
-Assignments are due by the time class starts on Saturdays, **2:00pm**.
+Assignments are due by the time class starts on Saturdays, **2:00pm**. Late assignments may not be graded, and you wouldn't receive helpful feedback about them.
 
 ### Assignment List
 
