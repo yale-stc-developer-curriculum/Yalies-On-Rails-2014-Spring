@@ -19,22 +19,26 @@ Please become familiar using git this week. I'd recommend:
   - Of all of the resources, you will definitely learn the most through gitimmersion.
   - This one focuses on using git locally, you should work beyond this to actually push changes to github.
 - `1 hour` Chapters 1, 2 and 3 here: <http://git-scm.com/book> - to explain things in detail, especially if you have questions beyond gitimmersion. At a minimum you should skim the headers of this to see what's there, it's a great reference.
+
+
+##Assignment 6 - Learn GitHub & GitHub Pages
+`1 hour`
+
+To apply the git knowledge you're working on this week,
+
 - `1 hour` 
   - Create a public repository named "gittraining" on your github account
-  - Use this to go through gitimmersion. Gitimmersion focuses on local git (not pushing to github)
-- `15 min` When you're done with gitimmersion, please push your code to github by following this guide: <https://help.github.com/articles/pushing-to-a-remote>
+  - Push the repository you were using in gitimmersion to this branch
+  - `15 min` When you're done with gitimmersion, please push your code to github by following this guide: <https://help.github.com/articles/pushing-to-a-remote>
   - If that guide isn't totally helpful, please ask a question(/answer) on Piazza! :)
-- `5 min` This cute interactive diagram (5 min) will give you an overview of git workflow. I'd recommend using this last, to tie together concepts from the earlier resources. <http://guides.github.com/overviews/flow/>
+- `30 min` Put your personal website from week 1 on a personal github page. You can follow this guide.
+  - <www.thinkful.com/learn/a-guide-to-using-github-pages/> (choose "already have code" and "user pages")
+  - Also checkout the github help articles about "GitHub pages" if you need additional information. <https://help.github.com/categories/20/articles>
+  - You can spend some time making your site more presentable if you'd like, but that's optional.
+- `5 min` Go through this cute interactive diagram. I'd recommend using this last, to tie together concepts from the earlier resources and solidify why they're useful.
+  - <http://guides.github.com/overviews/flow/>
 
-
-##Assignment 6 - GitHub Pages
-`1 hour`
-To apply the git knowledge you're working on this week, please put your personal website from week 1 on a personal github page. You can follow this guide. 
-
-2. 
-
-
-###Challenge
+###Ruby Challenge
 Most people in the course shouldn't spend time on this right now, and it's not required.
 
 Since this course has a diverse set of people with different levels of programming experience, I'll include some "challenge" assignments. If you think you can handle doing some additional work, this would be a great way to become more comfortable in Ruby.
