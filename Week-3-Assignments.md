@@ -42,7 +42,7 @@ To apply the git knowledge you're working on this week, we'll push two repositor
   - You can spend some time making your site more presentable if you'd like, but that's optional.
 - `5 min` Go through this cute interactive diagram. I'd recommend using this last, to tie together concepts from the earlier resources and solidify why they're useful.
   - <http://guides.github.com/overviews/flow/>
-- We still have the goal of pushing to heroku, but we'll do that together in class.
+- We still have the goal of pushing our YouTube Sinatra app to Heroku, but we'll do that together in class.
   - If you want to peek ahead, we'll be using this article: <https://devcenter.heroku.com/articles/rack#sinatra>
 
 ##Assignment 7 - More Ruby
