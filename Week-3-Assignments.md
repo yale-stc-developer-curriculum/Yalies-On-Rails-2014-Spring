@@ -62,6 +62,7 @@ When you are done, do the following
 
 ###Github Pages
 - Casey Watts (caseywatts.github.io)
+  - If you're curious, I use Jekyll to host a blog on my github pages, but I still have a "user page" here: <http://www.caseywatts.com>
 
 ###Git training repositories
 - Casey Watts (github.com/caseywatts/gittraining) (I don't have one but yours will look like this)
