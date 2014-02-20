@@ -29,7 +29,7 @@ Please become familiar using git this week. I'd recommend:
 ##Assignment 6 - Learn GitHub & GitHub Pages
 `<1 hour`
 
-To apply the git knowledge you're working on this week,
+To apply the git knowledge you're working on this week, we'll push two repositories to github, online.
 
 - `20 min` 
   - Follow this guide: <https://help.github.com/articles/pushing-to-a-remote>
@@ -42,6 +42,8 @@ To apply the git knowledge you're working on this week,
   - You can spend some time making your site more presentable if you'd like, but that's optional.
 - `5 min` Go through this cute interactive diagram. I'd recommend using this last, to tie together concepts from the earlier resources and solidify why they're useful.
   - <http://guides.github.com/overviews/flow/>
+- We still have the goal of pushing to heroku, but we'll do that together in class.
+  - If you want to peek ahead, we'll be using this article: <https://devcenter.heroku.com/articles/rack#sinatra>
 
 ##Assignment 7 - More Ruby
 `1-2 hours`
