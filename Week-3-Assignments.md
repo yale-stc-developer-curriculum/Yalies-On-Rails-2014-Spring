@@ -53,14 +53,16 @@ To apply the git knowledge you're working on this week, we'll push two repositor
 `1-2 hours`
 Everyone should go through some more exercises to continue getting comfortable with Ruby.
 
-Complete at least 4 exercises on this site (more if you'd like, they're fun!)
+Complete at least 4 exercises on this site (more if you'd like, they're fun!). The first two you must do to sign in don't count toward this, so your user page will have 6 listed when you're done.
+
+To create an account you should:
+- go to <http://codewars.com>
+- complete the two ruby tasks
+- create an account. I had some trouble logging in with github, you may have to create a non-github account
 
 I recommend the popular ruby fundamentals problems:
 http://www.codewars.com/dojo/katas/search/ruby?q=&tags=Fundamentals&beta=false&order_by=popularity+desc
 
-If you'd like more guidance, these are good:
-- [Sort Arrays - 1](http://www.codewars.com/dojo/katas/51f41b98e8f176e70d0002a8/train/ruby)
-- [#Hashtags](http://www.codewars.com/dojo/katas/52ae2db783f47875d0000064/train/ruby)
 
 ###Ruby Challenge
 `optional, 1-4 hours`
@@ -77,9 +79,9 @@ Try completing one of the Project Euler problems using ruby:
 
 When you are done, do the following
 
-1. Submit your **time worked** for each of the two assignments on the class google form (Found on the [[Assignments]] page).
-2. Submit your github page and gittraining repositories to us by putting your name in the list below.
-3. Submit your codewars user page below (this will show us which exercises you completed).
+1. Submit your github page and gittraining repositories to us by putting your name in the list below.
+2. Submit your codewars user page below (this will show us which exercises you completed).
+3. Submit your **time worked** for each of the assignments on the class google form (Found on the [[Assignments]] page).
 
 ###Git Training Repositories
 - Casey Watts <http://github.com/caseywatts/gittraining>
