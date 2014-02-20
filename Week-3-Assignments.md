@@ -22,7 +22,7 @@ Please become familiar using git this week. I'd recommend:
 - `1 hour` 
   - Create a public repository named "gittraining" on your github account
   - Use this to go through gitimmersion. Gitimmersion focuses on local git (not pushing to github)
-- When you're done with gitimmersion, please push your code to github by following this guide: <https://help.github.com/articles/pushing-to-a-remote>
+- `15 min` When you're done with gitimmersion, please push your code to github by following this guide: <https://help.github.com/articles/pushing-to-a-remote>
   - If that guide isn't totally helpful, please ask a question on Piazza! :)
 - `5 min` This cute interactive diagram (5 min) will give you an overview of git workflow. I'd recommend using this last, to tie together concepts from the earlier resources. <http://guides.github.com/overviews/flow/>
 
