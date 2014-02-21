@@ -36,7 +36,7 @@ To apply the git knowledge you're working on this week, we'll push two repositor
   - Push the repository you were using in gitimmersion to this branch. All commits should end up being "pushed" to the server
   - If that guide isn't totally helpful, please ask a question(/answer) on Piazza! :)
 - `20 min` Put your personal website from week 1 on a personal github page. You can follow this guide.
-  - <www.thinkful.com/learn/a-guide-to-using-github-pages/> (choose "already have code" and "user pages")
+  - <http://www.thinkful.com/learn/a-guide-to-using-github-pages/> (choose "already have code" and "user pages")
   - Also checkout the github help articles about "GitHub pages" if you need additional information. <https://help.github.com/categories/20/articles>
   - You can spend some time making your site more presentable if you'd like, but that's optional.
 - `5 min` Go through this cute interactive diagram. I'd recommend using this last, to tie together concepts from the earlier resources and solidify why they're useful.
