@@ -92,6 +92,7 @@ When you are done, do the following
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
   - If you're curious, Casey uses [Jekyll](http://jekyllrb.com/) to host a blog on github pages, but he still has a "user page" here: <http://www.caseywatts.com>
+- Aaron Effron <https://github.com/aaron-effron/aaron-effron.github.io>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
