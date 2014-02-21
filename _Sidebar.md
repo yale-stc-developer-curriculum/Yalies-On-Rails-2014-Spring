@@ -3,3 +3,4 @@
 - [[Resources]]
 - [Piazza](https://piazza.com/class/hr57fo0lpn36w1)
 - [Last Summer's Wiki-Curriculum](https://github.com/yale-stc-developer-curriculum/YEI-STC-Bootcamp-2013/wiki)
+- [Code Examples from Class](https://github.com/yale-stc-developer-curriculum/yaliesonrails-spring2014-examples/)
