@@ -87,6 +87,7 @@ When you are done, do the following
 ###Git Training Repositories
 - Casey Watts <http://github.com/caseywatts/gittraining>
   - (Casey doesn't have one but yours will look like this)
+- Aaron Effron <https://github.com/aaron-effron/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
