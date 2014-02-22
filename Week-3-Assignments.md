@@ -99,6 +99,7 @@ When you are done, do the following
 - Margaret Ott https://github.com/margaretott/gittraining
 - Evan Hellmuth <https://github.com/evanhellmuth/gittraining>
 - Qingyang Chen <https://github.com/coollog/gittraining>
+- Daniel Pearson <https://github.com/danielpearson7411/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
