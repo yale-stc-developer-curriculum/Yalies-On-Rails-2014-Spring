@@ -97,7 +97,7 @@ When you are done, do the following
   - If you're curious, Casey uses [Jekyll](http://jekyllrb.com/) to host a blog on github pages, but he still has a "user page" here: <http://www.caseywatts.com>
 - Aaron Effron <https://github.com/aaron-effron/aaron-effron.github.io>
 - Dylan Visher <http://dyv.github.io/>
-- Carsten Peterson <http://clhpeterson.github.io/>
+- Sylvan Zheng <http://squidgetx.github.io/>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
