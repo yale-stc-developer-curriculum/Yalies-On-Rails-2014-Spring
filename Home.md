@@ -18,7 +18,7 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
 
 ##Week 3
 - [[Ruby]]
-  - Arrays, Hashes, Iterators, Functions
+  - Arrays, Hashes, Iterators, Methods
 - HTTP & Sinatra
 - [[Week 3 Assignments]]
 
