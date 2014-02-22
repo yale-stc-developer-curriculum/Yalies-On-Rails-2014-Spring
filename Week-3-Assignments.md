@@ -115,7 +115,7 @@ When you are done, do the following
 - John Orland <http://johnorland.hithub.io/>
 - Margaret Ott https://github.com/margaretott/margaretott.github.io
 - Evan Hellmuth <https://evanhellmuth.github.io/>
-- Qingyang Chen <coollog.github.io>
+- Qingyang Chen <http://coollog.github.io/>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
