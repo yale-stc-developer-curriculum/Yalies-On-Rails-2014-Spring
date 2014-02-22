@@ -106,7 +106,7 @@ When you are done, do the following
 - Zach Elofir <https://github.com/zelofir/personal-website>
 - Stan Swidwinski <http://ebstein.github.io/>
 - Peter Nguyen <http://peternguyen117.github.io/>
-- Edgar Cervantes <http://edgar7138.github.io/
+- Edgar Cervantes <http://edgar7138.github.io/>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
