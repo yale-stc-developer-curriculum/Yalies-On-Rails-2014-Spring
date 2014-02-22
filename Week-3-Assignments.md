@@ -94,6 +94,7 @@ When you are done, do the following
 - Sylvan Zheng <https://github.com/squidgetx/gittraining>
 - Zach Elofir <https://github.com/zelofir/gittraining>
 - Stan Swidwinski <https://github.com/Ebstein/gittraining>
+- Peter Nguyen <https://github.com/peternguyen117/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
@@ -104,6 +105,7 @@ When you are done, do the following
 - Sylvan Zheng <http://squidgetx.github.io/>
 - Zach Elofir <https://github.com/zelofir/personal-website>
 - Stan Swidwinski <http://ebstein.github.io/>
+- Peter Nguyen <http://peternguyen117.github.io/>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
