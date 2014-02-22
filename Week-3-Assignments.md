@@ -97,6 +97,7 @@ When you are done, do the following
 - Peter Nguyen <https://github.com/peternguyen117/gittraining>
 - Shane Fenske https://github.com/shanefenske/gittraining
 - Margaret Ott https://github.com/margaretott/gittraining
+- Evan Hellmuth <https://github.com/evanhellmuth/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
@@ -111,6 +112,7 @@ When you are done, do the following
 - Edgar Cervantes <http://edgar7138.github.io/>
 - Shane Fenske http://shanefenske.github.io/
 - Margaret Ott https://github.com/margaretott/margaretott.github.io
+- Evan Hellmuth <https://evanhellmuth.github.io/>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
@@ -124,3 +126,4 @@ When you are done, do the following
 - Peter Nguyen <http://www.codewars.com/users/peternguyen117>
 - Sylvan Zheng <http://www.codewars.com/users/squidgetx>
 - John Orland <http://www.codewars.com/users/johnorland>
+- Evan Hellmuth <http://www.codewars.com/users/karjad>
