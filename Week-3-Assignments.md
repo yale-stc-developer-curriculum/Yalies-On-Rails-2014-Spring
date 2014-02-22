@@ -90,12 +90,14 @@ When you are done, do the following
 - Aaron Effron <https://github.com/aaron-effron/gittraining>
 - John Orland <https://github.com/johnorland/gittraining>
 - Dylan Visher <https://github.com/dyv/gittraining>
+- Carsten Peterson <https://github.com/clhpeterson/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
   - If you're curious, Casey uses [Jekyll](http://jekyllrb.com/) to host a blog on github pages, but he still has a "user page" here: <http://www.caseywatts.com>
 - Aaron Effron <https://github.com/aaron-effron/aaron-effron.github.io>
 - Dylan Visher <http://dyv.github.io/>
+- Carsten Peterson <https://github.com/clhpeterson/clhpeterson.github.io>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
@@ -103,3 +105,4 @@ When you are done, do the following
 - Hannia Zia <http://www.codewars.com/users/honeyzee>
 - Dylan Visher <http://www.codewars.com/users/dvisher1>
 - Catherine Stark <http://www.codewars.com/users/cds48>
+- Carsten Peterson <http://www.codewars.com/users/clhpeterson>
