@@ -102,3 +102,4 @@ When you are done, do the following
 - Aaron Effron <http://www.codewars.com/users/aaron.effron>
 - Hannia Zia <http://www.codewars.com/users/honeyzee>
 - Dylan Visher <http://www.codewars.com/users/dvisher1>
+- Catherine Stark <http://www.codewars.com/users/cds48>
