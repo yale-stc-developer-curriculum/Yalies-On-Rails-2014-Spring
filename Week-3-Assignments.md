@@ -98,7 +98,7 @@ When you are done, do the following
 - Shane Fenske https://github.com/shanefenske/gittraining
 - Margaret Ott https://github.com/margaretott/gittraining
 - Evan Hellmuth <https://github.com/evanhellmuth/gittraining>
-- Qingyang Chen <In Progress>
+- Qingyang Chen <https://github.com/coollog/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
