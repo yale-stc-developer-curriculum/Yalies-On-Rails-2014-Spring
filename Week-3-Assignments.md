@@ -130,4 +130,4 @@ When you are done, do the following
 - Sylvan Zheng <http://www.codewars.com/users/squidgetx>
 - John Orland <http://www.codewars.com/users/johnorland>
 - Evan Hellmuth <http://www.codewars.com/users/karjad>
-- Qingyang Chen <In Progress>
+- Qingyang Chen <http://www.codewars.com/users/coollog>
