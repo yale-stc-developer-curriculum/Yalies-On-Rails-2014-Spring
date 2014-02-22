@@ -30,5 +30,4 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
   - [Sinatra Instructions](https://devcenter.heroku.com/articles/rack#sinatra)
 - Ruby
   - Classes & Object-Oriented Programming
-
 - [[Week 4 Assignments]]
