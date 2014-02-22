@@ -88,7 +88,7 @@ When you are done, do the following
 - Casey Watts <http://github.com/caseywatts/gittraining>
   - (Casey doesn't have one but yours will look like this)
 - Aaron Effron <https://github.com/aaron-effron/gittraining>
-
+- John Orland <https://github.com/johnorland/gittraining>
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
   - If you're curious, Casey uses [Jekyll](http://jekyllrb.com/) to host a blog on github pages, but he still has a "user page" here: <http://www.caseywatts.com>
