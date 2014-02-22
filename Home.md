@@ -28,6 +28,7 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
 - Deploying to Heroku
   - [Quickstart](https://devcenter.heroku.com/articles/quickstart)
   - [Sinatra Instructions](https://devcenter.heroku.com/articles/rack#sinatra)
+  - [Casey's Example](https://github.com/caseywatts/sinatra_demo)
 - Ruby
   - Classes & Object-Oriented Programming
 - [[Week 4 Assignments]]
