@@ -95,6 +95,7 @@ When you are done, do the following
 - Zach Elofir <https://github.com/zelofir/gittraining>
 - Stan Swidwinski <https://github.com/Ebstein/gittraining>
 - Peter Nguyen <https://github.com/peternguyen117/gittraining>
+- Shane Fenske https://github.com/shanefenske/gittraining
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
@@ -107,6 +108,7 @@ When you are done, do the following
 - Stan Swidwinski <http://ebstein.github.io/>
 - Peter Nguyen <http://peternguyen117.github.io/>
 - Edgar Cervantes <http://edgar7138.github.io/>
+- Shane Fenske http://shanefenske.github.io/
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
