@@ -114,3 +114,4 @@ When you are done, do the following
 - Dylan Visher <http://www.codewars.com/users/dvisher1>
 - Catherine Stark <http://www.codewars.com/users/cds48>
 - Carsten Peterson <http://www.codewars.com/users/clhpeterson>
+- Stan Swidwinski <http://www.codewars.com/users/Ebstein>
