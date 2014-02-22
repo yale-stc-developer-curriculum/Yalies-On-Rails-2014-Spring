@@ -97,3 +97,4 @@ When you are done, do the following
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
 - Aaron Effron <http://www.codewars.com/users/aaron.effron>
+- Hannia Zia <http://www.codewars.com/users/honeyzee>
