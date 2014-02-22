@@ -25,6 +25,10 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
 ##Week 4
 - Git - See [Git Resources](Resources#wiki-git) for more information
   - cloning, committing, pushing, pulling
+- Deploying to Heroku
+  - [Quickstart](https://devcenter.heroku.com/articles/quickstart)
+  - [Sinatra Instructions](https://devcenter.heroku.com/articles/rack#sinatra)
 - Ruby
   - Classes & Object-Oriented Programming
+
 - [[Week 4 Assignments]]
