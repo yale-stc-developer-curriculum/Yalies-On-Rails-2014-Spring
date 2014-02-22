@@ -111,6 +111,7 @@ When you are done, do the following
 - Peter Nguyen <http://peternguyen117.github.io/>
 - Edgar Cervantes <http://edgar7138.github.io/>
 - Shane Fenske http://shanefenske.github.io/
+- John Orland <http://johnorland.hithub.io/>
 - Margaret Ott https://github.com/margaretott/margaretott.github.io
 - Evan Hellmuth <https://evanhellmuth.github.io/>
 
