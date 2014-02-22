@@ -89,13 +89,16 @@ When you are done, do the following
   - (Casey doesn't have one but yours will look like this)
 - Aaron Effron <https://github.com/aaron-effron/gittraining>
 - John Orland <https://github.com/johnorland/gittraining>
+- Dylan Visher <https://github.com/dyv/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
   - If you're curious, Casey uses [Jekyll](http://jekyllrb.com/) to host a blog on github pages, but he still has a "user page" here: <http://www.caseywatts.com>
 - Aaron Effron <https://github.com/aaron-effron/aaron-effron.github.io>
+- Dylan Visher <http://dyv.github.io/>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
 - Aaron Effron <http://www.codewars.com/users/aaron.effron>
 - Hannia Zia <http://www.codewars.com/users/honeyzee>
+- Dylan Visher <http://www.codewars.com/users/dvisher1>
