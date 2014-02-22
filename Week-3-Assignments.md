@@ -93,6 +93,7 @@ When you are done, do the following
 - Carsten Peterson <https://github.com/clhpeterson/gittraining>
 - Sylvan Zheng <https://github.com/squidgetx/gittraining>
 - Zach Elofir <https://github.com/zelofir/gittraining>
+- Stan Swidwinski <https://github.com/Ebstein/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
@@ -102,6 +103,7 @@ When you are done, do the following
 - Carsten Peterson <http://clhpeterson.github.io/>
 - Sylvan Zheng <http://squidgetx.github.io/>
 - Zach Elofir <https://github.com/zelofir/personal-website>
+- Stan Swidwinski <http://ebstein.github.io/>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
