@@ -27,3 +27,4 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
   - cloning, committing, pushing, pulling
 - Ruby
   - Classes & Object-Oriented Programming
+- [[Week 4 Assignments]]
