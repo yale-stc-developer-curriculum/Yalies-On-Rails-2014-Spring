@@ -106,6 +106,7 @@ When you are done, do the following
 - Zach Elofir <https://github.com/zelofir/personal-website>
 - Stan Swidwinski <http://ebstein.github.io/>
 - Peter Nguyen <http://peternguyen117.github.io/>
+- Edgar Cervantes <http://edgar7138.github.io/
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
@@ -115,3 +116,4 @@ When you are done, do the following
 - Catherine Stark <http://www.codewars.com/users/cds48>
 - Carsten Peterson <http://www.codewars.com/users/clhpeterson>
 - Stan Swidwinski <http://www.codewars.com/users/Ebstein>
+- Edgar Cervantes <http://www.codewars.com/users/edgar7138>
