@@ -18,7 +18,12 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
 
 ##Week 3
 - [[Ruby]]
-  - Arrays, Hashes, Classes
+  - Arrays, Hashes, Iterators, Functions
+- HTTP & Sinatra
+- [[Week 3 Assignments]]
+
+##Week 4
 - Git - See [Git Resources](Resources#wiki-git) for more information
   - cloning, committing, pushing, pulling
-- [[Week 3 Assignments]]
+- Ruby
+  - Classes & Object-Oriented Programming
