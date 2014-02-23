@@ -133,3 +133,4 @@ When you are done, do the following
 - John Orland <http://www.codewars.com/users/johnorland>
 - Evan Hellmuth <http://www.codewars.com/users/karjad>
 - Qingyang Chen <http://www.codewars.com/users/coollog>
+- Daniel Pearson <http://www.codewars.com/users/Daniel%20Pearson>
