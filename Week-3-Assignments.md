@@ -100,6 +100,7 @@ When you are done, do the following
 - Evan Hellmuth <https://github.com/evanhellmuth/gittraining>
 - Qingyang Chen <https://github.com/coollog/gittraining>
 - Daniel Pearson <https://github.com/danielpearson7411/gittraining>
+- Charly Walther <https://github.com/cmwalther/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
@@ -118,6 +119,7 @@ When you are done, do the following
 - Evan Hellmuth <https://evanhellmuth.github.io/>
 - Qingyang Chen <http://coollog.github.io/>
 - Daniel Pearson <http://danielpearson7411.github.io/>
+- Charly Walther <http://cmwalther.github.io/>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
@@ -134,3 +136,4 @@ When you are done, do the following
 - Evan Hellmuth <http://www.codewars.com/users/karjad>
 - Qingyang Chen <http://www.codewars.com/users/coollog>
 - Daniel Pearson <http://www.codewars.com/users/Daniel%20Pearson>
+- Charly Walther <http://www.codewars.com/users/cmw>
