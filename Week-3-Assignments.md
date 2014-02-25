@@ -120,7 +120,7 @@ When you are done, do the following
 - Qingyang Chen <http://coollog.github.io/>
 - Daniel Pearson <http://danielpearson7411.github.io/>
 - Charly Walther <http://cmwalther.github.io/>
-- Catherine Stark <http://cds48.github.io/>
+- Catherine Stark <http://catherinestark.github.io/
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
