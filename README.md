@@ -13,7 +13,7 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
 3. Add STC's copy as a remote called 'upstream'
 
 ```bash
-  https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring.git
+  git remote add upstream https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring.git
 ```
 
 ### Each assignment
