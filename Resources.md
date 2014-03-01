@@ -49,11 +49,14 @@
 ##Ruby Web Applications
 * [What are HTTP Requests](http://www.jmarshall.com/easy/http/#whatis)
 * [How HTTP Requests relates to Rails](http://dablog.rubypal.com/2008/11/24/restful-rails-for-the-restless)
-* [Restful Rails (advanced)](http://b-simple.de/download/restful_rails_en.pdf)
 * [Quick Introduction To Rack](http://rubylearning.com/blog/a-quick-introduction-to-rack/)
   * The top two sections about what it is are useful; knowing how to use it directly isn't at this point
 * [Very basic rack application example](https://gist.github.com/mattetti/1447058)
 * [Rails Sinatra Comparison PDF](http://www.christopher-wood.com/papers/RailsSinatraComparison.pdf)
+
+###Routes
+* [Wikibooks - Short Rundown](http://en.wikibooks.org/wiki/Ruby_on_Rails/Routing#RESTful_routes)
+* [Restful Rails (advanced)](http://b-simple.de/download/restful_rails_en.pdf)
 
 ##Git
 * [Try Git](http://www.codeschool.com/courses/try-git) - A great interactive intro to git. Start here.
