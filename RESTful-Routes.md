@@ -15,4 +15,4 @@ GET | /sets/beyonce | Set | show | display a specific set
 GET | /sets/beyonce/play | Set | a custom one! | play a specific set
 GET | /sets/beyonce/edit | Set | edit | return an HTML form for editing a set
 PUT | /sets/beyonce | Set | update | update a specific set
-DELETE | /sets/beyonce/ | Set | destroy | delete a specific set
+DELETE | /sets/beyonce | Set | destroy | delete a specific set
