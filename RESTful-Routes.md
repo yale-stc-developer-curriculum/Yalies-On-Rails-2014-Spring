@@ -1,7 +1,7 @@
-##Example Beyonce App
+###Example Beyonce App
 - https://gist.github.com/caseywatts/399c7fccaf8214a3c7fa
 
-##Routes
+###Routes
 Your application should include each of these routes.
 
 Sinatra only uses the HTTP Verbs and the URLs. Rails additionally uses Controller and Action - these are just here for reference for now.
