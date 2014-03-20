@@ -72,7 +72,7 @@ When you are done, do the following
 * Catherine Stark (http://jsfiddle.net/uLfh7/9/)
 * Margaret Ott (http://jsfiddle.net/YHAb7/7/)
 * Clay Gibson (http://jsfiddle.net/YbWez/3/)
-* Evan Hellmuth (http://jsfiddle.net/82ANy/)
+* Evan Hellmuth (http://evanhellmuth.github.io/)
 * John Orland (http://jsfiddle.net/johnorland/L8JR7/13/embedded/result/)
 * Dylan Visher (http://dyv.github.io/)
 * Olga Kandratsenia (http://jsfiddle.net/ZP5a4/embedded/result/)
