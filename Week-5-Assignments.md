@@ -9,6 +9,18 @@
 1. Specification:
   - Create each of the routes listed in [[RESTful Routes]]
   - Each page should have a navigation bar at the top...
+  - Youtube links should be submitted as a newline-separated list (press enter after each link).
+  - The application should work for `http://` but does n't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
+  - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. (need references to examples?)
+  - It should pass the tests we provide, found [here](https://github.com/orenyk/sinatra_test). (needs instructions for how students should run the tests)
+1. Bonus
+  - Meet all [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) guidelines. You can test this by running [rubocop](https://github.com/bbatsov/rubocop).
+    - `gem install rubocop`
+    - (restart the terminal)
+    - `rubocop` (in the right directory)
+  - Bonus points if it can handle additional list formats - comma separated, space separated, tab separated.
+  - Make your application work over HTTPS as well as HTTP
+  - 
 1. Hints
   - Anchored links (`<a href=''...>`) can only pass method="post" method (some claim they also do well with get)
   - Pure html forms can only pass method="post" and method="get"
