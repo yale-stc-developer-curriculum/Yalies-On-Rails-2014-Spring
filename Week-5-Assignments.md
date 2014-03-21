@@ -17,7 +17,7 @@
   - The application should work for `http://` but does n't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
   - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. (need references to examples?)
   - It should pass the tests we provide.
-    - Instructions to run the tests:
+    - Instructions to run the tests: (triple click to highlight the whole line)
     - Open Terminal and change to the directory of your project.
     - Run these commands:
     - `wget https://raw.github.com/jasonkliu/AutomaticHomeworkTesting/master/Ruby/selftest.sh`
