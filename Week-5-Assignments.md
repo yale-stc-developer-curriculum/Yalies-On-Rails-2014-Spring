@@ -16,7 +16,14 @@
   - Youtube links should be stored in the session, in a variable structured as a hash with the name...
   - The application should work for `http://` but does n't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
   - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. (need references to examples?)
-  - It should pass the tests we provide, found [here](https://github.com/orenyk/sinatra_test). (needs instructions for how students should run the tests)
+  - It should pass the tests we provide.
+    - Instructions to run the tests:
+    - Open Terminal and change to the directory of your project.
+    - Run these commands:
+    - `wget https://raw.github.com/jasonkliu/AutomaticHomeworkTesting/master/Ruby/selftest.sh`
+    - `chmod +x selftest.sh`
+    - `./selftest.sh`
+    - If you have issues, please email @jasonkliu. Thanks.
 1. Bonus
   - Meet all [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) guidelines. You can test this by running [rubocop](https://github.com/bbatsov/rubocop).
     - `gem install rubocop`
