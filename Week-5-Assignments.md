@@ -19,7 +19,7 @@
   - It should pass the tests we provide.
     - Open Terminal and change to the directory of your project.
     - Run these commands: (triple click to highlight the whole line)
-    - `wget https://raw.github.com/jasonkliu/AutomaticHomeworkTesting/master/Ruby/selftest.sh`
+    - `curl -O https://raw.github.com/jasonkliu/AutomaticHomeworkTesting/master/Ruby/selftest.sh`
     - `chmod +x selftest.sh`
     - `./selftest.sh`
     - If you have issues, please email @jasonkliu. Thanks.
