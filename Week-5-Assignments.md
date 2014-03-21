@@ -24,7 +24,6 @@
     - `rubocop` (in the right directory)
   - Bonus points if it can handle additional list formats - comma separated, space separated, tab separated.
   - Make your application work over HTTPS as well as HTTP
-  - 
 1. Hints
   - Anchored links (`<a href=''...>`) can only pass method="post" method (some claim they also do well with get)
   - Pure html forms can only pass method="post" and method="get"
