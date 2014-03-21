@@ -34,7 +34,7 @@
   - Destroy
     - Anchored links (`<a href=''...>`) can only pass method="post" method (some claim they also do well with get)
     - Pure html forms can only pass method="post" and method="get"
-    - to pass method="Destroy" in Sinatra, we need to enable method overriding by adding "_method = true" in the configure method of our app in the .rb file, then in the .erb file (or any part of HTML code) we can use method="delete" and it will be addressed properly.
+    - to pass method="delete" in Sinatra, we need to enable method overriding by adding "_method = true" in the configure method of our app in the .rb file, then in the .erb file (or any part of HTML code) we can use method="delete" and it will be addressed properly.
     - For Destroy, see http://www.sinatrarb.com/configuration.html
 
 ## Submission
