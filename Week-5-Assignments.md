@@ -7,6 +7,9 @@
 1. Create a branch called your name
 1. Create an application that can CRUD (Create, Retrieve, Update, Destroy) youtubesets
 1. Specification:
+  - You must use Ruby version `2.0.0-p247`
+    - `rbenv install 2.0.0-p247` (anywhere) 
+    - `rbenv local 2.0.0-p247` (in the project directory)
   - Create each of the routes listed in [[RESTful Routes]]
   - Each page should have a navigation bar at the top...
   - Youtube links should be submitted as a newline-separated list (press enter after each link).
