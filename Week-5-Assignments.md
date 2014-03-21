@@ -7,7 +7,7 @@
 1. Create a branch called your name
 1. Create an application that can CRUD (Create, Retrieve, Update, Destroy) youtubesets
 1. Specification:
-  - Requirement 1
+  - Create each of the routes listed in [[RESTful-Routes]]
   - Requirement 2
 1. Hints
   - Anchored links (`<a href=''...>`) can only pass method="post" method (some claim they also do well with get)
