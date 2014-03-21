@@ -13,6 +13,7 @@
   - Create each of the routes listed in [[RESTful Routes]]
   - Each page should have a navigation bar at the top...
   - Youtube links should be submitted as a newline-separated list (press enter after each link).
+  - Youtube links should be stored in the session, in a variable structured as a hash with the name...
   - The application should work for `http://` but does n't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
   - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. (need references to examples?)
   - It should pass the tests we provide, found [here](https://github.com/orenyk/sinatra_test). (needs instructions for how students should run the tests)
