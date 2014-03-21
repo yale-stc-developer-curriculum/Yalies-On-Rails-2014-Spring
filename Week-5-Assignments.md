@@ -12,8 +12,11 @@
     - `rbenv local 2.0.0-p247` (in the project directory)
   - Create each of the routes listed in [[RESTful Routes]]
   - Each page should have a navigation bar at the top...
+    - This bar should include a link to "Home" with the URL "/"
+    - It should also include a link to "Sets" with the URL "/sets"
   - Youtube links should be submitted as a newline-separated list (press enter after each link).
-  - Youtube links should be stored in the session, in a variable structured as a hash with the name...
+  - Youtube links should be stored in the session, in a variable structured as a hash with the name `"sets" => { "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }`
+    - each set will use its name as the key in the `sets` hash and will include the keys `name` and `vidnums` pointing to a string with the set name and an array with the Youtube links, respectively.
   - The application should work for `http://` but does n't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
   - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. (need references to examples?)
   - It should pass the tests we provide.
