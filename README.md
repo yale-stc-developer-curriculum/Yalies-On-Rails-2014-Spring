@@ -18,7 +18,7 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
 
 ### Each assignment
 
-1. Git pull upstream master
+1. ```cd``` to your local copy and run ```git pull upstream master```
 2. Read the assignment.
 3. Create a folder with your name in the appropriate assignment folder.
 4. Do your work (IN YOUR FOLDER ONLY!)
