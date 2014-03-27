@@ -36,3 +36,5 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
 ##Week 5 - RESTful Routes
 - [[RESTful Routes]]
 - [[Week 5 Assignments]]
+
+##Week 6 - Sinatra Progress & Javascript 
