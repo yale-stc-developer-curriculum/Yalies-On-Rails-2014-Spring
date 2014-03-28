@@ -27,4 +27,4 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
 
 ###Updating your repository
 1. `cd` to the Yalies-On-Rails-2014-Spring repository
-2. `git pull upstream`
+2. `git pull upstream master` to pull updates from upstream (=STC's copy) to your master branch
