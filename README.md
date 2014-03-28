@@ -23,15 +23,15 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
 3. You can view example code in the folder `EXAMPLE`
 3. You should put your code in the older with your name
 
-###Working & Pushing changes to your personal github repository
+###Working in your personal repository
 1. `cd` to the folder with your name
 4. Do your work (IN YOUR FOLDER ONLY!)
 5. Git add/commit/push to your copy
 3. Try to get into the habit of adding/committing/pushing very often -
    every substantial change, approximately every 3-10 minutes
 
-###Updating your repository to have any changes STC made since you first pulled
-1. When the STC repository changes (new assignments or updated testing file) you'll have to update your copy
+###Updating your personal repository match STC's 
+When the STC repository changes (new assignments or updated testing file) you'll have to update your copy
 1. `cd` to the Yalies-On-Rails-2014-Spring repository
 2. `git pull upstream master` to pull updates from upstream (=STC's copy) to your master branch
 
