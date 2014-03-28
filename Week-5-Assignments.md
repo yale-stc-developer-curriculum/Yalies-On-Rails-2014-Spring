@@ -21,7 +21,7 @@
     - Youtube links should be stored in the session, in a variable structured as a hash with the format `"sets" => { "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }`
     - each set will use its name as the key in the `sets` hash and will include the keys `name` and `vidnums` pointing to a string with the set name and an array with the Youtube links, respectively.
   - The application should work for `http://` but doesn't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
-  - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. (need references to examples?)
+  - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. If you haven't done this yet you can just create one commit with it all, but continue doing this in the future.
   - It should pass the tests we provide.
     - Open Terminal and change to the directory of your project.
     - Run these commands: (triple click to highlight the whole line)
