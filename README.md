@@ -9,7 +9,7 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
 
 ### Setup your repo. (One time only!)
 1. Fork this repo to your github account.
-2. Clone it onto your computer.
+2. Clone it onto your computer `git clone ___`
 3. Add STC's copy as a remote called 'upstream'
 
 ```bash
@@ -24,3 +24,7 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
 4. Do your work (IN YOUR FOLDER ONLY!)
 5. Git add/commit/push to your copy
 6. submit a pull request to the STC copy.
+
+###Updating your repository
+1. `cd` to the Yalies-On-Rails-2014-Spring repository
+2. `git pull upstream`
