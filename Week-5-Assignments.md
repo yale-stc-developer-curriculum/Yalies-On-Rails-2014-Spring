@@ -8,14 +8,16 @@
 1. Create an application that can CRUD (Create, Retrieve, Update, Destroy) youtubesets
 1. Specification:
   - You must use Ruby version `2.0.0-p247`
-    - `rbenv install 2.0.0-p247` (anywhere) 
-    - `rbenv local 2.0.0-p247` (in the project directory)
+    - `rbenv install 2.0.0-p247` (anywhere, to install this on your machine) 
+    - `rbenv local 2.0.0-p247` (in the project directory, to set this to be the ruby version of your project)
   - Create each of the routes listed in [[RESTful Routes]]
-  - Each page should have a navigation bar at the top...
-    - This bar should include a link to "Home" with the URL `"/"`
-    - It should also include a link to "Sets" with the URL `"/sets"`
-  - Youtube links should be submitted as a newline-separated list (press enter after each link).
-  - Youtube links should be stored in the session, in a variable structured as a hash with the format `"sets" => { "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }`
+  - Layout
+    - Each page should have a navigation bar at the top...
+      - This bar should include a link to "Home" with the URL `"/"`
+      - It should also include a link to "Sets" with the URL `"/sets"`
+  - Data Input & Storage
+    - Youtube links should be submitted as a newline-separated list (press enter after each link).
+    - Youtube links should be stored in the session, in a variable structured as a hash with the format `"sets" => { "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }`
     - each set will use its name as the key in the `sets` hash and will include the keys `name` and `vidnums` pointing to a string with the set name and an array with the Youtube links, respectively.
   - The application should work for `http://` but doesn't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
   - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. (need references to examples?)
