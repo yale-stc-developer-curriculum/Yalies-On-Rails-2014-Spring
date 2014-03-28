@@ -19,12 +19,31 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
 ### Each assignment
 
 1. ```cd``` to your local copy and run ```git pull upstream master```
-2. Read the assignment.
-3. Create a folder with your name in the appropriate assignment folder.
+2. `cd` into the assignment folder.
+3. You can view example code in the folder `EXAMPLE`
+3. You should put your code in the older with your name
+
+###Working & Pushing changes to your personal github repository
+1. `cd` to the folder with your name
 4. Do your work (IN YOUR FOLDER ONLY!)
 5. Git add/commit/push to your copy
-6. submit a pull request to the STC copy.
+3. Try to get into the habit of adding/committing/pushing very often -
+   every substantial change, approximately every 3-10 minutes
 
-###Updating your repository
+###Updating your repository to have any changes STC made since you first pulled
+1. When the STC repository changes (new assignments or updated testing file) you'll have to update your copy
 1. `cd` to the Yalies-On-Rails-2014-Spring repository
 2. `git pull upstream master` to pull updates from upstream (=STC's copy) to your master branch
+
+###Submit your work to STC's repository
+When you're ready to submit your assignment, you'll use a Pull Request.
+1. Make sure you've committed all of the changes you intended to your
+   personal github repository (check the website to be sure)
+2. Navigate to STC's github page for the course https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring/
+3. Click on "pull requests" in the right bar
+4. Click on "new pull request" in the top right
+5. Click "compare across forks"
+6. `Base fork` should be yours, `head fork` should be STC's. Both should be
+   on the master branch.
+7. Click "create pull request"
+
