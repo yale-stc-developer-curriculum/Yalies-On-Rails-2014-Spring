@@ -12,6 +12,7 @@
     - `rbenv local 2.0.0-p247` (in the project directory, to set this to be the ruby version of your project)
   - Create each of the routes listed in [[RESTful Routes]]
   - Layout
+    - You shouldn't focus on making this application look beautiful at this point, don't worry about CSS
     - Each page should have a navigation bar at the top...
       - This bar should include a link to "Home" with the URL `"/"`
       - It should also include a link to "Sets" with the URL `"/sets"`
