@@ -16,16 +16,10 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
   git remote add upstream https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring.git
 ```
 
-### Each assignment
-
-1. ```cd``` to your local copy and run ```git pull upstream master```
-2. `cd` into the assignment folder.
-3. You can view example code in the folder `EXAMPLE`
-3. You should put your code in the older with your name
-
 ###Working in your personal repository
 1. `cd` to the folder with your name
 4. Do your work (IN YOUR FOLDER ONLY!)
+3. You can view example code in the folder `EXAMPLE`
 5. Git add/commit/push to your copy
 3. Try to get into the habit of adding/committing/pushing very often -
    every substantial change, approximately every 3-10 minutes
