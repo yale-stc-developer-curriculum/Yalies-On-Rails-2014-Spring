@@ -9,10 +9,17 @@ For specific instructions on how we'd like you to use github for this assignment
 
 You should be using git the whole time, making a new commit for every change you make. Approximately every 3-10 minutes you should make a commit.
 
+####Setup
+- You must use Ruby version `2.0.0-p247`
+  - `rbenv install 2.0.0-p247` (anywhere, to install this on your machine) 
+  - `rbenv local 2.0.0-p247` (in the project directory, to set this to be the ruby version of your project)
+- You should copy over all of the files found in the `EXAMPLE` directory, and then customize those with your code.
+  - `.gitkeep` - By default, github won't accept empty folders. .gitkeep is a dummy file used by github to allow you upload an otherwise empty folder. This file is blank and has no other function, it just let us make an empty folder with your name.
+  - `.ruby-version` is used by rbenv (and its competitor RVM) to determine which ruby to run. 
+  - `Gemfile` is used by bundler to determine which Gems to install
+  - `Gemfile.lock` shows which version of the gems were used preivously. These same versions will be used forever -- until someone runs `bundle update`. This is to prevent buggy updates to gems from messing up your otherwise functional application.
+
 ####Base Specification
-  - You must use Ruby version `2.0.0-p247`
-    - `rbenv install 2.0.0-p247` (anywhere, to install this on your machine) 
-    - `rbenv local 2.0.0-p247` (in the project directory, to set this to be the ruby version of your project)
   - Create each of the routes listed in [[RESTful Routes]]
   - Layout
     - You shouldn't focus on making this application look beautiful at this point, don't worry about CSS
