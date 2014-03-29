@@ -1,5 +1,5 @@
 #This is still being worked on, don't follow this yet
-`Total time estimated: 5-10 hours`
+`Total time estimated: 7-15 hours`
 
 ##Assignment 9
 ###Sinatra CRUD Application
