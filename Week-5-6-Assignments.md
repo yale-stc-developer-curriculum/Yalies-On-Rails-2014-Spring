@@ -9,6 +9,12 @@ For specific instructions on how we'd like you to use github for this assignment
 
 You should be using git the whole time. You should create a separate commit in github for each small change you make, probably every 3-10 minutes. If you haven't done this yet you can just create one commit with it all, but continue doing this in the future.
 
+I've separated this assignment into four sections:
+1. Setup
+2. Specifications - The main instructions for this assignment.
+3. Additional Specifications - Additional instructions you also need to do. (But if you don't, you should still be able to proceed with the course.)
+4. Bonus - You'll potentially learn the most from these, but they are optional.
+
 ####Setup
 - You must use Ruby version `2.0.0-p247`
   - `rbenv install 2.0.0-p247` (anywhere, to install this on your machine) 
