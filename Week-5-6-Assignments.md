@@ -6,7 +6,7 @@
 1. Fork the project to your own user's page [STC Developer Curriculum - YouTubeSets](https://github.com/yale-stc-developer-curriculum/youtubesets)
 1. Create a branch called your name
 1. Create an application that can CRUD (Create, Retrieve, Update, Destroy) youtubesets
-1. Specification:
+1. Base Specification
   - You must use Ruby version `2.0.0-p247`
     - `rbenv install 2.0.0-p247` (anywhere, to install this on your machine) 
     - `rbenv local 2.0.0-p247` (in the project directory, to set this to be the ruby version of your project)
@@ -17,24 +17,35 @@
       - This bar should include a link to "Home" with the URL `"/"`
       - It should also include a link to "Sets" with the URL `"/sets"`
   - Data Input & Storage
-    - Youtube links should be submitted as a newline-separated list (press enter after each link).
-    - Youtube links should be stored in the session, in a variable structured as a hash with the format `"sets" => { "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }`
+    - We can assume that only youtube video numbers will be submitted (not www.youtube.com/watch?v=jZVdDl_asYY just jZVdDl_asYY)
+    - Youtube video numbers should be submitted as a newline-separated list (press enter after each link).
+    - Youtube video numbers should be stored in the session, in a variable structured as a hash with the format `"sets" => { "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }`
     - each set will use its name as the key in the `sets` hash and will include the keys `name` and `vidnums` pointing to a string with the set name and an array with the Youtube links, respectively.
   - The application should work for `http://` but doesn't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
   - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. If you haven't done this yet you can just create one commit with it all, but continue doing this in the future.
-  - It should pass the tests we provide.
-    - Open Terminal and change to the directory of your project.
+1. Bonus, everyone should try this
+  - Add a description field to each playlist. (see Songza's playlist descriptions for some fun examples)
+    - You'll have to add another input form and also decide where in the session to store this information.
+  - At least check out the RuboCop/Ruby Style Guide (below).
+  - Pass the tests we provide. Some of the test cases are intentionally very specific, this is an exercise in reading terminal output. This is a hugely valuable skill to practice.
+    - This script will download an RSpec file and run this to ensure the application meets specifications that we've written. After running it, you should check out the file `YOURFOLDER/spec/features/site_spec.rb`
+    - Open Terminal and change to the directory of your project (your name).
     - Run these commands: (triple click to highlight the whole line)
-    - `curl -O https://raw.github.com/jasonkliu/AutomaticHomeworkTesting/master/Ruby/selftest.sh`
-    - `chmod +x selftest.sh`
-    - `./selftest.sh`
-    - If you have issues, please email @jasonkliu. Thanks.
-1. Bonus
+      - `curl -O https://raw.github.com/jasonkliu/AutomaticHomeworkTesting/master/Ruby/selftest.sh`
+        - if you don't have curl, try wget: `wget https://raw.github.com/jasonkliu/AutomaticHomeworkTesting/master/Ruby/selftest.sh`
+      - `chmod +x selftest.sh`
+      - `./selftest.sh`
+    - RSpec/Capybara tests written by Oren Kanner
+    - `selftest.sh` script written by Jason Liu
+1. Bonus, Optional
   - Meet all [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) guidelines. You can test this by running [rubocop](https://github.com/bbatsov/rubocop).
     - `gem install rubocop`
     - (restart the terminal)
     - `rubocop` (in the right directory)
-  - Bonus points if it can handle additional list formats - comma separated, space separated, tab separated.
+  - Get the input to handle additional list formats - comma separated, space separated, tab separated.
+  - Get the input to accept whole URLs instead of just the video numbers (&v=a1hNo91)
+    - One way would be to use a Regular Expression
+    - Another way would be to use Ruby's URI Parser
   - Make your application work over HTTPS as well as HTTP
 1. Hints
   - Destroy
