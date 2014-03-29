@@ -76,7 +76,7 @@ These are optional for everyone, but you'll potentially learn the most from thes
   - Make your application work over HTTPS as well as HTTP
 
 ## Submission
-`10 minutes`
+`10-15 minutes`
 
 1. Submit your **time worked** for each of the assignments on the class google form (Found on the [[Assignments]] page).
 2. Submit a pull request to the STC Developer Curriculum, see the [Yalies On Rails 2014 Spring Repository](https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring/) page for specific details.
