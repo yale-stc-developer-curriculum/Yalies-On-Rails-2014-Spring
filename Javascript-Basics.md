@@ -1,0 +1,1 @@
+Also check out our [Javascript Resources](Resources#javascript)
