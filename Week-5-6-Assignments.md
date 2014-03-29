@@ -3,10 +3,11 @@
 
 ##Assignment 9
 ###Sinatra CRUD Application
-1. Fork the project to your own user's page [STC Developer Curriculum - YouTubeSets](https://github.com/yale-stc-developer-curriculum/youtubesets)
-1. Create a branch called your name
-1. Create an application that can CRUD (Create, Retrieve, Update, Destroy) youtubesets
-1. Base Specification
+`Goal: Create an application that can CRUD (Create, Retrieve, Update, Destroy) youtubesets.`
+
+For specific instructions on how we'd like you to use github for this assignment, see the [Yalies On Rails 2014 Spring Repository](https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring/) (the repository the wiki is on top of).
+
+####Base Specification
   - You must use Ruby version `2.0.0-p247`
     - `rbenv install 2.0.0-p247` (anywhere, to install this on your machine) 
     - `rbenv local 2.0.0-p247` (in the project directory, to set this to be the ruby version of your project)
@@ -23,7 +24,14 @@
     - each set will use its name as the key in the `sets` hash and will include the keys `name` and `vidnums` pointing to a string with the set name and an array with the Youtube links, respectively.
   - The application should work for `http://` but doesn't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
   - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. If you haven't done this yet you can just create one commit with it all, but continue doing this in the future.
-1. Bonus, everyone should try this
+  - Hints for Destroy
+    - Anchored links (`<a href=''...>`) can only pass method="post" method (some claim they also do well with get)
+    - Pure html forms can only pass method="post" and method="get"
+    - to pass method="delete" in Sinatra, we need to enable method overriding by adding "_method = true" in the configure method of our app in the .rb file, then in the .erb file (or any part of HTML code) we can use method="delete" and it will be addressed properly.
+    - For Destroy, see http://www.sinatrarb.com/configuration.html
+
+####Additional Specification
+Everyone should do these. However, even if you don't finish it all you should be able to proceed with the course.
   - Add a description field to each playlist. (see Songza's playlist descriptions for some fun examples)
     - You'll have to add another input form and also decide where in the session to store this information.
   - At least check out the RuboCop/Ruby Style Guide (below).
@@ -37,7 +45,9 @@
       - `./selftest.sh`
     - RSpec/Capybara tests written by Oren Kanner
     - `selftest.sh` script written by Jason Liu
-1. Bonus, Optional
+
+####Bonus
+These are optional for everyone, but you'll potentially learn the most from these
   - Meet all [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) guidelines. You can test this by running [rubocop](https://github.com/bbatsov/rubocop).
     - `gem install rubocop`
     - (restart the terminal)
@@ -47,12 +57,6 @@
     - One way would be to use a Regular Expression
     - Another way would be to use Ruby's URI Parser
   - Make your application work over HTTPS as well as HTTP
-1. Hints
-  - Destroy
-    - Anchored links (`<a href=''...>`) can only pass method="post" method (some claim they also do well with get)
-    - Pure html forms can only pass method="post" and method="get"
-    - to pass method="delete" in Sinatra, we need to enable method overriding by adding "_method = true" in the configure method of our app in the .rb file, then in the .erb file (or any part of HTML code) we can use method="delete" and it will be addressed properly.
-    - For Destroy, see http://www.sinatrarb.com/configuration.html
 
 ## Submission
 `10 minutes`
