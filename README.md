@@ -11,7 +11,7 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
 
 1. Fork this repo to your github account.
 2. Clone it onto your computer `git clone ___`
-3. Add STC's copy as a remote called 'upstream'
+3. Add STC's copy as a remote nicknamed 'upstream'
 
 ```bash
   git remote add upstream https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring.git
@@ -30,7 +30,7 @@ You probably want to check out the [wiki](http://github.com/yale-stc-developer-c
 
 When the STC repository changes (new assignments or updated testing file) you'll have to update your copy
 
-1. `cd` to the Yalies-On-Rails-2014-Spring repository
+1. `cd` to the `Yalies-On-Rails-2014-Spring` repository
 2. `git pull upstream master` to pull updates from upstream (=STC's copy) to your master branch
 
 ###Submit your work to STC's repository
