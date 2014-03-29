@@ -54,6 +54,10 @@
 * [Very basic rack application example](https://gist.github.com/mattetti/1447058)
 * [Rails Sinatra Comparison PDF](http://www.christopher-wood.com/papers/RailsSinatraComparison.pdf)
 
+###Routes
+* [Wikibooks - Short Rundown](http://en.wikibooks.org/wiki/Ruby_on_Rails/Routing#RESTful_routes)
+* [Restful Rails (advanced)](http://b-simple.de/download/restful_rails_en.pdf)
+
 ##Git
 * [Try Git](http://www.codeschool.com/courses/try-git) - A great interactive intro to git. Start here.
 * [Git Immersion](http://gitimmersion.com/) - A great next step to take what you learned in 'Try Git' and apply it to your own computer.
@@ -112,6 +116,13 @@
 
 
 ##Miscellaneous
+
+###Regular Expressions
+- An interactive RegEx Tutorial http://regexone.com/
+- The canonical RegEx reference http://www.regular-expressions.info
+- Regular expression testers make writing regexes wayyy faster.
+  - Ruby: http://rubular.com
+  - JavaScript: http://regexpal.com/
 
 ###Documentation
 

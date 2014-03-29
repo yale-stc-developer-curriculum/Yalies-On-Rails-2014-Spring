@@ -98,7 +98,9 @@ When you are done, do the following
 - Shane Fenske https://github.com/shanefenske/gittraining
 - Margaret Ott https://github.com/margaretott/gittraining
 - Evan Hellmuth <https://github.com/evanhellmuth/gittraining>
-- Qingyang Chen <In Progress>
+- Qingyang Chen <https://github.com/coollog/gittraining>
+- Daniel Pearson <https://github.com/danielpearson7411/gittraining>
+- Charly Walther <https://github.com/cmwalther/gittraining>
 
 ###Github Pages
 - Casey Watts <http://caseywatts.github.io>
@@ -115,7 +117,10 @@ When you are done, do the following
 - John Orland <http://johnorland.hithub.io/>
 - Margaret Ott https://github.com/margaretott/margaretott.github.io
 - Evan Hellmuth <https://evanhellmuth.github.io/>
-- Qingyang Chen <In Progress>
+- Qingyang Chen <http://coollog.github.io/>
+- Daniel Pearson <http://danielpearson7411.github.io/>
+- Charly Walther <http://cmwalther.github.io/>
+- Catherine Stark <http://catherinestark.github.io/>
 
 ###Ruby Practice
 - Casey Watts <http://www.codewars.com/users/caseywatts>
@@ -130,4 +135,6 @@ When you are done, do the following
 - Sylvan Zheng <http://www.codewars.com/users/squidgetx>
 - John Orland <http://www.codewars.com/users/johnorland>
 - Evan Hellmuth <http://www.codewars.com/users/karjad>
-- Qingyang Chen <In Progress>
+- Qingyang Chen <http://www.codewars.com/users/coollog>
+- Daniel Pearson <http://www.codewars.com/users/Daniel%20Pearson>
+- Charly Walther <http://www.codewars.com/users/cmw>
