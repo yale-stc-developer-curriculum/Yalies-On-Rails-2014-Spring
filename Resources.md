@@ -117,6 +117,13 @@
 
 ##Miscellaneous
 
+###Regular Expressions
+- An interactive RegEx Tutorial http://regexone.com/
+- The canonical RegEx reference http://www.regular-expressions.info
+- Regular expression testers make writing regexes wayyy faster.
+  - Ruby: http://rubular.com
+  - JavaScript: http://regexpal.com/
+
 ###Documentation
 
 * [Writing great documentation](http://jacobian.org/writing/great-documentation/)
