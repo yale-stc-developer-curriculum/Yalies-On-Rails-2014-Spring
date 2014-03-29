@@ -7,7 +7,7 @@
 
 For specific instructions on how we'd like you to use github for this assignment, see the [Yalies On Rails 2014 Spring Repository](https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring/) (the repository the wiki is on top of).
 
-You should be using git the whole time, making a new commit for every change you make. Approximately every 3-10 minutes you should make a commit.
+You should be using git the whole time. You should create a separate commit in github for each small change you make, probably every 3-10 minutes. If you haven't done this yet you can just create one commit with it all, but continue doing this in the future.
 
 ####Setup
 - You must use Ruby version `2.0.0-p247`
@@ -31,7 +31,6 @@ You should be using git the whole time, making a new commit for every change you
     - Youtube video numbers should be submitted as a newline-separated list (press enter after each link).
     - Youtube video numbers should be stored in the session, in a variable structured as a hash with the format `"sets" => { "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }`
     - each set will use its name as the key in the `sets` hash and will include the keys `name` and `vidnums` pointing to a string with the set name and an array with the Youtube links, respectively.
-  - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. If you haven't done this yet you can just create one commit with it all, but continue doing this in the future.
   - Hints for Destroy
     - Anchored links (`<a href=''...>`) can only pass method="post" method (some claim they also do well with get)
     - Pure html forms can only pass method="post" and method="get"
