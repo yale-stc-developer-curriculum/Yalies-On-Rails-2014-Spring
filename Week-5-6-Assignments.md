@@ -39,7 +39,7 @@ You should be using git the whole time. You should create a separate commit in g
   - The application should work for `http://` but doesn't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
 
 ####Additional Specification
-Everyone should do these. However, even if you don't finish it all you should be able to proceed with the course.
+Everyone should do these. However, even if you don't finish all of these you should be able to proceed with the course.
   - Add a description field to each playlist. (see Songza's playlist descriptions for some fun examples)
     - You'll have to add another input form and also decide where in the session to store this information.
   - At least check out the RuboCop/Ruby Style Guide (below).
