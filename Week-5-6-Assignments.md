@@ -7,6 +7,8 @@
 
 For specific instructions on how we'd like you to use github for this assignment, see the [Yalies On Rails 2014 Spring Repository](https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring/) (the repository the wiki is on top of).
 
+You should be using git the whole time, making a new commit for every change you make. Approximately every 3-10 minutes you should make a commit.
+
 ####Base Specification
   - You must use Ruby version `2.0.0-p247`
     - `rbenv install 2.0.0-p247` (anywhere, to install this on your machine) 
@@ -14,21 +16,21 @@ For specific instructions on how we'd like you to use github for this assignment
   - Create each of the routes listed in [[RESTful Routes]]
   - Layout
     - You shouldn't focus on making this application look beautiful at this point, don't worry about CSS
-    - Each page should have a navigation bar at the top...
+    - Each page should have a navigation bar at the top.
       - This bar should include a link to "Home" with the URL `"/"`
       - It should also include a link to "Sets" with the URL `"/sets"`
   - Data Input & Storage
-    - We can assume that only youtube video numbers will be submitted (not www.youtube.com/watch?v=jZVdDl_asYY just jZVdDl_asYY)
+    - We can assume that only youtube video numbers will be submitted (not `www.youtube.com/watch?v=jZVdDl_asYY` just `jZVdDl_asYY`)
     - Youtube video numbers should be submitted as a newline-separated list (press enter after each link).
     - Youtube video numbers should be stored in the session, in a variable structured as a hash with the format `"sets" => { "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }`
     - each set will use its name as the key in the `sets` hash and will include the keys `name` and `vidnums` pointing to a string with the set name and an array with the Youtube links, respectively.
-  - The application should work for `http://` but doesn't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
   - You should create a separate commit in github for each small change you make, probably every 3-10 minutes. If you haven't done this yet you can just create one commit with it all, but continue doing this in the future.
   - Hints for Destroy
     - Anchored links (`<a href=''...>`) can only pass method="post" method (some claim they also do well with get)
     - Pure html forms can only pass method="post" and method="get"
     - to pass method="delete" in Sinatra, we need to enable method overriding by adding "_method = true" in the configure method of our app in the .rb file, then in the .erb file (or any part of HTML code) we can use method="delete" and it will be addressed properly.
     - For Destroy, see http://www.sinatrarb.com/configuration.html
+  - The application should work for `http://` but doesn't have to work for `https://` (that requires a trick I'm not interested in you learning right now)
 
 ####Additional Specification
 Everyone should do these. However, even if you don't finish it all you should be able to proceed with the course.
@@ -62,4 +64,4 @@ These are optional for everyone, but you'll potentially learn the most from thes
 `10 minutes`
 
 1. Submit your **time worked** for each of the assignments on the class google form (Found on the [[Assignments]] page).
-2. Submit a pull request to the STC Developer Curriculum
+2. Submit a pull request to the STC Developer Curriculum, see the [Yalies On Rails 2014 Spring Repository](https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring/) page for specific details.
