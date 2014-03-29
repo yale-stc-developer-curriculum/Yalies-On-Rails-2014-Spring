@@ -1,0 +1,96 @@
+body{
+    background-color: white /*smoke*/;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: 35px;
+    font-weight:strong;  
+}
+h2 {
+    font-style:italic;
+    font-size: 20px;
+    font: "Comic Sans";
+
+}
+
+h3{
+    font-size: 20px;
+}
+
+.header{
+    padding=0;
+    margin=0;
+    background:url('http://subtlepatterns.com/patterns/textured_paper.png');
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: rgba(1, 1, 1, 0.75);
+     width: 100%
+
+}
+.content{
+    
+    margin: 25px auto;
+    width: 1250px;
+    padding: 10 px;
+    text-align: center;
+    font: 15px, "Arial Black", "Verdana", "comic sans";
+    border-bottom: 1px solid blue;
+}
+
+
+a {    color: blue;
+    text-decoration: underline;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+a:hover{
+    color: red;
+}
+
+form {
+  background: linear-gradient(top, #fff, #f8f8f8);
+  border: 1px solid #d0d2d5;
+  border-bottom: 1px solid #bebfc2;
+  border-radius: 4px;
+  margin: 25px auto;
+  padding: 20px;
+  width: 212px;
+}
+label {
+  color: #404853;
+  display: block;
+  font-weight: bold;
+}
+input {
+  background: #fff;
+  border: 1px solid #c6c9cc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #fff;
+  color: #555;
+  font: 13px/20px 'Droid Sans', Arial, 'Helvetica Neue', 'Lucida Grande', sans-serif;
+  margin: 0 0 20px 0;
+  padding: 5px;
+  width: 200px;
+}
+
+#Submit_Form {
+  
+  border: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.75);
+  color: #fff;
+  font-weight: bold;
+  float: left;
+  padding: 5px 10px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+}
+#Submit_Form:hover {
+  background: linear-gradient(top, #5a6675, #333942);
+}
+#Submit_Form:active {
+  background: #333942;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.75), 0 1px 0 rgba(255, 255, 255, 0.75);
+}

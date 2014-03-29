@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='/index.css'/>
+    
+     </head>  
+  <body>
+  	 <div class="header">
+      <title> Random song app! </title>
+          <h1> <strong>Welcome to my App!</strong> </h1>
+               <h2>Here is the list of all the lists that I know! </h2>
+                <div class="content">
+      <a href="/" title="Home">Home</a>
+    <a href="/sets/new" title="Create a set">Create a new set!</a> 
+    <a href="/params" title="Inspect params">Inspect Params</a>
+    <a href="/session" title="Inspect session">Inspect session</a>
+    <a href="/sets" title="list all the lists">List the lists</a>
+    </div>
+      </div>
+      	  	<div class="content">
+
+	<%lista = session["sets"].keys%>
+	<%string ='<table align="center">'%>
+  <%# making a really long patch of html code using the elements from session.keys that are actually names of sets. Then displaying the spring.%>
+  <%# the variable a is added for readability%>
+	<%lista.each { |x| 
+                          string += '<tr> <td>'+ x +'</td><td>'+ ' ' + '<a href ="/sets/' + x +'" title = "' + x + '">' +   ' play' + '</a> ' + '</td><td>' + '<a href ="/sets/' + x + '/destroy" title = "' + x + '">' + ' destroy' + '</a> ' + '</td><td>' + '<a href ="/sets/' + x + '/edit" title = "' + x + '">' + ' edit it!' + '</a></td> ' + "</tr>" }
+    string += "</table>"%>
+  <%=string%>
+	 </div>
+	</body>
+	</html>
