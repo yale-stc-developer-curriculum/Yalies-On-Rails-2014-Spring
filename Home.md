@@ -38,3 +38,4 @@ This is the course wiki for the Spring 2014 class "Yalies On Rails", taught by S
 - [[Week 5-6 Assignments]]
 
 ##Week 6 - Sinatra Progress & Javascript 
+- [[Javascript Basics]]
