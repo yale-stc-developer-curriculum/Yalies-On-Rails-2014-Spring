@@ -3,7 +3,7 @@
 
 ##Assignment 9
 ###Sinatra CRUD Application
-`Goal: Create an application that can CRUD (Create, Retrieve, Update, Destroy) youtubesets.`
+Goal: Create an application that can CRUD (Create, Retrieve, Update, Destroy) youtubesets.
 
 For specific instructions on how we'd like you to use github for this assignment, see the [Yalies On Rails 2014 Spring Repository](https://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring/) (the repository the wiki is on top of).
 
