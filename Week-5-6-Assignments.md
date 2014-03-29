@@ -60,7 +60,7 @@ Everyone should do these. However, even if you don't finish all of these you sho
 ####Bonus
 These are optional for everyone, but you'll potentially learn the most from these
   - Meet all [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) guidelines. You can test this by running [rubocop](https://github.com/bbatsov/rubocop).
-    - `gem install rubocop`
+    - Add it to your gemfile and `bundle install` (or `gem install rubocop`)
     - (restart the terminal)
     - `rubocop` (in the right directory)
   - Get the input to handle additional list formats - comma separated, space separated, tab separated.
