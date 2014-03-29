@@ -39,6 +39,9 @@ Everyone should do these. However, even if you don't finish it all you should be
   - At least check out the RuboCop/Ruby Style Guide (below).
   - Pass the tests we provide. Some of the test cases are intentionally very specific, this is an exercise in reading terminal output. This is a hugely valuable skill to practice.
     - This script will download an RSpec file and run this to ensure the application meets specifications that we've written. After running it, you should check out the file `YOURFOLDER/spec/features/site_spec.rb`
+    - This is the first time we're using an RSpec/Capybara script to help guide this assignment. If you have any specific feedback on how we should change it, we'd love to hear from you on Piazza!
+      - eg "why do we have test case X? I don't think that should be tested"
+      - or "My app was broken like X but it passed all tests!"
     - Open Terminal and change to the directory of your project (your name).
     - Run these commands: (triple click to highlight the whole line)
       - `curl -O https://raw.github.com/jasonkliu/AutomaticHomeworkTesting/master/Ruby/selftest.sh`
