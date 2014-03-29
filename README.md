@@ -5,9 +5,9 @@ This is the home repo for the 2014 STC Course Yalies On Rails.
 
 You probably want to check out the [wiki](http://github.com/yale-stc-developer-curriculum/Yalies-On-Rails-2014-Spring/wiki).
 
-## How to Submit Assignments
+## How to Submit Assignments via GitHub
 
-### Setup your repo. (One time only!)
+### Setup your repo. (One time only)
 
 1. Fork this repo to your github account.
 2. Clone it onto your computer `git clone ___`
