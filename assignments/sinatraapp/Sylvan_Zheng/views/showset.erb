@@ -1,0 +1,6 @@
+<h1><%=@set[:name]%></h1>
+<ul>
+<%@set[:vidnums].each do |num|%>
+<li><a href="https://www.youtube.com/watch?v=<%=num%>"><%=num%></a></li>
+<%end%>
+</ul>
