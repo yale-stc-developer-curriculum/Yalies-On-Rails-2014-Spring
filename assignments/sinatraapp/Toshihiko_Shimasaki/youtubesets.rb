@@ -35,7 +35,9 @@ end
 get '/' do
   erb :index
   "<h1>Hello</h1>
-   <h2>This page will help you kill time by playing random youtube videos</h2>"
+   <h2>This page will help you kill time by playing random youtube videos</h2>
+   <a href=\"/beyonce\">Start here</a>
+   "  
 end
 
 
