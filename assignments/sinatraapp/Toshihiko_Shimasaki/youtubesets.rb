@@ -34,7 +34,8 @@ end
 ##Main Welcome Page
 get '/' do
   erb :index
-  #"<h1>Hi!</h1><h2>If you know the url you can play a random video from set of youtube videos!</h2>"
+  "<h1>Hello</h1>
+   <h2>This page will help you kill time by playing random youtube videos</h2>"
 end
 
 
