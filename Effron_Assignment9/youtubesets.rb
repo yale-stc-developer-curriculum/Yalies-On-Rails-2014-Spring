@@ -7,7 +7,8 @@ configure do
 
 end
  
- 
+
+
 helpers do
   def randomvideo(set)
     set.sample
@@ -39,9 +40,9 @@ configure do
   end 
 ##SHOW
 ##Display the Video Sets
-get '/beyonce' do
+get '/sets/:setname/play' do |setname|
+  @videonumber = randomvideo(session['sets'][setname]["vidnums"])
   erb :play
-  #embedyoutube(randomvideo(beyoncevideos))
 end
  
 get '/pmj' do
@@ -62,28 +63,22 @@ end
 #Create page
 
 get '/sets' do
-  "Sets are these"
+  session['sets'].inspect
 end
 
-post "/sets" do
-  #Convert parameters from form into a set to put in sessions
-  setname = params[:setname]
-  videolist = params[:videolist].split("\r\n")
-  session[:sets][setname] = {"name"=>setname,"vidnums"=>videolist}
-  #{}"Write out" + params["videolist"][3]
-  #if ((params["videolist"][3]) == ' ')
-  #  "Yeahhh"
-  #end
-  #while (params["videolist"[i]] != ' ')
-   # params["videolist"][i] #Parse this by space/newline
-    #i = i+1
-  #end
-
-  #session[nameinbrackets] = hash, name in brackets could be one of the params
-  #{}"Success!" + "Write out"
-  #You want the form to submit to this URL
+post '/sets' do
+  if (session['sets'] == nil)
+    session['sets'] = Hash.new 
+  end
+  setname = params['setname']
+  videolist = params['videolist'].split("\r\n")
+  session['sets'][setname] =  {"name" => setname, "vidnums" => videolist}
+  redirect '/sets'
 end
 
+get '/sets/:setname' do |setname|
+  session['sets'][setname].inspect
+end
 
  get '/sets/new/:setname/:videonumber' do |setname, videonumber|
   #session
