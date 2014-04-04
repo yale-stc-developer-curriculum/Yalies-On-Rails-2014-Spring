@@ -4,6 +4,7 @@ require "sinatra/reloader" if development?
  
 configure do
   enable :sessions
+
 end
  
  
@@ -60,8 +61,27 @@ end
 
 #Create page
 
+get '/sets' do
+  "Sets are these"
+end
+
 post "/sets" do
-  "Sucess!"
+  #Convert parameters from form into a set to put in sessions
+  setname = params[:setname]
+  videolist = params[:videolist].split("\r\n")
+  session[:sets][setname] = {"name"=>setname,"vidnums"=>videolist}
+  #{}"Write out" + params["videolist"][3]
+  #if ((params["videolist"][3]) == ' ')
+  #  "Yeahhh"
+  #end
+  #while (params["videolist"[i]] != ' ')
+   # params["videolist"][i] #Parse this by space/newline
+    #i = i+1
+  #end
+
+  #session[nameinbrackets] = hash, name in brackets could be one of the params
+  #{}"Success!" + "Write out"
+  #You want the form to submit to this URL
 end
 
 
@@ -79,6 +99,8 @@ get '/sets/add/:setname/:videonumber' do |setname, videonumber|
 end
 
 ##Play the Pharrell video set
+##NOTE THAT THIS IS HOW YOU PLAY SETS!!
+#Returning HTML form for editing a set should just be editing a set from sessions
  get '/sets/pharrell' do
   @videonumber = randomvideo(session["pharrell"])
   erb :play
@@ -88,6 +110,8 @@ end
 get '/params' do
   params.inspect
 end
+
+#put is for updating things, should look the same as a post form
  
 ##try using the ?var1=1&var2=lol type
  
