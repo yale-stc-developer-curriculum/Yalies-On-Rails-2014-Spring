@@ -45,8 +45,9 @@ get '/sets/:setname/play' do |setname|
   erb :play
 end
  
-get '/pmj' do
-  embedyoutube(randomvideo(pmjvideos))
+get '/sets/:setname/edit' do |setname|
+  @setname = setname
+  erb :edit
 end
  
  get '/session' do
@@ -64,6 +65,14 @@ end
 
 get '/sets' do
   session['sets'].inspect
+end
+
+put '/sets/:setname' do |setname|
+  vidstoadd = params['videostoadd'].split("\r\n")
+  vidstodelete = params['videostodelete'].split("\r\n")
+  session['sets'][setname]["vidnums"] << vidstoadd 
+  #session['sets'][setname].inspect
+  #session['sets'][setname]["vidnums"].delete()
 end
 
 post '/sets' do
