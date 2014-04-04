@@ -33,11 +33,11 @@ end
 ##INDEX
 ##Main Welcome Page
 get '/' do
-##	erb :index 
-	"<h1>Hello</h1>
-	<h2>This page will help you kill time by playing random youtube videos</h2>
-	<a href=\"/sets\">Start here</a>
-	"  
+  erb :index
+  "<h1>Hello</h1>
+   <h2>This page will help you kill time by playing random youtube videos</h2>
+   <a href=\"/beyonce\">Start here</a>
+   "  
 end
 
 
@@ -58,42 +58,14 @@ end
 ##New, RESTful code
 
 ##NEW page
-get '/sets' do
-   "<h1>This page lists all the video sets</h1>
-   <a href=\"/sets/new\">Create a new set</a>
-   <h2>Existing video sets</h2>  
-   "
-##put some funcitionality here
-end
-
 get '/sets/new' do
   erb :new
 end
 
-##Create page --- This is a response to a form submission
+##Create page
 post "/sets" do
   "Success!"
   #This should include more
-end
-
-get '/sets/:setname' do
-#display a specific set
-end
-
-get '/sets/:setname/play' do
-#play a specific set
-end
-
-get '/sets/:setname/edit' do
-#return an HTML form for editing a set
-end
-
-put '/sets/:setname' do
-#update a specific set
-end
-
-delete '/sets/:setname' do
-#delete a specific set
 end
 
 
