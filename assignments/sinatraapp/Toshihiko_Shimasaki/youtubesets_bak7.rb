@@ -59,8 +59,7 @@ end
 
 ##NEW page
 get '/sets' do
-   "<a href=\"/\">Home</a> 
-   <h1>This page lists all the video sets</h1>
+   "<h1>This page lists all the video sets</h1>
    <a href=\"/sets/new\">Create a new set</a>
    <h2>Existing video sets</h2>  
    "
@@ -83,10 +82,8 @@ post "/sets" do
   session[:sets].merge!( videosetname => { :name => videosetname, :vidnums => videoarray  } )
 ##
 ##  "Success!"
-  pageoutput = "<a href=\"/\">Home</a> "
-  pageoutput += "<h2>New Video list \"" + session[:sets][videosetname][:name] + "\" created!</h2>"
-  pageoutput
-  end
+  "<h2>New Video list \"" + session[:sets][videosetname][:name] + "\" created!</h2>"
+end
 
 get '/sets/:setname' do |setname|
 #display a specific set
@@ -108,11 +105,9 @@ end
 get '/sets/:setname/edit' do |setname|
 #return an HTML form for editing a set
   videoarray = session[:sets][setname][:vidnums]
-  @videoarray = videoarray
 ## pageoutput will be the html output
 ## abondonded using erb b/c not sure how to implement a loop in erb
-  pageoutput = "<a href=\"/\">Home</a> "
-  pageoutput += "<h1>Edit set \"" 
+  pageoutput = "<h1>Edit set \"" 
   pageoutput = pageoutput + setname + "\" \r\n"
   pageoutput = pageoutput + "</h1> <br> <form action=\"/sets/" + setname + "\" method=\"post\">\r\n" 
   pageoutput += "<input type=\"hidden\" name=\"_method\" value=\"put\" />\r\n"
@@ -122,7 +117,6 @@ get '/sets/:setname/edit' do |setname|
   end   
   pageoutput += "<label><h2>Videos to add</h2></label><textarea name=\"morevideolist\"></textarea><input type=\"submit\"></form>"  
   pageoutput
-##  erb :edit
 end
 
 
@@ -142,8 +136,7 @@ put '/sets/:setname' do |setname|
 	
   end
   session[:sets][setname][:vidnums] += params[:morevideolist].split("\r\n")
-  pageoutput = "<a href=\"/\">Home</a> "
-  pageoutput += "<h2>Now the video set \"" + session[:sets][setname][:name] + "\" has " + "\"" + session[:sets][setname][:vidnums].join(", ") + "\"." + "</h2><br>\n\r"
+  pageoutput = "<h2>Now the video set \"" + session[:sets][setname][:name] + "\" has " + "\"" + session[:sets][setname][:vidnums].join(", ") + "\"." + "</h2><br>\n\r"
   pageoutput += "<a href=\"/sets/"  + setname + "/edit\">Go to edit page</a> "
   end
 
