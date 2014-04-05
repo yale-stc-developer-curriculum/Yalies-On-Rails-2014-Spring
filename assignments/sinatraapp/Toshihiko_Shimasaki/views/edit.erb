@@ -1,0 +1,10 @@
+<h1>Edit set "<%=@setname%>"</h1>
+<form action="/sets/<%=@setname%>" method="put">
+  <label><%=@videoarray[1]%></label>
+  <input type="text" name="setname">
+  <label><%=@videoarray[2]%></label>
+  <input type="text" name="setname">
+  <label>Videos to add</label>
+  <textarea name="morevideolist"></textarea>
+  <input type="submit">
+</form>

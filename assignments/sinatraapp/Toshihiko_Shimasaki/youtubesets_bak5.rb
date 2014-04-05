@@ -72,7 +72,8 @@ end
 
 ##Create page --- This is a response to a form submission
 post "/sets" do
-#  session[:sets] = Hash.new
+  
+##  session[:sets] = Hash.new
   #This should include more
 ##Get data
   videosetname = params[:setname] 
@@ -93,8 +94,7 @@ end
 get '/sets/:setname/play' do |setname|
 #play a specific set
   videoarray = session[:sets][setname][:vidnums]
-## Seems the following doesn't work...  
-##videoarray.each do |videonumber|
+##  videoarray.each do |videonumber|
 ##    @videonumber = videonumber
 ##	erb :play
 ##  end
@@ -102,36 +102,20 @@ get '/sets/:setname/play' do |setname|
   erb :play
 end
 
-get '/sets/:setname/edit' do |setname|
+get '/sets/:setname/edit' do
 #return an HTML form for editing a set
-  videoarray = session[:sets][setname][:vidnums]
-## pageoutput will be the html output
-  pageoutput = "<h1>Edit set \"" 
-  pageoutput = pageoutput + setname + "\""
-  pageoutput = pageoutput + "</h1> <br> <form action=\"/sets/" + setname + "\" method=\"post\">" 
-  pageoutput += "<input type=\"hidden\" name=\"_method\" value=\"put\" />"
-  videoarray.each do |dummy|
-    pageoutput = pageoutput + "<label>" + dummy + "</label><input type=\"checkbox\" name=\"" + dummy + "\" value=\"test\" > <br> \n\r"
-  end   
-  pageoutput += "<label>Videos to add</label><textarea name=\"morevideolist\"></textarea><input type=\"submit\"></form>"  
-  pageoutput
 end
 
-
-put '/sets/:setname' do |setname|
+put '/sets/:setname' do
 #update a specific set
-  session[:sets][setname][:vidnums] += params[:morevideolist].split("\r\n")
-  "<h2>NOw the video set \"" + session[:sets][setname][:name] + "\" has " + "\"" + session[:sets][setname][:vidnums].join(", ") + "\"." + "</h2>"
 end
 
-delete '/sets/:setname' do |setname|
+delete '/sets/:setname' do
 #delete a specific set
-  session[:sets].delete(setname)
 end
 
 get '/clear' do
   session.clear
-  session[:sets] = Hash.new
   redirect '/'
 end
 
