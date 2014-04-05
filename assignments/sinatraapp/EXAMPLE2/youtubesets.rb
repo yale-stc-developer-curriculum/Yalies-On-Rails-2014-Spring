@@ -63,6 +63,13 @@ end
 
 ##EDIT page
 get "/sets/:setname/edit" do
+  binding.pry
+  if false #doesn't exist
+    "Doesn't Exist"
+  else
+    @setname = params[:setname]
+    @videolist = session["sets"][params[:setname]].to_s
+  end
   #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
   #find the setname, set the variables to @variables so the view can have them - it will make them the form defaults
   erb :edit #same as new except it puts in the form defaults.
