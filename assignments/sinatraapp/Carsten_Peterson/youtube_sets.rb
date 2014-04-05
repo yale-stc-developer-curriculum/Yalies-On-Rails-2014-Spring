@@ -11,7 +11,7 @@ end
 sets = {}
 
 get '/' do
-	"hello"
+	erb :index
 end
 
 get '/sets' do
@@ -25,7 +25,7 @@ end
 
 post '/sets' do
 	sets[params[:setname]] = params[:videolist].split("\n")
-	"Success"
+	erb :success
 end
 
 get '/sets/:name' do
@@ -60,5 +60,5 @@ end
 
 delete '/sets/:name' do
 	sets.delete(params[:name])
-	"Successfully removed the set"
+	erb :success
 end
