@@ -9,7 +9,6 @@ configure do
 
   #allow us to use method="put" and method="delete"
   enable :method_override
-  #_method = true
 end
 
 
