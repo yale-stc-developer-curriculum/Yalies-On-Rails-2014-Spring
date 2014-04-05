@@ -73,7 +73,7 @@ end
 ##Create page --- This is a response to a form submission
 post "/sets" do
   
-##  session[:sets] = Hash.new
+  session[:sets] = Hash.new
   #This should include more
 ##Get data
   videosetname = params[:setname] 
@@ -91,15 +91,8 @@ get '/sets/:setname' do |setname|
   "<h2>The video set \"" + session[:sets][setname][:name] + "\" has " + "\"" + session[:sets][setname][:vidnums].join(", ") + "\"." + "</h2>"
 end
 
-get '/sets/:setname/play' do |setname|
+get '/sets/:setname/play' do
 #play a specific set
-  videoarray = session[:sets][setname][:vidnums]
-##  videoarray.each do |videonumber|
-##    @videonumber = videonumber
-##	erb :play
-##  end
-  @videonumber = videoarray[rand(videoarray.size)]
-  erb :play
 end
 
 get '/sets/:setname/edit' do
