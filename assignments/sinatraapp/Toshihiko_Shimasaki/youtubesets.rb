@@ -109,8 +109,9 @@ get '/sets/:setname/edit' do |setname|
 #return an HTML form for editing a set
   videoarray = session[:sets][setname][:vidnums]
   @videoarray = videoarray
+  @setname = setname
 ## pageoutput will be the html output
-## abondonded using erb b/c not sure how to implement a loop in erb
+## abondonded using erb b/c not sure how to implement a loop in erb -> started using erb. 
   pageoutput = "<a href=\"/\">Home</a> "
   pageoutput += "<h1>Edit set \"" 
   pageoutput = pageoutput + setname + "\" \r\n"
@@ -122,7 +123,7 @@ get '/sets/:setname/edit' do |setname|
   end   
   pageoutput += "<label><h2>Videos to add</h2></label><textarea name=\"morevideolist\"></textarea><input type=\"submit\"></form>"  
   pageoutput
-##  erb :edit
+  erb :edit
 end
 
 
