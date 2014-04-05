@@ -2,12 +2,13 @@
 <!-- Action is the URL to which it is submitted, method is method -->
 
 <h2> Form to edit an existing set </h2>
-<form action="/sets/<%=@setname%>" method="post">  <!-- Still want the form to take me there.  Before it sends you there, I will investigate if you would like to put or delete -->
-	<input type="hidden" name="_method" value="put"> <!-- This puts the thing into the parameter for you -->
-	<label>Set Name</label>
-	<input type="text" disabled name = "setname" value ="<%=@setname%>"> 
-	<label> The list of videos, which you may edit</label>
-	<textarea name = "videos"><%= @videos %> </textarea>
+<form action="/sets/<%=@setname%>" method="put">
+<!--	<label>Set Name</label>
+	<input type="text" name = "setname"> -->
+	<label> List of videos you would like to add </label>
+	<textarea name = "videostoadd" placeholder = "ADD"></textarea>
+	<label> List of videos you would like to delete </label>
+	<textarea name = "videostodelete" placeholder = "DELETE"></textarea>
 	<input type="submit" name="submit" value="Submit Form">
 </form>
 <!--

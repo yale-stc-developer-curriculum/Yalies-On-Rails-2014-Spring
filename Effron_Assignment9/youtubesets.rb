@@ -1,10 +1,11 @@
 require "sinatra"
 require "sinatra/reloader" if development?
+require "pry"
  
  
 configure do
   enable :sessions
-
+  _method = true #This allows us to use put and delete requests from HTML forms
 end
  
 
@@ -47,6 +48,7 @@ end
  
 get '/sets/:setname/edit' do |setname|
   @setname = setname
+  @videos = session['sets'][setname]["vidnums"].join("\n")
   erb :edit
 end
  
@@ -63,17 +65,38 @@ end
 
 #Create page
 
+#post '/sets/:setname' do |setname|
+#  redirect '/sets/:setname'
+#end
+
 get '/sets' do
   session['sets'].inspect
 end
 
+post '/sets/:setname' do
+
+end
+
+
+##UPDATE page
 put '/sets/:setname' do |setname|
-  vidstoadd = params['videostoadd'].split("\r\n")
-  vidstodelete = params['videostodelete'].split("\r\n")
-  session['sets'][setname]["vidnums"] << vidstoadd 
+  session['sets'][setname]["vidnums"] = params["videos"].split("\r\n")
+  session['sets'][setname].inspect
+
+  #vidstoadd = params['videostoadd'].split("\r\n")
+  #vidstodelete = params['videostodelete'].split("\r\n")
+  #session['sets'][setname]["vidnums"] << vidstoadd
+  #redirect '/sets/:setname' 
   #session['sets'][setname].inspect
   #session['sets'][setname]["vidnums"].delete()
 end
+
+delete '/sets/:setname' do |setname|
+  session['sets'].delete(setname)
+  redirect '/sets'
+  
+end
+
 
 post '/sets' do
   if (session['sets'] == nil)
@@ -86,7 +109,9 @@ post '/sets' do
 end
 
 get '/sets/:setname' do |setname|
-  session['sets'][setname].inspect
+  @setname = setname
+  @videos = session['sets'][setname]["vidnums"]
+  erb :show
 end
 
  get '/sets/new/:setname/:videonumber' do |setname, videonumber|
