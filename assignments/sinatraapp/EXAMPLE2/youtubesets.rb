@@ -20,7 +20,7 @@ end
 ##INDEX
 ##Main Welcome Page
 get '/sets' do
-  #binding.pry
+  binding.pry
   if session["sets"] && session["sets"] != []
     @allsets = session["sets"]
     erb :index
@@ -93,10 +93,10 @@ end
 ##UPDATE page
 put "/sets/:setname" do
   session["sets"] ||= {}
-  session["sets"][params["setname"]] = params["videolist"]
+  session["sets"][params["setname"]] = params["videolist"].split("\n")
 
   @setname = params[:setname]
-  @videolist = session["sets"][params[:setname]].split("\n")
+  @videolist = session["sets"][params[:setname]]
   #what should the behavior be if they want to rename the set?
   #the submitted name from the form won't be able to change that's fine lol - because the url parameter overwrites the form's one
 
