@@ -6,6 +6,10 @@ require "pry"
 
 configure do
   enable :sessions
+
+  #allow us to use method="put" and method="delete"
+  enable :method_override
+  #_method = true
 end
 
 
@@ -16,8 +20,13 @@ end
 
 ##INDEX
 ##Main Welcome Page
-get '/' do
-  erb :index
+get '/sets' do
+  if session["sets"]
+    @allsets = session["sets"]
+    erb :index
+  else
+    "none yet, you should create one"
+  end
 end
 
 ##NEW page
@@ -35,13 +44,13 @@ post "/sets" do
   #If you don't want to use pry you can comment this out, but it might help!
   #Pry will halt the server whenever it hits this line. The terminal tab you have that has the sinatra server running
   # => will have an irb-like command prompt in it and you can manipulate params and session and everything from here
-  binding.pry
+  #binding.pry
 
   #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
   #set the session stuff for the set to equal the right things
 
   session["sets"] ||= {}
-  session["sets"][params["setname"]] = params["videolist"]
+  session["sets"][params["setname"]] = params["videolist"].split("\n")
 
   "success going to 'post /sets!'" #just for testing, we shouldn't render this in the end but instead render an erb
 
@@ -50,45 +59,56 @@ end
 
 ##SHOW page
 get "/sets/:setname" do
-  @setname = params[:setname]
-  @videolist = session["sets"][params[:setname]].to_s
-  #find the set in session, set the variables to @variables so the view can have them
-  erb :show #just describe what the set has in it, displaying that on the page
+  if session["sets"][params[:setname]]
+    @setname = params[:setname]
+    @videolist = session["sets"][params[:setname]].join("\n")
+    #find the set in session, set the variables to @variables so the view can have them
+    erb :show #just describe what the set has in it, displaying that on the page
+  else
+    "Set " + params[:setname] + " doesn't exist"
+  end
 end
 
 ##PLAY page
 get "/sets/:setname/play" do
   #find the set in session
   #Pull out a random videonumber and set that to an @variable so the view can have it
+  @videonumber = session["sets"][params["setname"]].sample
   erb :play #actually plays the embedded video!
 end
 
 ##EDIT page
 get "/sets/:setname/edit" do
   binding.pry
-  if false #doesn't exist
-    "Doesn't Exist"
-  else
+  if session["sets"][params[:setname]]
     @setname = params[:setname]
-    @videolist = session["sets"][params[:setname]].to_s
+    @videolist = session["sets"][params[:setname]].join("\n")
+
+    erb :edit #same as new except it puts in the form defaults.
+  else
+    "Set " + params[:setname] + " doesn't exist"
   end
-  #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
-  #find the setname, set the variables to @variables so the view can have them - it will make them the form defaults
-  erb :edit #same as new except it puts in the form defaults.
 end
 
 ##UPDATE page
 put "/sets/:setname" do
-  #find setname in session
-  #update the variables in session to match parameters
-  "success going to 'put /sets/:setname!'" #just for testing, we shouldn't render this in the end but instead render an erb
-  #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
+  session["sets"] ||= {}
+  session["sets"][params["setname"]] = params["videolist"]
+
+  @setname = params[:setname]
+  @videolist = session["sets"][params[:setname]].split("\n")
+  #what should the behavior be if they want to rename the set?
+  #the submitted name from the form won't be able to change that's fine lol - because the url parameter overwrites the form's one
+
+  #"success going to 'put /sets/:setname!'" #just for testing, we shouldn't render this in the end but instead render an erb
+  erb :show #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
 ##DESTROY page
 delete "/sets/:setname" do
   #delete the set setname from session
-  "success going to 'delete /sets/:setname'!" #just for testing, we shouldn't render this in the end but instead render an erb
+  session["sets"].delete(params["setname"])
+  "Session " + params["setname"] + " was deleted"
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 

@@ -1,2 +1,9 @@
-<h1>Welcome To My App</h1>
+<h1>Youtube Sets</h1>
 <% #code to iterate over each set (which is passed in as an @ variable) and display it on the page  %>
+<% @allsets.each do |name, list| %>
+  <h1><%= name %></h1>
+  <p><%= list.join("\n") %></p>
+  <a href="/sets/<%= name %>">Show</a>
+  <a href="/sets/<%= name %>/edit">Edit</a>
+  <a href="/sets/<%= name %>/play">Play</a>
+<% end %>

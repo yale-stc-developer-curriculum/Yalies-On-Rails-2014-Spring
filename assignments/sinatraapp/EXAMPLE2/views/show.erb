@@ -3,3 +3,8 @@
 <p><%= @setname %></p>
 <h3>Set of videos:</h3>
 <p><%= @videolist %></p>
+
+<form action="/sets/<%= @setname %>" method="post">
+    <input name="_method" type="hidden" value="delete" />
+    <input type="submit" value="Delete">
+</form>
