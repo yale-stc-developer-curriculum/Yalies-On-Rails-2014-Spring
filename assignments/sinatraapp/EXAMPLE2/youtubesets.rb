@@ -20,7 +20,8 @@ end
 ##INDEX
 ##Main Welcome Page
 get '/sets' do
-  if session["sets"]
+  #binding.pry
+  if session["sets"] && session["sets"] != []
     @allsets = session["sets"]
     erb :index
   else
@@ -51,8 +52,9 @@ post "/sets" do
   session["sets"] ||= {}
   session["sets"][params["setname"]] = params["videolist"].split("\n")
 
-  "success going to 'post /sets!'" #just for testing, we shouldn't render this in the end but instead render an erb
+  #"success going to 'post /sets!'" #just for testing, we shouldn't render this in the end but instead render an erb
 
+  redirect "/sets/" + params["setname"]
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
@@ -78,7 +80,6 @@ end
 
 ##EDIT page
 get "/sets/:setname/edit" do
-  binding.pry
   if session["sets"][params[:setname]]
     @setname = params[:setname]
     @videolist = session["sets"][params[:setname]].join("\n")
@@ -100,13 +101,15 @@ put "/sets/:setname" do
   #the submitted name from the form won't be able to change that's fine lol - because the url parameter overwrites the form's one
 
   #"success going to 'put /sets/:setname!'" #just for testing, we shouldn't render this in the end but instead render an erb
-  erb :show #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
+  redirect "/sets/" + params["setname"]
+  #erb :show #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
 ##DESTROY page
 delete "/sets/:setname" do
   #delete the set setname from session
   session["sets"].delete(params["setname"])
+  redirect "/sets"
   "Session " + params["setname"] + " was deleted"
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end

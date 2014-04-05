@@ -4,6 +4,8 @@
 <h3>Set of videos:</h3>
 <p><%= @videolist %></p>
 
+<a href="/sets/<%= @setname %>/play">Play</a>
+
 <form action="/sets/<%= @setname %>" method="post">
     <input name="_method" type="hidden" value="delete" />
     <input type="submit" value="Delete">
