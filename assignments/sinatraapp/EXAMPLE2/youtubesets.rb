@@ -40,7 +40,7 @@ post "/sets" do
   #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
   #set the session stuff for the set to equal the right things
   
-  "success creating!" #just for testing, we shouldn't render this in the end but instead render an erb
+  "success going to 'post /sets!'" #just for testing, we shouldn't render this in the end but instead render an erb
   
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
@@ -69,14 +69,14 @@ end
 put "/sets/:setname" do
   #find setname in session
   #update the variables in session to match parameters
-  "success updating!" #just for testing, we shouldn't render this in the end but instead render an erb
+  "success going to 'put /sets/:setname!'" #just for testing, we shouldn't render this in the end but instead render an erb
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
 ##DESTROY page
 delete "/sets/:setname" do
   #delete the set setname from session
-  "success deleting!" #just for testing, we shouldn't render this in the end but instead render an erb
+  "success going to 'delete /sets/:setname'!" #just for testing, we shouldn't render this in the end but instead render an erb
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
