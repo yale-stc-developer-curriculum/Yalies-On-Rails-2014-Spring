@@ -72,18 +72,8 @@ end
 
 ##Create page --- This is a response to a form submission
 post "/sets" do
-  
-  session[:sets] = Hash.new
+  "Success!"
   #This should include more
-##Get data
-  setname = params[:setname] 
-  videoarray = params[:videolist].split("\r\n")
-  
-##{ "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }
-  session[:sets].merge!( setname => { :name => setname, :vidnums => videoarray  } )
-##
-##  "Success!"
-  "<h2>New Video list \"" + session[:sets][setname][:name] + "\" created!</h2>"
 end
 
 get '/sets/:setname' do
@@ -106,10 +96,6 @@ delete '/sets/:setname' do
 #delete a specific set
 end
 
-get '/clear' do
-  session.clear
-  redirect '/'
-end
 
 ##not the RESTful new page with the form we want, but a parameters way to make a new video set
 get '/sets/new/:setname/:videonumber' do |setname, videonumber|
