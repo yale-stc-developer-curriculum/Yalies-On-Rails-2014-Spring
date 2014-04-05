@@ -36,12 +36,15 @@ post "/sets" do
   #Pry will halt the server whenever it hits this line. The terminal tab you have that has the sinatra server running
   # => will have an irb-like command prompt in it and you can manipulate params and session and everything from here
   binding.pry
-  
+
   #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
   #set the session stuff for the set to equal the right things
-  
+
+  session["sets"] ||= {}
+  session["sets"][params["setname"]] = params["videolist"]
+
   "success going to 'post /sets!'" #just for testing, we shouldn't render this in the end but instead render an erb
-  
+
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
