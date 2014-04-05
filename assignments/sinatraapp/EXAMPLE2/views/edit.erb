@@ -2,7 +2,7 @@
 <form action="/sets/<%= @setname %>" method="post">
   <input type="hidden" name="_method" value="put">
   <label>Set Name</label>
-  <input type="text" name="setname" value="<%= @setname %>">
+  <input type="text" disabled name="setname" value="<%= @setname %>">
   <label>List of Videos</label>
   <textarea name="videolist"><%= @videolist %></textarea>
   <input type="submit">
