@@ -50,6 +50,8 @@ end
 
 ##SHOW page
 get "/sets/:setname" do
+  @setname = params[:setname]
+  @videolist = session["sets"][params[:setname]].to_s
   #find the set in session, set the variables to @variables so the view can have them
   erb :show #just describe what the set has in it, displaying that on the page
 end
