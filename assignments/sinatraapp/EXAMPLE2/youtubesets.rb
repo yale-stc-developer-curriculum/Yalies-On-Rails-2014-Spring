@@ -33,6 +33,8 @@ post "/sets" do
   #params.to_s
 
   #If you don't want to use pry you can comment this out, but it might help!
+  #Pry will halt the server whenever it hits this line. The terminal tab you have that has the sinatra server running
+  # => will have an irb-like command prompt in it and you can manipulate params and session and everything from here
   binding.pry
   
   #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
