@@ -40,7 +40,7 @@ post "/sets" do
   #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
   #set the session stuff for the set to equal the right things
   
-  #"success creating!" #just for testing, we shouldn't render this in the end but instead render an erb
+  "success creating!" #just for testing, we shouldn't render this in the end but instead render an erb
   
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
