@@ -30,7 +30,7 @@ end
 
 ##CREATE page
 post "/sets" do
-  #If you'd rather print variables to the page directly you can too
+  #One way to debug is to print variable values to the page
   #make sure the last line in this block is the thing you want printed, and comment out anything below
   #Uncomment the next line to make some show up on the page
   #params.to_s
