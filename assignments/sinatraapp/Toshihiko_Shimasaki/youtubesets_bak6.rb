@@ -108,37 +108,22 @@ get '/sets/:setname/edit' do |setname|
 ## pageoutput will be the html output
 ## abondonded using erb b/c not sure how to implement a loop in erb
   pageoutput = "<h1>Edit set \"" 
-  pageoutput = pageoutput + setname + "\" \r\n"
-  pageoutput = pageoutput + "</h1> <br> <form action=\"/sets/" + setname + "\" method=\"post\">\r\n" 
-  pageoutput += "<input type=\"hidden\" name=\"_method\" value=\"put\" />\r\n"
-  pageoutput += "<h2>check boxes for unwanted videos <br> \r\n</h2>"  
+  pageoutput = pageoutput + setname + "\""
+  pageoutput = pageoutput + "</h1> <br> <form action=\"/sets/" + setname + "\" method=\"post\">" 
+  pageoutput += "<input type=\"hidden\" name=\"_method\" value=\"put\" />"
   videoarray.each do |dummy|
     pageoutput = pageoutput + "<label>" + dummy + "</label><input type=\"checkbox\" name=\"" + dummy + "\" value=\"test\" > <br> \n\r"
   end   
-  pageoutput += "<label><h2>Videos to add</h2></label><textarea name=\"morevideolist\"></textarea><input type=\"submit\"></form>"  
+  pageoutput += "<label>Videos to add</label><textarea name=\"morevideolist\"></textarea><input type=\"submit\"></form>"  
   pageoutput
 end
 
 
 put '/sets/:setname' do |setname|
 #update a specific set
-##  session[:sets][setname][:vidnums].each do |dummy|
-##	if (params[dummy])
-##		session[:sets][setname][:vidnums].delete(dummy)
-##	end
-  i = session[:sets][setname][:vidnums].size
-  while i > 0 do
-  i = i-1
-  vidname = session[:sets][setname][:vidnums][i]
-    if (params[vidname])
-		session[:sets][setname][:vidnums].delete_at(i)
-	end
-	
-  end
   session[:sets][setname][:vidnums] += params[:morevideolist].split("\r\n")
-  pageoutput = "<h2>Now the video set \"" + session[:sets][setname][:name] + "\" has " + "\"" + session[:sets][setname][:vidnums].join(", ") + "\"." + "</h2><br>\n\r"
-  pageoutput += "<a href=\"/sets/"  + setname + "/edit\">Go to edit page</a> "
-  end
+  "<h2>NOw the video set \"" + session[:sets][setname][:name] + "\" has " + "\"" + session[:sets][setname][:vidnums].join(", ") + "\"." + "</h2>"
+end
 
 delete '/sets/:setname' do |setname|
 #delete a specific set
