@@ -1,5 +1,7 @@
 require "sinatra"
+
 #To get this next line to work, run gem install sinatra-contrib first
+#Or bundle install if it is in your gemfile
 require "sinatra/reloader" if development?
 
 configure do

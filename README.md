@@ -43,7 +43,7 @@ When you're ready to submit your assignment, you'll use a Pull Request.
 3. Click on "pull requests" in the right bar
 4. Click on "new pull request" in the top right
 5. Click "compare across forks"
-6. `Base fork` should be yours, `head fork` should be STC's. Both should be
+6. `Base fork` should be STC's and `head fork` should be yours. Both should be
    on the master branch.
 7. Click "create pull request"
 
