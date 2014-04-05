@@ -76,19 +76,18 @@ post "/sets" do
   session[:sets] = Hash.new
   #This should include more
 ##Get data
-  videosetname = params[:setname] 
+  setname = params[:setname] 
   videoarray = params[:videolist].split("\r\n")
   
 ##{ "SETNAME" => { "name" => "SETNAME", vidnums => ["VID1", "VID2", "VID3"] } }
-  session[:sets].merge!( videosetname => { :name => videosetname, :vidnums => videoarray  } )
+  session[:sets].merge!( setname => { :name => setname, :vidnums => videoarray  } )
 ##
 ##  "Success!"
-  "<h2>New Video list \"" + session[:sets][videosetname][:name] + "\" created!</h2>"
+  "<h2>New Video list \"" + session[:sets][setname][:name] + "\" created!</h2>"
 end
 
-get '/sets/:setname' do |setname|
+get '/sets/:setname' do
 #display a specific set
-  "<h2>The video set \"" + session[:sets][setname][:name] + "\" has " + "\"" + session[:sets][setname][:vidnums].join(", ") + "\"." + "</h2>"
 end
 
 get '/sets/:setname/play' do
