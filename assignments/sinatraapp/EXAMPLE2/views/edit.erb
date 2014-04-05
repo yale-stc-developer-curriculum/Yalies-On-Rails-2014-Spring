@@ -1,8 +1,8 @@
 <h1>Edit a Set</h1>
 <form action="/sets" method="put">
   <label>Set Name</label>
-  <input type="text" name="setname" value="<%= @setname %>">
+  <input type="text" name="setname" value="<%= 'samplevalue' #an @variable goes here instead of a string %>">
   <label>List of Videos</label>
-  <textarea name="videolist"><%= @videolist %></textarea>
+  <textarea name="videolist" value="<%= 'samplevalue' #an @variable goes here instead of a string %>"></textarea>
   <input type="submit">
 </form>
