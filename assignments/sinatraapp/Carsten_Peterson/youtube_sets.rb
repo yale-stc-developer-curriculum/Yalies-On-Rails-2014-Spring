@@ -1,9 +1,11 @@
 require 'sinatra'
+require 'pry'
 require 'erb'
 require 'sinatra/reloader' if development?
 
 configure do
 	enable :sessions
+	_method = true
 end
 
 sets = {}
@@ -28,7 +30,9 @@ end
 
 get '/sets/:name' do
 	@my_list = sets[params[:name]]
-	erb :list_videos
+	if @my_list != nil
+		erb :list_videos
+	end
 end
 
 get '/sets/:name/play' do

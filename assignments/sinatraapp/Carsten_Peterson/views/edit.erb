@@ -5,6 +5,7 @@
   <input type="submit">
 </form>
 
-<form action="/sets/<%=@name%>" method = "delete">
-	<input type = "submit" value = "delete this set">
+<form action="/sets/<%=@name%>" method = "post">
+	<input name = "_method" type = "hidden" value = "delete"/>
+	<input type = "submit" value = "delete this set"/>
 </form>
