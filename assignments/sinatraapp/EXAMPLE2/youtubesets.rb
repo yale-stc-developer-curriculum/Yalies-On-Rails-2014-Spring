@@ -6,6 +6,9 @@ require "pry"
 
 configure do
   enable :sessions
+
+  #allow us to use method="put" and method="delete"
+  _method = true
 end
 
 
