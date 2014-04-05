@@ -2,6 +2,8 @@ require "sinatra"
 #To get this next line to work, run `gem install sinatra-contrib` first
 require "sinatra/reloader" if development?
 
+require "pry"
+
 configure do
   enable :sessions
 end
@@ -9,6 +11,7 @@ end
 
 #New, RESTful code skeleton!
 #The old style of the code is available in the folder EXAMPLE
+#You will need to run `bundle install` to install pry - especially if you get the error "pry not found"
 
 
 ##INDEX
@@ -24,10 +27,19 @@ end
 
 ##CREATE page
 post "/sets" do
+  #If you'd rather print variables to the page directly you can too
+  #make sure the last line in this block is the thing you want printed, and comment out anything below
+  #Uncomment the next line to make some show up on the page
+  #params.to_s
+
+  #If you don't want to use pry you can comment this out, but it might help!
   binding.pry
+  
   #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
   #set the session stuff for the set to equal the right things
-  "success creating!" #just for testing, we shouldn't render this in the end but instead render an erb
+  
+  #"success creating!" #just for testing, we shouldn't render this in the end but instead render an erb
+  
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
