@@ -4,7 +4,10 @@
   <input type="text" name="setname" value="<%=@set[:name]%>">
   <label>List of Videos</label>
   <textarea name="videolist"><%=@text%></textarea>
+  <label>Playlist Description</label>
+  <textarea name="description"><%=@desc%></textarea>
   <input type="submit">
+  
 </form>
 
 <form action="/sets/<%=@set[:name]%>" method="delete">
