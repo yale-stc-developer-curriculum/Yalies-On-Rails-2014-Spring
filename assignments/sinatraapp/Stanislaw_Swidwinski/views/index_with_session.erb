@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='/index.css'/>
+    
+     </head>  
+  <body>
+  	 <div class="header">
+      <title> Random song app! </title>
+          <h1> <strong>Welcome to my App!</strong> </h1>
+               <h2>Please tell me what you want to do!</h2>
+                    <div class="content">
+<a href="/" title="Home">Home</a>
+<a href="/sets/new" title="Create a set">Create a new set!</a> 
+<a href="/params" title="Inspect params">Inspect Params</a>
+<a href="/session" title="Inspect session">Inspect session</a>
+<a href="/sets" title="list all the lists">List the lists</a>
+</div>
+      </div>
+     <div class="content">
+<% if @error == 1
+   string = '<h2>Your list is invalid! Please try creating it again!</h2>'
+  elsif @error == 2
+   string = '<h2> The list you specified does not exist! Please try again! </h2>'
+  end%>
+  <%=string%>
+        </div>               
+
+      <h2>Your session: <%= session.inspect.to_s%></h2>
+  	            
+ </body>
+ 

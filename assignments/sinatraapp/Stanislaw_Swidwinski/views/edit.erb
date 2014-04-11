@@ -1,0 +1,32 @@
+  <%string = ''%>
+  <%session["sets"][@name.to_s]["links"].each{ |x| string += x.to_s + "\n" }%>
+  <% string.lstrip %>
+  <!DOCTYPE html>
+<html>
+  <head>
+   <link rel='stylesheet' type='text/css' href='/forms.css'/>
+     </head>  
+  <body>
+    <div class="header">
+      <title> Editing a set </title>
+          <h1> <strong>Welcome to my App!</strong> </h1>
+               <h2>You want to edit the set <%=@name%>. Please review the following links.</h2>
+               <div class="content">
+      <a href="/" title="Home">Home</a>
+    <a href="/sets/new" title="Create a set">Create a new set!</a> 
+    <a href="/params" title="Inspect params">Inspect Params</a>
+    <a href="/session" title="Inspect session">Inspect session</a>
+    <a href="/sets" title="list all the lists">List the lists</a>
+  </div>
+      </div>
+    <div class="content">       
+      <h2> Links:</h2>
+            <form  action="/sets/<%=@name%>" method ="post">
+ <textarea name="linkz" ><%=string%></textarea>
+ <br>
+             <label for="submit"> Submit it!!!<label>
+      <input id ="Submit_Form" name = "_method" type="submit" name="put" value="put" method="put">
+    </div>
+
+      </body>
+      </html>
