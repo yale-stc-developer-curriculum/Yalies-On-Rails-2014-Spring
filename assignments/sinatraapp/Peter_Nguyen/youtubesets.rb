@@ -14,9 +14,14 @@ end
 #The old style of the code is available in the folder EXAMPLE
 #You will need to run `bundle install` to install pry - especially if you get the error "pry not found"
 
+get '/reset' do
+  session["sets"] = {}
+  redirect to('/')
+end
 
 ##INDEX
 ##Main Welcome Page
+
 get '/' do
   session["sets"] ||= {}
   erb :index
@@ -35,12 +40,12 @@ end
 
 ##CREATE page
 post "/sets" do
-  # a = "poo";
   a = params["videolist"].scan(/\S+\r\n/).map! {|a| a.chomp}
-  # "<p>#{a}</p>"
-
   session["sets"].store(params["setname"], {"name" => params["setname"], "vidnums" => a})
-  %{<p>#{session["sets"]}</p>}
+  redirect to('/')
+    
+  # %{<p>#{session["sets"]}</p>}
+  
   #One way to debug is to print variable values to the page
   #make sure the last line in this block is the thing you want printed, and comment out anything below
   #Uncomment the next line to make some show up on the page
@@ -55,7 +60,9 @@ post "/sets" do
   #set the session stuff for the set to equal the right things
   
   # "success going to 'post /sets!'" #just for testing, we shouldn't render this in the end but instead render an erb
-  # redirect to('/')
+  
+  redirect to('/')
+
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
