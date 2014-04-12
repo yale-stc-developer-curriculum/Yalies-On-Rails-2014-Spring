@@ -1,0 +1,8 @@
+<h1><%=@set[:name]%></h1>
+<h3><%=@set[:desc]%></h3>
+<a href="/sets/<%=@set[:name]%>/edit">Edit me</a>
+<ul>
+<%@set[:vidnums].each do |num|%>
+<li><a href="https://www.youtube.com/watch?v=<%=num%>"><%=num%></a></li>
+<%end%>
+</ul>

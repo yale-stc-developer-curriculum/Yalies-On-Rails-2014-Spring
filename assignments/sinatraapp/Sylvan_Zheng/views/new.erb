@@ -1,0 +1,10 @@
+<h1>Create a New Set</h1>
+<form action="/sets" method="post">
+  <label>Set Name</label>
+  <input type="text" name="setname">
+  <label>List of Videos</label>
+  <textarea name="videolist"></textarea>
+   <label>Playlist Description</label>
+  <textarea name="description"><%=@desc%></textarea>
+  <input type="submit">
+</form>
