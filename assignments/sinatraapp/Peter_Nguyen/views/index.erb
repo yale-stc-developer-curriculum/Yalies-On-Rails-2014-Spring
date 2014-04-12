@@ -1,0 +1,12 @@
+<h1>Welcome To My App</h1>
+<% #code to iterate over each set (which is passed in as an @ variable) and display it on the page  %>
+<a href="/sets/new">New Set</a>
+<a href="/reset">Reset Session</a>
+
+<%session["sets"].each_value do |set| %>
+    <h2>Set name: <%=set["name"]%></h2>
+    <h3>vids:</h3>
+    <%set["vidnums"].each do |vid| %>
+        <a><%=vid%> |</a>
+    <%end%>
+<%end%>
