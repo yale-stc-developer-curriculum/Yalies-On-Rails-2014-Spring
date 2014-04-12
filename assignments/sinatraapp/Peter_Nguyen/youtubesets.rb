@@ -41,7 +41,7 @@ end
 ##CREATE page
 post "/sets" do
   session["sets"] ||= {}
-  a = params["videolist"].scan(/\S+\r\n/).map! {|a| a.chomp}
+  a = params["videolist"].scan(/\S+\r\n|\S+/).map! {|a| a.chomp}
   session["sets"].store(params["setname"], {"name" => params["setname"], "vidnums" => a})
   redirect to('/')
     
@@ -106,7 +106,7 @@ end
 ##UPDATE page
 put "/sets/:setname" do
   session["sets"] ||= {}
-  a = params["videolist"].scan(/\S+\r\n/).map! {|a| a.chomp}
+  a = params["videolist"].scan(/\S+\r\n|\S+/).map! {|a| a.chomp}
   session["sets"].store(params["setname"], {"name" => params["setname"], "vidnums" => a})
   #find setname in session
   redirect to('/')
