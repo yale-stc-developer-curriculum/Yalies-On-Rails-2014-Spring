@@ -40,6 +40,7 @@ end
 
 ##CREATE page
 post "/sets" do
+  session["sets"] ||= {}
   a = params["videolist"].scan(/\S+\r\n/).map! {|a| a.chomp}
   session["sets"].store(params["setname"], {"name" => params["setname"], "vidnums" => a})
   redirect to('/')
@@ -66,30 +67,37 @@ post "/sets" do
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
+# Testing purposes only
 get "/hello/:name" do
   @name = params[:name]
-  session[:peter] = "bob"
-  
+  session[:peter] = "bob"  
   erb :hello, :locals => {:name => params[:name]}
+
 end
 
 ##SHOW page
 get "/sets/:setname" do
+  session["sets"] ||= {}
+  @setname = params[:setname]
   #find the set in session, set the variables to @variables so the view can have them
   erb :show #just describe what the set has in it, displaying that on the page
 end
 
 ##PLAY page
 get "/sets/:setname/play" do
+  session["sets"] ||= {}
   #find the set in session
   # session[params[:setname]]
-
+  @videonumber = session["sets"][params[:setname]]["vidnums"].sample
   #Pull out a random videonumber and set that to an @variable so the view can have it
   erb :play #actually plays the embedded video!
 end
 
 ##EDIT page
 get "/sets/:setname/edit" do
+  session["sets"] ||= {}
+  @setname = params[:setname]
+  @vids = session["sets"][@setname]["vidnums"]
   #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
   #find the setname, set the variables to @variables so the view can have them - it will make them the form defaults
   erb :edit #same as new except it puts in the form defaults.
@@ -97,21 +105,25 @@ end
 
 ##UPDATE page
 put "/sets/:setname" do
+  session["sets"] ||= {}
+  a = params["videolist"].scan(/\S+\r\n/).map! {|a| a.chomp}
+  session["sets"].store(params["setname"], {"name" => params["setname"], "vidnums" => a})
   #find setname in session
+  redirect to('/')
   #update the variables in session to match parameters
-  "success going to 'put /sets/:setname!'" #just for testing, we shouldn't render this in the end but instead render an erb
+  # "success going to 'put /sets/:setname!'" #just for testing, we shouldn't render this in the end but instead render an erb
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
 ##DESTROY page
 delete "/sets/:setname" do
+  session["sets"] ||= {}
   #delete the set setname from session
-  "success going to 'delete /sets/:setname'!" #just for testing, we shouldn't render this in the end but instead render an erb
+  session["sets"].delete(params[:setname])
+  # "success going to 'delete /sets/:setname'!" #just for testing, we shouldn't render this in the end but instead render an erb
+  redirect to('/')
   #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
-
-
-
 
 #Session page for troubleshooting the session
 get '/session' do

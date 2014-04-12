@@ -2,8 +2,10 @@
 <form action="/sets/<%= @setname %>" method="post">
   <input type="hidden" name="_method" value="put">
   <label>Set Name</label>
-  <input type="text" disabled name="setname" value="<%= 'samplevalue' #an @variable goes here instead of a string %>">
+  <input type="text" disabled name="setname" value="<%=@setname%>">
   <label>List of Videos</label>
-  <textarea name="videolist"><%= 'samplevalue' #an @variable goes here instead of a string %></textarea>
+  <textarea name="videolist">
+    <%=@vids.join("\n")%>
+  </textarea>
   <input type="submit">
 </form>

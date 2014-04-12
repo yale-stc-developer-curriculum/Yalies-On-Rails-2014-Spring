@@ -6,7 +6,11 @@
 <%session["sets"].each_value do |set| %>
     <h2>Set name: <%=set["name"]%></h2>
     <h3>vids:</h3>
+    <a>| </a>
     <%set["vidnums"].each do |vid| %>
         <a><%=vid%> |</a>
     <%end%>
+    <a href="/sets/<%=set["name"]%>">Show</a>
+    <a href="/sets/<%=set["name"]%>/edit">Edit</a>
+    <a href="/sets/<%=set["name"]%>/play">Play</a>
 <%end%>
