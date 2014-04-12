@@ -10,6 +10,7 @@
   
 </form>
 
-<form action="/sets/<%=@set[:name]%>" method="delete">
-<input type="submit" value="Delete this set">
+<form action="/sets/<%=@set[:name]%>" method="post" >
+<input name="_method" type="hidden" value="delete" />
+<input type="submit" value="delete this set" />
 </form>

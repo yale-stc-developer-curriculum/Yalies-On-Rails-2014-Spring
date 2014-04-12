@@ -7,7 +7,6 @@ require "sinatra/reloader" if development?
 configure do
   enable :sessions
   _method = true
-  use Rack::MethodOverride
 end
 
 
