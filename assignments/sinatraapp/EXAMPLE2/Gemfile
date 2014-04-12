@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+#For Sinatra
+gem 'sinatra'
+gem 'sinatra-contrib'
+
+#To help with debugging
+gem 'pry'
+
+#To run the testing suite
+gem 'capybara'
+gem 'rspec'
+gem 'rubocop'
