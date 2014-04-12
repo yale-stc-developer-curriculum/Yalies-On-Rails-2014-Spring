@@ -34,37 +34,13 @@ end
 
 # "sets" => { "SETNAME" => { "name" => "SETNAME", "vidnums" => ["VID1", "VID2", "VID3"] } }
 
-# def parseVids list
-#   a = params["videolist"].scan(/\S+\r\n/)
-#   "<p>#{a}</p>"
-
 ##CREATE page
+
 post "/sets" do
   session["sets"] ||= {}
   a = params["videolist"].scan(/\S+\r\n|\S+/).map! {|a| a.chomp}
   session["sets"].store(params["setname"], {"name" => params["setname"], "vidnums" => a})
   redirect to('/')
-    
-  # %{<p>#{session["sets"]}</p>}
-  
-  #One way to debug is to print variable values to the page
-  #make sure the last line in this block is the thing you want printed, and comment out anything below
-  #Uncomment the next line to make some show up on the page
-  #params.to_s
-
-  #If you don't want to use pry you can comment this out, but it might help!
-  #Pry will halt the server whenever it hits this line. The terminal tab you have that has the sinatra server running
-  # => will have an irb-like command prompt in it and you can manipulate params and session and everything from here
-  # binding.pry
-  
-  #parse the youtubelinks params into separate video numbers - from a comma separated string into an array
-  #set the session stuff for the set to equal the right things
-  
-  # "success going to 'post /sets!'" #just for testing, we shouldn't render this in the end but instead render an erb
-  
-  redirect to('/')
-
-  #erb :index #we'll want it to redirect to index later (maybe optionally with a status message at the top?)
 end
 
 # Testing purposes only
