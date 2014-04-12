@@ -1,5 +1,6 @@
 require_relative 'poke_database_connection'
 require 'csv'
+require_relative 'pokemon'
 
 ActiveRecord::Schema.define do
   create_table :pokemons do |t|
