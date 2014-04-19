@@ -9,6 +9,10 @@ configure do
 end
 
 
+sets = Hash.new
+sets["test"] = 10
+
+
 helpers do
   def randomvideo(set)
     set.sample
@@ -51,8 +55,12 @@ get '/pmj' do
 end
 
 
-
 ##New, RESTful code
+
+get '/sets' do
+	#sets.each_key{|key| puts key}
+	"Hello"
+end
 
 ##NEW page
 get '/sets/new' do
