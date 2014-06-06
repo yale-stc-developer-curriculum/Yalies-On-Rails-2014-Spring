@@ -20,7 +20,6 @@ end
 ##INDEX
 ##Main Welcome Page
 get '/sets' do
-  binding.pry
   if session["sets"] && session["sets"] != []
     @allsets = session["sets"]
     erb :index
