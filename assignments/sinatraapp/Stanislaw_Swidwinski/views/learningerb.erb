@@ -1,0 +1,15 @@
+<%#erb files are mostly made of html, with ruby tags in some places where they're needed%>
+<h1>Welcome To My App</h1>
+
+<%#Without the =, nothing will be printed. Most ruby statements, those that manipulate data, cannot print and must be run without the =%>
+<% i = 2 %>
+
+<%#With the =, the result of the expression will be printed to the page as a string%>
+<%= i %>
+
+<%#You can use string interpolation within strings like we were doing in youtubesets.rb, but it's not often as useful in erb files since you can put text outside of the ruby bracket-tags%>
+<%= "#{i}" %>
+
+<%#This line will print "#{i}" directly to the page. String interpolation only works within strings within ruby code.%>
+#{i}
+

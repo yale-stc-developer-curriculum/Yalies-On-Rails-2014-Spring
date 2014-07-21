@@ -1,0 +1,30 @@
+       <!DOCTYPE html>
+<html>
+  <head>
+   <link rel='stylesheet' type='text/css' href='/forms.css'/>
+     </head>  
+  <body>
+    <div class="header">
+    
+          <h1> <strong>Welcome to my App!</strong> </h1>
+             <h2>Are you sure you want to delete the set <%=@name.to_s()%>?</h2>
+              <div class="content">
+      <a href="/" title="Home">Home</a>
+    <a href="/sets/new" title="Create a set">Create a new set!</a> 
+    <a href="/params" title="Inspect params">Inspect Params</a>
+    <a href="/session" title="Inspect session">Inspect session</a>
+    <a href="/sets" title="list all the lists">List the lists</a>
+    </div>
+    </div>
+    <div class="content">       
+
+        <form action="/sets/<%=@name%>" method ="post">
+ 
+             <label for="Delete"> <label>
+
+      <input name = "_method" type="submit" name="Delete" value="delete" >
+    
+        </form>
+    </div>
+   
+  </body>
