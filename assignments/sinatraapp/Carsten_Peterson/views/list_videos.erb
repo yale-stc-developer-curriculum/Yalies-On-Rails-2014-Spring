@@ -1,0 +1,7 @@
+<%= @description %>
+<ul>
+	<% @my_list.each do |entry| %>
+		<% temp = "http://www.youtube.com/watch?v=#{entry}" %>
+		<li><a href=<%= temp %>><%= temp %></a></li>
+	<% end %>
+</ul>

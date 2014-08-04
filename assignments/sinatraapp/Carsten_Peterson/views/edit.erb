@@ -1,0 +1,11 @@
+<h1>edit the <%= @name %> set</h1>
+<form action="/sets/<%=@name%>" method="post">
+  <label>List of Videos</label>
+  <textarea name="videolist"><%=@my_string%></textarea>
+  <input type="submit">
+</form>
+
+<form action="/sets/<%=@name%>" method = "post">
+	<input name = "_method" type = "hidden" value = "delete"/>
+	<input type = "submit" value = "delete this set"/>
+</form>
