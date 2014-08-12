@@ -1,0 +1,11 @@
+<h1>Edit set "<%=@setname%>"</h1>
+<form action="/sets/<%=@setname%>" method="post">
+<input type="hidden" name="_method" value="put">
+  <% pageoutput = "" %>
+  <% @videoarray.each do |dummy| %>
+  <% pageoutput = pageoutput + "<label>" + dummy + "</label><input type=\"checkbox\" name=\"" + dummy + "\" value=\"test\" > <br> \n\r" %>
+  lol
+  <% end %>   
+  <% pageoutput += "<label><h2>Videos to add</h2></label><textarea name=\"morevideolist\"></textarea><input type=\"submit\"></form>"  %>
+  <%= pageoutput %>
+  </form>
