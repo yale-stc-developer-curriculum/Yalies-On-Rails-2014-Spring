@@ -1,10 +1,12 @@
+<a href="/">Home</a>
 <h1>Show a Set</h1>
 <h3>Setname</h3>
-<p><%= "setname variable goes here" %></p>
+<p><%= @setname %></p>
 <h3>Set of videos:</h3>
-<p><%= "videoname variable goes here" %></p>
+<p><%= session["sets"][@setname]["vidnums"] %></p>
 
 <form action="/sets/<%= @setname %>" method="post">
     <input name="_method" type="hidden" value="delete" />
     <input type="submit" value="Delete">
 </form>
+
